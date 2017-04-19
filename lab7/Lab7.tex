@@ -20,9 +20,10 @@
 %Титульный лист
     \include{title}
 
-    \section*{Цель работы:}
+    \section{Введение}
+    \subsection{Цель работы}
     Исследование точностных свойств систем управления.
-    \section*{Вариант задания}
+    \subsection{Исходные данные}
     \begin{table}[ht!]
         \flushleft
         \caption{Исходные данные}
@@ -32,14 +33,13 @@
             $\displaystyle{\frac{3}{2,5s + 1}}$ & 2 & $2t$ & $0,5t^2$
         \end{tabular}
     \end{table}
-
+    \clearpage
+    \section{Исследование системы с астатизмом нулевого порядка}
     \begin{figure}[h!]
         \centering
         \includegraphics{0ast}
         \caption{Структурная схема моделируемой системы}
     \end{figure}
-
-    \section{Исследование системы с астатизмом нулевого порядка}
     Задана замкнутая система, представленная на рисунке 1, с регулятором $H(s) = k$ и передаточной функцией разомкнутого контура $W(s)=\displaystyle{\frac{3}{2,5s + 1}}$,схема моделирования которой представлена на рисунке 2.
     
     \begin{figure}[h!]
@@ -53,7 +53,7 @@
     При $k = 5: \varepsilon = 0,125$\\
     При $k = 10: \varepsilon = \displaystyle{\frac{2}{31}} \approx 0,065$\\
     
-    По полученным графикам, представленным на рисунке 3, видно, что полученные при симуляции значения ошибки равны рассчитанным аналитически.\\
+    По полученным графикам, представленным на рисунке 3, видно, что полученные при моделировании значения ошибки равны рассчитанным аналитически.\\
     \begin{figure}[h!]
         \centering
         \begin{subfigure}[h]{0.7\textwidth}
@@ -95,22 +95,16 @@
     \subsection{Исследование стационарного режима работы: $g(t) = 2$}
     Аналитически рассчитанное значение установившейся ошибки равно $$\varepsilon = \lim_{s\to0} s\frac{1}{1 + H(s)W(s)}G(s) = \lim_{s\to0} \frac{2}{1 + \frac{W(s)}{s}} = \lim_{s\to0} \frac{2s(2,5s + 1)}{s(2,5s + 1) + 3} = \frac{0}{3} = 0,$$ что и показанно эксперементально на рисунке 6.
     
-    \begin{figure}[hp]
-        \begin{subfigure}[h]{1in}
-            \centering
-            \includegraphics[scale = 0.7]{constInput1ast1k.png}
-        \end{subfigure}\\
-        \begin{subfigure}[h]{1in}
-            \centering
-            \includegraphics[scale = 0.7]{constInput1ast5k.png}
-        \end{subfigure}\\
-        \begin{subfigure}[h]{1in}
-            \centering
-            \includegraphics[scale = 0.7]{constInput1ast10k.png}
+    \begin{figure}[hp!]
+        \centering
+        \begin{subfigure}[h]{0.9\textwidth}
+            \includegraphics[width = \textwidth]{constInput1ast1k.png}\\
+            \includegraphics[width = \textwidth]{constInput1ast5k.png}\\
+            \includegraphics[width = \textwidth]{constInput1ast10k.png}
         \end{subfigure}
         \caption{Переходные процессы при $g(t) = 2$}
     \end{figure}
-    \vspace{1.5cm}
+    \clearpage
     \subsection{Исследование режима движения с постоянной скоростью: $g(t) = 2t$}
     Рассчитаем предельное значение ошибки для системы при $g(t) = 2t$: $$\varepsilon = \lim_{s\to0} s\frac{1}{1 + H(s)W(s)}G(s) = \lim_{s\to0} \frac{s}{1 + \frac{3k}{s(2,5s + 1)}}\cdot\frac{2}{s^2} = \lim_{s\to0} \frac{2(2,5s + 1)}{2,5s^2 + s + 3k} = \frac{2}{3k}$$\\
     При $k = 1: \varepsilon = \displaystyle{\frac{2}{3}} \approx 0,67$\\
@@ -120,31 +114,23 @@
     По полученным графикам, представленным на рисунке 7, видно, что полученное при симуляции значения ошибки равны рассчитанным аналитически.
     \begin{figure}[h!]
         \centering
-        \includegraphics[scale = 0.58]{vInput1ast1k.png}
-    \end{figure}
-    \begin{figure}[h!]
-        \centering
-        \includegraphics[scale = 0.58]{vInput1ast5k.png}
-    \end{figure}
-    \begin{figure}[ht!]
-        \centering
-        \includegraphics[scale = 0.58]{vInput1ast10k.png}
+        \begin{subfigure}{0.65\textwidth}
+            \includegraphics[width = \textwidth]{vInput1ast1k.png}
+            \includegraphics[width = \textwidth]{vInput1ast5k.png}
+            \includegraphics[width = \textwidth]{vInput1ast10k.png}
+        \end{subfigure}
         \caption{Переходные процессы при $g(t) = 2t$}
     \end{figure}
     
     \subsection{Исследование режима движения с постоянным ускорением: $g(t) = 0,5t^2$}
-    При движении с постоянным ускорением ошибка для системы с астатизмом первого порядки должна стремиться к $\infty$, что и показанно на рисунке 8, на котором представленны результаты симуляции соответствующей системы.
+    При движении с постоянным ускорением ошибка для системы с астатизмом первого порядки должна стремиться к $\infty$, что и показанно на рисунке 8, на котором представленны результаты работы математической модели соответствующей системы.
     \begin{figure}[ht!]
         \centering
-        \includegraphics[scale = 0.58]{aInput1ast1k.png}
-    \end{figure}
-    \begin{figure}[ht!]
-        \centering
-        \includegraphics[scale = 0.58]{aInput1ast5k.png}
-    \end{figure}
-    \begin{figure}[ht!]
-        \centering
-        \includegraphics[scale = 0.58]{aInput1ast10k.png}
+        \begin{subfigure}{0.75\textwidth}
+            \includegraphics[width = \textwidth]{aInput1ast1k.png}
+            \includegraphics[width = \textwidth]{aInput1ast5k.png}
+            \includegraphics[width = \textwidth]{aInput1ast10k.png}
+        \end{subfigure}
         \caption{Переходные процессы при $g(t) = 0,5t^2$}
     \end{figure}
     \clearpage
@@ -177,7 +163,7 @@
     \end{figure}
     \vspace{4.5cm}
     \subsection{Полагаем $f_1 = 0$ и $g(t) = 1(t)$}
-    По рассчитанному ранее значению выражению для ошибки, установившееся значение ошибки должно быть равно $-f_2$, что и показывают результаты симуляции, представленные на рисунке 12.
+    По рассчитанному ранее значению выражению для ошибки, установившееся значение ошибки должно быть равно $-f_2$, что и показывают результаты математического моделирования, представленные на рисунке 12.
     
     \begin{figure}[ht!]
         \centering
@@ -217,7 +203,7 @@
     \begin{figure}[ht!]
         \centering
         \includegraphics[scale = 0.75]{customInputTaylor.png}
-        \caption{Значения ошибок при произвольном входящем воздействии, где $e(t)$ -- получена при симуляции, $E(t)$  -- рассчитана аналитически}
+        \caption{Значения ошибок при произвольном входящем воздействии, где $e(t)$ -- получена при моделировании, $E(t)$  -- рассчитана аналитически}
     \end{figure}
     \vspace{1.5cm}
     \section{Вывод}
