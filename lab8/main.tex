@@ -3,6 +3,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1, T2A]{fontenc}
 \usepackage[english, main = russian]{babel}
+\usepackage{indentfirst}
 \usepackage{graphicx}
 \usepackage{natbib}
 \usepackage{caption, subcaption}
@@ -24,7 +25,7 @@
     Задана линейная схема третьего порядка, схема которой представлена на рисунке 1. По условию параметр $T_1$ неизменен и равен 0,75с. Параметр $T_2$ в ходе работе будет изменяться в диапозоне от 0,1 с до 5 с. Коэффициент $K$ выбирается для обеспечения устойчивости/границы устойчивости системы.
     \begin{figure}[h!]
         \centering
-        \includegraphics[scale = 1]{structureScheme.png}
+        \includegraphics[scale = 0.8]{structureScheme}
         \caption{Структурная схема линейной системы третьего порядка}
     \end{figure}
     
@@ -38,32 +39,32 @@
     
     На рисунке 3 представлены результаты моделирования, на которых полученны устойчивое положение системы, не устойчивое и 2 состояния на границе устойчивости: на нейстральной и колебательной.
     \begin{figure}[ht!]
-        \begin{subfigure}[b]{0.45\textwidth}
-            \includegraphics[width = \textwidth]{neutralStabilityLimit.png}
+        \begin{subfigure}[b]{0.48\textwidth}
+            \includegraphics[width = \textwidth]{neutralStabilityLimit}
             \centering
             \caption{Нейстральная граница устойчивости}
         \end{subfigure}
         \hfill
-        \begin{subfigure}[b]{0.45\textwidth}
-            \includegraphics[width = \textwidth]{stable.png}
+        \begin{subfigure}[b]{0.48\textwidth}
+            \includegraphics[width = \textwidth]{stable}
             \centering
             \caption{Устойчивое состояние}
         \end{subfigure}
         
-        \begin{subfigure}[b]{0.45\textwidth}
-            \includegraphics[width = \textwidth]{oscillatoryStabilityLimit.png}
+        \begin{subfigure}[b]{0.48\textwidth}
+            \includegraphics[width = \textwidth]{oscillatoryStabilityLimit}
             \centering
             \caption{Колебательная граница устойчивости}
         \end{subfigure}
         \hfill
-        \begin{subfigure}[b]{0.45\textwidth}
-            \includegraphics[width = \textwidth]{unstable.png}
+        \begin{subfigure}[b]{0.48\textwidth}
+            \includegraphics[width = \textwidth]{unstable}
             \centering
             \caption{Неустойчивое состояние}
         \end{subfigure}
         \caption{Переходные процессы системы при разных значениях коэффициента k}
     \end{figure}
-    \newpage
+    \clearpage
     \section{Теоретический расчёт параметров устойчивости системы}
     Рассчитаем передаточную функцию заскнутой системы
     $$W(s) = \frac{\Phi(s)}{1 + \Phi(s)},$$ где $\Phi(s)$ - передаточная функция разомкнутой системы.
@@ -78,14 +79,14 @@
     \end{pmatrix}
     \]
     тогда главные миноры матрицы Гурвица равны
-    $$D_1 = T_1 + T_2$$
+    $$D_1 = T_1 + T_2,$$
     $$D_2 = 
     \begin{vmatrix}
         T_1 + T_2 & K\\
         T_1T_2 & 1
     \end{vmatrix}
     = T_1 + T_2 - T_1T_2K,$$
-    $$D_3 = D_2\cdot K = (T_1 + T_2)K - T_1T_2K^2$$
+    $$D_3 = D_2\cdot K = (T_1 + T_2)K - T_1T_2K^2.$$
     По критерию Гурвица для устойчивости системы необходимо, чтобы главные миноры матрицы были положительны. Если минор $n - 1$ порядка равен 0, то система будет находится на колебательной границе устойчивости. Отсюда получаем уравнения коэффициентов для колебательной границы устойчивости
     \begin{equation*}
         \begin{cases}
@@ -94,7 +95,7 @@
         \end{cases}
     \end{equation*}
     Так как по нашему условию $T_1$ и $T_2$ больше 0, то единственным условием для того, чтобы система находилась на колебательной границе устойчивости, является
-    $$K = \displaystyle{\frac{T_1 + T_2}{T_1T_2}}$$
+    $$K = \displaystyle{\frac{T_1 + T_2}{T_1T_2}}.$$
     Используя полученное выражжжение, найдём $K$ для $T_1 = 0,75$ и $T_2$ изменяющемся от 0,1 с до 5 с с шагом 0,5 с. Полученны значения K запишем в таблицу 1.
     \begin{table}[h!]
         \centering
@@ -105,12 +106,14 @@
             $K$ & 11,33 & 3.33 & 2.33 & 2 & 1,83 & 1,73 & 1,66 & 1,62 & 1,58 & 1,56 & 1,53
         \end{tabular}
     \end{table}
+    
     По полученным значениям построим график зависимости $K$ от $T_2$:
     \begin{figure}[h!]
         \centering
         \includegraphics[width = 0.6\textwidth]{KT2graph}
         \caption{Граница устойчивости на плоскости двух параметров $K$ и $T_2$}
     \end{figure}
+    \clearpage
     \section{Вывод}
     В ходе работы был исследован способ управления устойчивастью системы, изменяя её параметры. Из трёх данных параметров $K, T_1$ и $T_2$ изменялись только $K$ и $T_2$. Эксперементально и аналитически был построен график границы устойчивости на плоскости двух параметров $K$ и $T_2$. Результаты, полученные обоими способами, совпадают.
 \end{document}
