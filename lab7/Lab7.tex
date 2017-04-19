@@ -3,6 +3,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1, T2A]{fontenc}
 \usepackage[english, russian]{babel}
+\usepackage{indentfirst}
 \usepackage{graphicx}
 \usepackage{natbib}
 \usepackage{caption, subcaption}
@@ -13,6 +14,7 @@
 \graphicspath{{Images/}}
 
 \captionsetup[figure]{name = Рисунок, labelsep = endash}
+\captionsetup[table]{name = Таблица, labelsep = endash, justification=raggedright, singlelinecheck=false}
 
 \begin{document}
 %Титульный лист
@@ -20,10 +22,20 @@
 
     \section*{Цель работы:}
     Исследование точностных свойств систем управления.
+    \section*{Вариант задания}
+    \begin{table}[ht!]
+        \flushleft
+        \caption{Исходные данные}
+        \begin{tabular}{c|c|c|c}
+            $W(s)$ & \multicolumn{3}{c}{Параметры сигнала задания} \\
+            \hline
+            $\displaystyle{\frac{3}{2,5s + 1}}$ & 2 & $2t$ & $0,5t^2$
+        \end{tabular}
+    \end{table}
 
     \begin{figure}[h!]
         \centering
-        \includegraphics{0ast.png}
+        \includegraphics{0ast}
         \caption{Структурная схема моделируемой системы}
     \end{figure}
 
@@ -42,18 +54,14 @@
     При $k = 10: \varepsilon = \displaystyle{\frac{2}{31}} \approx 0,065$\\
     
     По полученным графикам, представленным на рисунке 3, видно, что полученные при симуляции значения ошибки равны рассчитанным аналитически.\\
-    \begin{figure}[hp]
-        \begin{subfigure}[h]{1in}
-            \centering
-            \includegraphics[scale = 0.75]{constInput0ast1k.png}
-        \end{subfigure}\\
-        \begin{subfigure}[h]{1in}
-            \centering
-            \includegraphics[scale = 0.75]{constInput0ast5k.png}
-        \end{subfigure}\\
-        \begin{subfigure}[h]{1in}
-            \centering
-            \includegraphics[scale = 0.75]{constInput0ast10k.png}
+    \begin{figure}[h!]
+        \centering
+        \begin{subfigure}[h]{0.7\textwidth}
+            \includegraphics[width = \textwidth]{constInput0ast1k.png}
+            \\
+            \includegraphics[width = \textwidth]{constInput0ast5k.png}
+            \\
+            \includegraphics[width = \textwidth]{constInput0ast10k.png}
         \end{subfigure}
         \caption{Переходные процессы при $g(t) = 2$}
     \end{figure}
@@ -75,7 +83,7 @@
         \includegraphics[scale = 0.75]{vInput0ast10k.png}
         \caption{Переходные процессы при $g(t) = 2t$}
     \end{figure}
-    \vspace{1.5cm}
+    \clearpage
     \section{Исследование системы с астатизмом первого порядка}
     Структурная схема моделируемой системы представлена на рисунке 1, где $H(s) = \displaystyle{\frac{k}{s}}, W(s) = \displaystyle{\frac{3}{2,5s + 1}}$.
     
@@ -112,15 +120,15 @@
     По полученным графикам, представленным на рисунке 7, видно, что полученное при симуляции значения ошибки равны рассчитанным аналитически.
     \begin{figure}[h!]
         \centering
-        \includegraphics[scale = 0.63]{vInput1ast1k.png}
+        \includegraphics[scale = 0.58]{vInput1ast1k.png}
     \end{figure}
     \begin{figure}[h!]
         \centering
-        \includegraphics[scale = 0.63]{vInput1ast5k.png}
+        \includegraphics[scale = 0.58]{vInput1ast5k.png}
     \end{figure}
     \begin{figure}[ht!]
         \centering
-        \includegraphics[scale = 0.63]{vInput1ast10k.png}
+        \includegraphics[scale = 0.58]{vInput1ast10k.png}
         \caption{Переходные процессы при $g(t) = 2t$}
     \end{figure}
     
@@ -128,24 +136,23 @@
     При движении с постоянным ускорением ошибка для системы с астатизмом первого порядки должна стремиться к $\infty$, что и показанно на рисунке 8, на котором представленны результаты симуляции соответствующей системы.
     \begin{figure}[ht!]
         \centering
-        \includegraphics[scale = 0.75]{aInput1ast1k.png}
+        \includegraphics[scale = 0.58]{aInput1ast1k.png}
     \end{figure}
     \begin{figure}[ht!]
         \centering
-        \includegraphics[scale = 0.75]{aInput1ast5k.png}
+        \includegraphics[scale = 0.58]{aInput1ast5k.png}
     \end{figure}
     \begin{figure}[ht!]
         \centering
-        \includegraphics[scale = 0.75]{aInput1ast10k.png}
+        \includegraphics[scale = 0.58]{aInput1ast10k.png}
         \caption{Переходные процессы при $g(t) = 0,5t^2$}
     \end{figure}
-    \vspace{1.5cm}
+    \clearpage
     \section{Исследование влияний внешних возмущений}
     Схема моделирования возмущённой системы представлена на рисунке 9, где $W(s) = \displaystyle{\frac{3}{2,5s + 1}}, f_1 = 0,5, f_2 = 0,5.$\\
-    \vspace{1.5cm}
-    \begin{figure}[t!]
+    \begin{figure}[ht!]
         \centering
-        \includegraphics{disturbScheme.PNG}
+        \includegraphics{disturbScheme}
         \caption{Структурная схема возмущённой системы}
     \end{figure}
     
