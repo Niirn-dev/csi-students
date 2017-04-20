@@ -2,12 +2,12 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1, T2A]{fontenc}
-\usepackage[english, russian]{babel}
+\usepackage[english, main = russian]{babel}
 \usepackage{indentfirst}
 \usepackage{graphicx}
 \usepackage{natbib}
 \usepackage{caption, subcaption}
-\usepackage[top=2cm, left=2cm, right=2cm, left=2cm]{geometry}
+\usepackage[top=2cm, left=2cm, right=2cm, bottom=2cm]{geometry}
 \usepackage{amsmath}
 \usepackage{ragged2e}
 
@@ -20,22 +20,23 @@
 %Титульный лист
     \include{title}
 
-    \section{Введение}
-    \subsection{Цель работы}
+    \subsection*{Цель работы}
     Исследование точностных свойств систем управления.
-    \subsection{Исходные данные}
+    \subsection*{Исходные данные}
     \begin{table}[ht!]
         \flushleft
         \caption{Исходные данные}
-        \begin{tabular}{c|c|c|c}
-            $W(s)$ & \multicolumn{3}{c}{Параметры сигнала задания} \\
+        \begin{tabular}{|c|c|c|c|}
             \hline
-            $\displaystyle{\frac{3}{2,5s + 1}}$ & 2 & $2t$ & $0,5t^2$
+            $W(s)$ & \multicolumn{3}{c|}{Параметры сигнала задания} \\
+            \hline
+            $\displaystyle{\frac{3}{2,5s + 1}}$ & 2 & $2t$ & $0,5t^2$ \\
+            \hline
         \end{tabular}
     \end{table}
     \clearpage
     \section{Исследование системы с астатизмом нулевого порядка}
-    \begin{figure}[h!]
+    \begin{figure}[ht!]
         \centering
         \includegraphics{0ast}
         \caption{Структурная схема моделируемой системы}
@@ -48,7 +49,7 @@
         \caption{Схема моделирования системы с астатизмом нулевого порядка}
     \end{figure}
     \subsection{Исследование стационарного режима работы: $g(t) = 2$.}
-    Рассчисаем предельное значение установившейся ошибки: $$\varepsilon = \lim_{s\to0} s\frac{1}{1 + H(s)W(s)}G(s) = \lim_{s\to0} s\frac{1}{1 + \frac{3k}{2,5s + 1}}\cdot\frac{2}{s} = \lim_{s\to0} \frac{5s + 2}{2,5s + 3k + 1} = \frac{2}{1 + 3k}$$\\
+    Рассчисаем предельное значение установившейся ошибки: $$\varepsilon = \lim_{s\to0} s\frac{1}{1 + H(s)W(s)}G(s) = \lim_{s\to0} s\frac{1}{1 + \frac{3k}{2,5s + 1}}\cdot\frac{2}{s} = \lim_{s\to0} \frac{5s + 2}{2,5s + 3k + 1} = \frac{2}{1 + 3k} \eqno (1)$$\\
     При $k = 1: \varepsilon = 0,5$\\
     При $k = 5: \varepsilon = 0,125$\\
     При $k = 10: \varepsilon = \displaystyle{\frac{2}{31}} \approx 0,065$\\
@@ -72,15 +73,11 @@
     %Делаю как отдельные фигуры, чтобы графики могли переноситься на другую страницу по одному
     \begin{figure}[h!]
         \centering
-        \includegraphics[scale = 0.75]{vInput0ast1k.png}
-    \end{figure}
-    \begin{figure}[h!]
-        \centering
-        \includegraphics[scale = 0.75]{vInput0ast5k.png}
-    \end{figure}
-    \begin{figure}[ht!]
-        \centering
-        \includegraphics[scale = 0.75]{vInput0ast10k.png}
+        \begin{subfigure}{0.7\textwidth}
+            \includegraphics[width = \textwidth]{vInput0ast1k.png}
+            \includegraphics[width = \textwidth]{vInput0ast5k.png}
+            \includegraphics[width = \textwidth]{vInput0ast10k.png}
+        \end{subfigure}
         \caption{Переходные процессы при $g(t) = 2t$}
     \end{figure}
     \clearpage
@@ -93,11 +90,11 @@
         \caption{Схема моделирования системы с астатизмом первого порядка}
     \end{figure}
     \subsection{Исследование стационарного режима работы: $g(t) = 2$}
-    Аналитически рассчитанное значение установившейся ошибки равно $$\varepsilon = \lim_{s\to0} s\frac{1}{1 + H(s)W(s)}G(s) = \lim_{s\to0} \frac{2}{1 + \frac{W(s)}{s}} = \lim_{s\to0} \frac{2s(2,5s + 1)}{s(2,5s + 1) + 3} = \frac{0}{3} = 0,$$ что и показанно эксперементально на рисунке 6.
+    Аналитически рассчитанное значение установившейся ошибки равно $$\varepsilon = \lim_{s\to0} s\frac{1}{1 + H(s)W(s)}G(s) = \lim_{s\to0} \frac{2}{1 + \frac{W(s)}{s}} = \lim_{s\to0} \frac{2s(2,5s + 1)}{s(2,5s + 1) + 3} = \frac{0}{3} = 0, \eqno (2)$$ что и показанно эксперементально на рисунке 6.
     
     \begin{figure}[hp!]
         \centering
-        \begin{subfigure}[h]{0.9\textwidth}
+        \begin{subfigure}[h]{0.84\textwidth}
             \includegraphics[width = \textwidth]{constInput1ast1k.png}\\
             \includegraphics[width = \textwidth]{constInput1ast5k.png}\\
             \includegraphics[width = \textwidth]{constInput1ast10k.png}
@@ -106,7 +103,7 @@
     \end{figure}
     \clearpage
     \subsection{Исследование режима движения с постоянной скоростью: $g(t) = 2t$}
-    Рассчитаем предельное значение ошибки для системы при $g(t) = 2t$: $$\varepsilon = \lim_{s\to0} s\frac{1}{1 + H(s)W(s)}G(s) = \lim_{s\to0} \frac{s}{1 + \frac{3k}{s(2,5s + 1)}}\cdot\frac{2}{s^2} = \lim_{s\to0} \frac{2(2,5s + 1)}{2,5s^2 + s + 3k} = \frac{2}{3k}$$\\
+    Рассчитаем предельное значение ошибки для системы при $g(t) = 2t$: $$\varepsilon = \lim_{s\to0} s\frac{1}{1 + H(s)W(s)}G(s) = \lim_{s\to0} \frac{s}{1 + \frac{3k}{s(2,5s + 1)}}\cdot\frac{2}{s^2} = \lim_{s\to0} \frac{2(2,5s + 1)}{2,5s^2 + s + 3k} = \frac{2}{3k}  \eqno (3)$$\\
     При $k = 1: \varepsilon = \displaystyle{\frac{2}{3}} \approx 0,67$\\
     При $k = 5: \varepsilon = \displaystyle{\frac{2}{15}} \approx 0,13$\\
     При $k = 10: \varepsilon = \displaystyle{\frac{1}{15}} \approx 0,067$\\
@@ -135,7 +132,7 @@
     \end{figure}
     \clearpage
     \section{Исследование влияний внешних возмущений}
-    Схема моделирования возмущённой системы представлена на рисунке 9, где $W(s) = \displaystyle{\frac{3}{2,5s + 1}}, f_1 = 0,5, f_2 = 0,5.$\\
+    Схема моделирования возмущённой системы представлена на рисунке 9, где $W(s) = \displaystyle{\frac{3}{2,5s + 1}},$\\ $f_1 = 0,5, f_2 = 0,5.$\\
     \begin{figure}[ht!]
         \centering
         \includegraphics{disturbScheme}
@@ -150,8 +147,8 @@
         \caption{Схема моделирования возмущённой системы}
     \end{figure}
     
-    Функция ошибки равна $$e = \frac{g - f_1W(s) - f_2W(s)\displaystyle{\frac{1}{s}}}{1 + W(s)\displaystyle{\frac{1}{s}}} = \frac{g - f_1\displaystyle{\frac{3}{2,5s + 1}} - f_2\displaystyle{\frac{3}{(2,5s + 1)s}}}{1 + \displaystyle{\frac{3}{(2,5s + 1)s}}} = \frac{g(2,5s^2 + s) - 3sf_1 - 3f_2}{2,5s^2 + s + 3},$$\\
-    тогда предельное значение ошибки при $g(t) = 1$ $$\varepsilon = \lim_{s\to0} \frac{2,5s^2 + s - 3sf_1 - 3f_2}{2,5s^2 + s + 3} = \frac{-3f_2}{3} = -f_2.$$
+    Функция ошибки равна $$e = \frac{g - f_1W(s) - f_2W(s)\displaystyle{\frac{1}{s}}}{1 + W(s)\displaystyle{\frac{1}{s}}} = \frac{g - f_1\displaystyle{\frac{3}{2,5s + 1}} - f_2\displaystyle{\frac{3}{(2,5s + 1)s}}}{1 + \displaystyle{\frac{3}{(2,5s + 1)s}}} = \frac{g(2,5s^2 + s) - 3sf_1 - 3f_2}{2,5s^2 + s + 3}, \eqno (4)$$\\
+    тогда предельное значение ошибки при $g(t) = 1$ $$\varepsilon = \lim_{s\to0} \frac{2,5s^2 + s - 3sf_1 - 3f_2}{2,5s^2 + s + 3} = \frac{-3f_2}{3} = -f_2. \eqno (5)$$
     Получается, что при постоянных возмущениях $f_1(t)$ и $f_2(t)$ ошибка будет равняться $-f_2$.
     \subsection{Полагаем $f_2(t) = 0$ и $g(t) = 1(t)$}
     Исходя из аналитически рассчитанного выражения для ошибки, предельное значение ошибки при заданных параметрах должно равнятся 0. Что и продемонстрированно на графике, представленном на рисунке 11.
@@ -189,16 +186,16 @@
     \vspace{2cm}
     \subsection{Получение приближенного выражения для ошибки}
     Разложим передаточную функцию замкнутой системы $\Phi_e(s) = \displaystyle{\frac{1}{1 + W(s)}}$ в ряд Тейлора, сохранив только первые 3 члена. 
-    $$\Phi_e(s) = \frac{2,5s + 1}{2,5s + 4} \approx \frac{1}{4} + 0,47s - 0,29s^2,$$
+    $$\Phi_e(s) = \frac{2,5s + 1}{2,5s + 4} \approx \frac{1}{4} + 0,47s - 0,29s^2, \eqno (6)$$
     тогда получаем выражение установившейся ошибки при произвольном входном воздействии
-    $$e_y(t) = 0,25g(t) + 0,47\frac{d}{dt}g(t) - 0,29\frac{d^2}{dt^2}g(t).$$
+    $$e_y(t) = 0,25g(t) + 0,47\frac{d}{dt}g(t) - 0,29\frac{d^2}{dt^2}g(t). \eqno (7)$$
     Найдём производные $g(t)$:
-    $$g(t) = 0,2t^2 + \sin{0,5t};$$
-    $$\frac{d}{dt}g(t) = 0,4t + 0,5\cos{0,5t};$$
-    $$\frac{d^2}{dt^2}g(t) = 0,4 - 0,25\sin{0,5t},$$
+    $$g(t) = 0,2t^2 + \sin{0,5t}, \eqno (8)$$
+    $$\frac{d}{dt}g(t) = 0,4t + 0,5\cos{0,5t}, \eqno (9)$$
+    $$\frac{d^2}{dt^2}g(t) = 0,4 - 0,25\sin{0,5t}, \eqno (10)$$
     тогда выражение ошибки $e_y(t)$ принимает вид
     $$e_y(t) = 0,05t^2 + 0,25\sin{0,5t} + 0,188t + 0,235\cos{0,5t} - 0,116 + 0,0725\sin{0,5t} =$$
-    $$= 0,05t^2 + 0,188t - 0,116 + 0,3225\sin{0,5t} + 0,235\cos{0,5t}$$
+    $$= 0,05t^2 + 0,188t - 0,116 + 0,3225\sin{0,5t} + 0,235\cos{0,5t} \eqno (11)$$
     Из полученного выражения видно, что, с течением времени, ошибка стремится к $\infty$. Чтобы определить, совпадает ли расчитанная ошибка с моделированной, построим их на одном графике,еоторый представлен на рисунке 15.
     \begin{figure}[ht!]
         \centering
@@ -206,7 +203,7 @@
         \caption{Значения ошибок при произвольном входящем воздействии, где $e(t)$ -- получена при моделировании, $E(t)$  -- рассчитана аналитически}
     \end{figure}
     \vspace{1.5cm}
-    \section{Вывод}
+    \section*{Вывод}
     В данной работе были исследованны способы повышения точности исследуемой системы. Было показанно, что на значение установившейся ошибки можно повлиять, изменяя степень астатизма системы и/или коэффициент усиления разомкнутой системы.
     
     Кроме того было показанно, что порядок астатизма системы по входящему воздействию может не соответсвовать порядку астатизма по возмущению.
