@@ -18,15 +18,17 @@
 \begin{document}
     \include{title}
     \section*{Цель работы}
-    Изучение частотных характеристик типовых динамических звеньев и сопособов их построения.
+    Изучение частотных характеристик типовых динамических звеньев и способов их построения.
     \section*{Исходные данные}
     \begin{table}[h!]
         \flushleft
         \caption{Исходные данные}
-        \begin{tabular}{c|c|c}
+        \begin{tabular}{|c|c|c|}
+        	\hline
             $k$ & $T$ & $\xi$ \\
             \hline
-            2 & 0,5 & 0,15
+            2 & 0,5 & 0,15 \\
+            \hline
         \end{tabular}
     \end{table}
     \flushleft 
@@ -38,28 +40,31 @@
         \item Идеальное интегрирующее $W(s) = \displaystyle{\frac{k}{s}}$
         \item Изодромное $W(s) = \displaystyle{\frac{k(1 + Ts)}{s}}$
     \end{enumerate}
+    \clearpage
     \section{Колебательное звено}
     Частотная передаточная функция для колебательного звена:
-    $$W(j\omega) = W(s)\big|_{s = j\omega} = \frac{k}{1 -T^2\omega^2 + jT\xi\omega} = \frac{k(1 - T^2\omega^2)}{(1 - T^2\omega^2)^2 + (2T\xi\omega)^2} - j\frac{2T\xi\omega k}{(1 - T^2\omega^2)^2 + (2T\xi\omega)^2}$$
-    $$U(\omega) = \frac{k(1 - T^2\omega^2)}{(1 - T^2\omega^2)^2 + (2T\xi\omega)^2} = \frac{2 - 0,5\omega^2}{(1 - 0,25\omega^2)^2 + 0,0225\omega^2}$$
-    $$V(\omega) = -\frac{2T\xi\omega k}{(1 - T^2\omega^2)^2 + (2T\xi\omega)^2} = -\frac{0,3\omega}{(1 - 0,25\omega^2)^2 + 0,0225\omega^2}$$
-    $$A(\omega) = \sqrt{U^2(\omega) + V^2(\omega)} = \frac{k}{\sqrt{(1 - T^2\omega^2)^2 + (2T\xi\omega)^2}} = \frac{2}{\sqrt{(1 - 0,25\omega^2)^2 + 0,0225\omega^2}}$$
+    $$W(j\omega) = W(s)\big|_{s = j\omega} = \frac{k}{1 -T^2\omega^2 + jT\xi\omega} = \frac{k(1 - T^2\omega^2)}{(1 - T^2\omega^2)^2 + (2T\xi\omega)^2} - j\frac{2T\xi\omega k}{(1 - T^2\omega^2)^2 + (2T\xi\omega)^2} \eqno (1)$$
+    $$U(\omega) = \frac{k(1 - T^2\omega^2)}{(1 - T^2\omega^2)^2 + (2T\xi\omega)^2} = \frac{2 - 0,5\omega^2}{(1 - 0,25\omega^2)^2 + 0,0225\omega^2} \eqno (2)$$
+    $$V(\omega) = -\frac{2T\xi\omega k}{(1 - T^2\omega^2)^2 + (2T\xi\omega)^2} = -\frac{0,3\omega}{(1 - 0,25\omega^2)^2 + 0,0225\omega^2} \eqno (3)$$
+    $$A(\omega) = \sqrt{U^2(\omega) + V^2(\omega)} = \frac{k}{\sqrt{(1 - T^2\omega^2)^2 + (2T\xi\omega)^2}} = \frac{2}{\sqrt{(1 - 0,25\omega^2)^2 + 0,0225\omega^2}} \eqno (4)$$
     \begin{equation*}
         \psi(\omega) =
         \begin{cases}
             -\arctg{\displaystyle{\frac{2T\xi\omega}{1 - T^2\omega^2}}} = -\arctg{\displaystyle{\frac{0,15\omega}{1 - 0,25\omega^2}}} &\text{при $\omega \leq \displaystyle{\frac{1}{T}}$}\\
             -\pi - \arctg{\displaystyle{\frac{2T\xi\omega}{1 - T^2\omega^2}}} = -\pi -\arctg{\displaystyle{\frac{0,15\omega}{1 - 0,25\omega^2}}} &\text{при $\omega > \displaystyle{\frac{1}{T}}$}
         \end{cases}
+        \eqno (5)
     \end{equation*}
     \begin{figure}[ht!]
         \centering
-        \includegraphics{oscillatoryLink1}
+        \includegraphics[width = 0.9\textwidth]{oscillatoryLink1}
         \caption{Временная диаграмма колебательного звена}
     \end{figure}
     \begin{table}[ht!]
         \flushleft
-        \caption{Эксперементальные данные исследования колебательного звена}
-        \begin{tabular}{c|c|c|c|c}
+        \caption{Экспериментальные данные исследования колебательного звена}
+        \begin{tabular}{|c|c|c|c|c|}
+        	\hline
             $\omega$ & $\lg{\omega}$ & $A(\omega)$ & $L(\omega)$ & $\psi(\omega)$\\
             \hline
             0,2 & -0,69 & 2,02 & 6,11 & -1,74\\
@@ -82,7 +87,8 @@
             \hline
             6,31 & 0,8 & 0,22 & -13,15 & -173,97\\
             \hline
-            10 & 1 & 0,08 & 21,94 & -176,42
+            10 & 1 & 0,08 & 21,94 & -176,42\\
+            \hline
         \end{tabular}
     \end{table}
     \newpage
@@ -98,7 +104,9 @@
             \includegraphics[width = \textwidth]{oscillatoryLinkNyquist}
             \caption{АФЧХ}
         \end{subfigure}
-        
+	\end{figure}
+	\begin{figure}[ht!]\ContinuedFloat
+		\centering
         \begin{subfigure}[h]{0.48\textwidth}
             \includegraphics[width = \textwidth]{oscillatoryLinkAFR}
             \caption{АЧХ}
@@ -110,25 +118,28 @@
         \end{subfigure}
         \caption{Характеристики колебательного звена}
     \end{figure}
+    
+    Построим асимптотическое ЛАЧХ для данного звена:
     \begin{figure}[ht!]
         \centering
-        \includegraphics[scale = 0.57]{oscillatoryLinkAsymp}
-        \caption{Ассимптотическое ЛАЧХ колебательного звена}
+        \includegraphics[width = 0.85\textwidth]{oscillatoryLinkAsymp}
+        \caption{Асимптотическое ЛАЧХ колебательного звена}
     \end{figure}
     
     \clearpage
     \section{Идеальное интегрирующее звено}
-    Частотная передаточная функция для идейльного интегрирующего звена:
-    $$W(j\omega) = W(s)\big|_{s = j\omega} = \frac{k}{j\omega} = \frac{jk\omega}{-\omega^2} = -j\frac{k}{\omega}$$
-    $$U(\omega) = 0$$
-    $$V(\omega) = \frac{k}{\omega} = \frac{2}{\omega}$$
-    $$A(\omega) = \frac{2}{\omega}$$
-    $$L(\omega) = 20\lg{A(\omega)} = 20\lg{\frac{2}{\omega}} = 20\lg{2} - 20\lg{\omega}$$
-    $$\psi(\omega) = \arctg{\frac{V(\omega)}{U(\omega)}} = -\arctg{\frac{2}{\omega}} = -\arctg{\infty} = -\frac{\pi}{2}$$
+    Частотная передаточная функция для идеального интегрирующего звена:
+    $$W(j\omega) = W(s)\big|_{s = j\omega} = \frac{k}{j\omega} = \frac{jk\omega}{-\omega^2} = -j\frac{k}{\omega} \eqno (6)$$
+    $$U(\omega) = 0 \eqno (7)$$
+    $$V(\omega) = \frac{k}{\omega} = \frac{2}{\omega} \eqno (8)$$
+    $$A(\omega) = \frac{2}{\omega} \eqno (9)$$
+    $$L(\omega) = 20\lg{A(\omega)} = 20\lg{\frac{2}{\omega}} = 20\lg{2} - 20\lg{\omega} \eqno(10)$$
+    $$\psi(\omega) = \arctg{\frac{V(\omega)}{U(\omega)}} = -\arctg{\frac{2}{\omega}} = -\arctg{\infty} = -\frac{\pi}{2} \eqno(11)$$
     \begin{table}[ht!]
         \flushleft
-        \caption{Эксперементальные данные исследования идеального интегрирующего звена}
-        \begin{tabular}{c|c|c|c|c}
+        \caption{Экспериментальные данные исследования идеального интегрирующего звена}
+        \begin{tabular}{|c|c|c|c|c|}
+        	\hline
             $\omega$ & $\lg{\omega}$ & $A(\omega)$ & $L(\omega)$ & $\psi(\omega)$\\
             \hline
             0,2 & -0,69 & 10 & 20 & -90\\
@@ -151,27 +162,28 @@
             \hline
             6,31 & 0,8 & 0,32 & -9,89 & -90\\
             \hline
-            10 & 1 & 0,2 & -13,97 & -90
+            10 & 1 & 0,2 & -13,97 & -90\\
+            \hline
         \end{tabular}
     \end{table}
     \begin{figure}[ht!]
         \centering
-        \begin{subfigure}[h]{0.44\textwidth}
+        \begin{subfigure}[h]{0.48\textwidth}
             \includegraphics[width = \textwidth]{integratingLinkBode}
             \caption{ЛАЧХ и ЛФЧХ}
         \end{subfigure}
         \hfill
-        \begin{subfigure}[h]{0.44\textwidth}
+        \begin{subfigure}[h]{0.48\textwidth}
             \includegraphics[width = \textwidth]{integratingLinkNyquist}
             \caption{АФЧХ}
         \end{subfigure}
         
-        \begin{subfigure}[h]{0.44\textwidth}
+        \begin{subfigure}[h]{0.48\textwidth}
             \includegraphics[width = \textwidth]{integratingLinkAFR}
             \caption{АЧХ}
         \end{subfigure}
         \hfill
-        \begin{subfigure}[h]{0.44\textwidth}
+        \begin{subfigure}[h]{0.48\textwidth}
             \includegraphics[width = \textwidth]{integratingLinkPFR}
             \caption{ФЧХ}
         \end{subfigure}
@@ -179,22 +191,23 @@
     \end{figure}
     \begin{figure}[ht!]
         \centering
-        \includegraphics[width = \textwidth]{integratingLinkAsymp}
-        \caption{Ассимптотическое ЛАЧХ идеального интегрирующего звена}
+        \includegraphics[width = 0.8\textwidth]{integratingLinkAsymp}
+        \caption{Асимптотическое ЛАЧХ идеального интегрирующего звена}
     \end{figure}
     \clearpage
     \section{Изодромное звено}
     Частотная характеристика для изодромного звена:
-    $$W(j\omega) = W(s)\big|_{s = j\omega} = \frac{k(1 + jT\omega)}{j\omega} = \frac{-kT\omega^2 + jk\omega}{-\omega^2} = \frac{kT\omega - jk}{\omega} = kT - j\frac{k}{\omega}$$
-    $$U(\omega) = kT = 1$$
-    $$V(\omega) = -\frac{k}{\omega} = -\frac{2}{\omega}$$
-    $$A(\omega) = \sqrt{1 + \displaystyle{\frac{4}{\omega^2}}}$$
-    $$L(\omega) = 20\lg{\sqrt{1 + \frac{4}{\omega^2}}}$$
-    $$\psi(\omega) = -\arctg{\frac{2}{\omega}}$$
+    $$W(j\omega) = W(s)\big|_{s = j\omega} = \frac{k(1 + jT\omega)}{j\omega} = \frac{-kT\omega^2 + jk\omega}{-\omega^2} = \frac{kT\omega - jk}{\omega} = kT - j\frac{k}{\omega} \eqno (12)$$
+    $$U(\omega) = kT = 1 \eqno (13)$$
+    $$V(\omega) = -\frac{k}{\omega} = -\frac{2}{\omega} \eqno (14)$$
+    $$A(\omega) = \sqrt{1 + \displaystyle{\frac{4}{\omega^2}}}\ eqno (15)$$
+    $$L(\omega) = 20\lg{\sqrt{1 + \frac{4}{\omega^2}}} \eqno(16)$$
+    $$\psi(\omega) = -\arctg{\frac{2}{\omega}} \eqno (17)$$
     \begin{table}[ht!]
         \flushleft
-        \caption{Эксперементальные данные исследования изодромного звена}
-        \begin{tabular}{c|c|c|c|c}
+        \caption{Экспериментальные данные исследования изодромного звена}
+        \begin{tabular}{|c|c|c|c|c|}
+        	\hline
             $\omega$ & $\lg{\omega}$ & $A(\omega)$ & $L(\omega)$ & $\psi(\omega)$\\
             \hline
             0,2 & -0,69 & 10,05& 20,04& -84,29\\
@@ -217,27 +230,28 @@
             \hline
             6,31& 0,8   & 1,05 & 0,42 & -17,59\\
             \hline
-            10  & 1     & 1,02 & 0,17 & -11,31
+            10  & 1     & 1,02 & 0,17 & -11,31\\
+            \hline
         \end{tabular}
     \end{table}
     \begin{figure}[ht!]
         \centering
-        \begin{subfigure}[h]{0.44\textwidth}
+        \begin{subfigure}[h]{0.48\textwidth}
             \includegraphics[width = \textwidth]{isodromusLinkBode}
             \caption{ЛАЧХ и ЛФЧХ}
         \end{subfigure}
         \hfill
-        \begin{subfigure}[h]{0.44\textwidth}
+        \begin{subfigure}[h]{0.48\textwidth}
             \includegraphics[width = \textwidth]{isodromusLinkNyquist}
             \caption{АФЧХ}
         \end{subfigure}
         
-        \begin{subfigure}[h]{0.44\textwidth}
+        \begin{subfigure}[h]{0.48\textwidth}
             \includegraphics[width = \textwidth]{isodromusLinkAFR}
             \caption{АЧХ}
         \end{subfigure}
         \hfill
-        \begin{subfigure}[h]{0.44\textwidth}
+        \begin{subfigure}[h]{0.48\textwidth}
             \includegraphics[width = \textwidth]{isodromusLinkPFR}
             \caption{ФЧХ}
         \end{subfigure}
@@ -245,10 +259,10 @@
     \end{figure}
     \begin{figure}[ht!]
         \centering
-        \includegraphics[scale = 0.58]{isodromusLinkAsymp}
-        \caption{Ассимптотическое ЛАЧХ изодромного звена}
+        \includegraphics[scale = 0.8]{isodromusLinkAsymp}
+        \caption{Асимптотическое ЛАЧХ изодромного звена}
     \end{figure}
     \clearpage
-    \section{Вывод}
-    В данной работе были изучены обычные и логарифмические частотные характеристики типовых динамических звеньев, а так же методы построения асимптотических ЛАЧХ. И было доказано, что асимптотические ЛАЧХ сходятся к построенным эксперементально, следовательно, могуть быть использованы при разработке систем, так как для их построения практически не требуется вычислительная работа.
+    \section*{Вывод}
+    В данной работе были изучены обычные и логарифмические частотные характеристики типовых динамических звеньев, а так же методы построения асимптотических ЛАЧХ. И было доказано, что асимптотические ЛАЧХ сходятся к построенным экспериментально, следовательно, могут быть использованы при разработке систем, так как для их построения практически не требуется вычислительная работа.
 \end{document}
