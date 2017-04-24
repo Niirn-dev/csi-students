@@ -10,6 +10,9 @@
 \usepackage{amsmath} %Для работы с матрицами
 \usepackage{ragged2e}
 \usepackage{indentfirst}
+\parindent 1.27cm 
+
+\newcommand{\jj}{\righthyphenmin=20 \justifying}
 
 \graphicspath{{Images/}}
 
@@ -42,8 +45,8 @@
         \item Изодромное $W(s) = \displaystyle{\frac{k(1 + Ts)}{s}}$
     \end{enumerate}    
     \clearpage
-    \section{Колебательное звено}
-	Частотная передаточная функция для колебательного звена:
+    \section{Колебательное звено} \parindent 1.27cm \indent 
+    Частотная передаточная функция для колебательного звена:
     $$W(j\omega) = W(s)\big|_{s = j\omega} = \frac{k}{1 -T^2\omega^2 + jT\xi\omega} = \frac{k(1 - T^2\omega^2)}{(1 - T^2\omega^2)^2 + (2T\xi\omega)^2} - j\frac{2T\xi\omega k}{(1 - T^2\omega^2)^2 + (2T\xi\omega)^2} \eqno (1)$$
     $$U(\omega) = \frac{k(1 - T^2\omega^2)}{(1 - T^2\omega^2)^2 + (2T\xi\omega)^2} = \frac{2 - 0,5\omega^2}{(1 - 0,25\omega^2)^2 + 0,0225\omega^2} \eqno (2)$$
     $$V(\omega) = -\frac{2T\xi\omega k}{(1 - T^2\omega^2)^2 + (2T\xi\omega)^2} = -\frac{0,3\omega}{(1 - 0,25\omega^2)^2 + 0,0225\omega^2} \eqno (3)$$
@@ -63,7 +66,7 @@
     \end{figure}
     \begin{table}[ht!]
         \flushleft
-        \caption{Экспериментальные данные исследования колебательного звена}
+        \caption{Данные исследования колебательного звена}
         \begin{tabular}{|c|c|c|c|c|}
         	\hline
             $\omega$ & $\lg{\omega}$ & $A(\omega)$ & $L(\omega)$ & $\psi(\omega)$\\
@@ -119,7 +122,7 @@
         \end{subfigure}
         \caption{Характеристики колебательного звена}
     \end{figure}
-    
+    \newpage
     Построим асимптотическое ЛАЧХ для данного звена:
     \begin{figure}[ht!]
         \centering
@@ -138,7 +141,7 @@
     $$\psi(\omega) = \arctg{\frac{V(\omega)}{U(\omega)}} = -\arctg{\frac{2}{\omega}} = -\arctg{\infty} = -\frac{\pi}{2} \eqno(11)$$
     \begin{table}[ht!]
         \flushleft
-        \caption{Экспериментальные данные исследования идеального интегрирующего звена}
+        \caption{Данные исследования идеального интегрирующего звена}
         \begin{tabular}{|c|c|c|c|c|}
         	\hline
             $\omega$ & $\lg{\omega}$ & $A(\omega)$ & $L(\omega)$ & $\psi(\omega)$\\
@@ -167,33 +170,35 @@
             \hline
         \end{tabular}
     \end{table}
-    \begin{figure}[ht!]
-        \centering
-        \begin{subfigure}[h]{0.48\textwidth}
-            \includegraphics[width = \textwidth]{integratingLinkBode}
-            \caption{ЛАЧХ и ЛФЧХ}
-        \end{subfigure}
-        \hfill
-        \begin{subfigure}[h]{0.48\textwidth}
-            \includegraphics[width = \textwidth]{integratingLinkNyquist}
-            \caption{АФЧХ}
-        \end{subfigure}
-        
-        \begin{subfigure}[h]{0.48\textwidth}
-            \includegraphics[width = \textwidth]{integratingLinkAFR}
-            \caption{АЧХ}
-        \end{subfigure}
-        \hfill
-        \begin{subfigure}[h]{0.48\textwidth}
-            \includegraphics[width = \textwidth]{integratingLinkPFR}
-            \caption{ФЧХ}
-        \end{subfigure}
-        \caption{Характеристики идеального интегрирующего звена}
-    \end{figure}
+    
+    Построим асимптотическое ЛАЧХ для интегрирующего звена:
     \begin{figure}[ht!]
         \centering
         \includegraphics[width = 0.8\textwidth]{integratingLinkAsymp}
         \caption{Асимптотическое ЛАЧХ идеального интегрирующего звена}
+    \end{figure}
+    \begin{figure}[ht!]
+        \centering
+        \begin{subfigure}[h]{0.49\textwidth}
+            \includegraphics[width = \textwidth]{integratingLinkBode}
+            \caption{ЛАЧХ и ЛФЧХ}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[h]{0.49\textwidth}
+            \includegraphics[width = \textwidth]{integratingLinkNyquist}
+            \caption{АФЧХ}
+        \end{subfigure}
+        
+        \begin{subfigure}[h]{0.49\textwidth}\ContinuedFloat
+            \includegraphics[width = \textwidth]{integratingLinkAFR}
+            \caption{АЧХ}
+        \end{subfigure}
+        \hfill
+        \begin{subfigure}[h]{0.49\textwidth}
+            \includegraphics[width = \textwidth]{integratingLinkPFR}
+            \caption{ФЧХ}
+        \end{subfigure}
+        \caption{Характеристики идеального интегрирующего звена}
     \end{figure}
     \clearpage
     \section{Изодромное звено}
@@ -201,12 +206,12 @@
     $$W(j\omega) = W(s)\big|_{s = j\omega} = \frac{k(1 + jT\omega)}{j\omega} = \frac{-kT\omega^2 + jk\omega}{-\omega^2} = \frac{kT\omega - jk}{\omega} = kT - j\frac{k}{\omega} \eqno (12)$$
     $$U(\omega) = kT = 1 \eqno (13)$$
     $$V(\omega) = -\frac{k}{\omega} = -\frac{2}{\omega} \eqno (14)$$
-    $$A(\omega) = \sqrt{1 + \displaystyle{\frac{4}{\omega^2}}}\ eqno (15)$$
+    $$A(\omega) = \sqrt{1 + \displaystyle{\frac{4}{\omega^2}}} \eqno (15)$$
     $$L(\omega) = 20\lg{\sqrt{1 + \frac{4}{\omega^2}}} \eqno(16)$$
     $$\psi(\omega) = -\arctg{\frac{2}{\omega}} \eqno (17)$$
     \begin{table}[ht!]
         \flushleft
-        \caption{Экспериментальные данные исследования изодромного звена}
+        \caption{Данные исследования изодромного звена}
         \begin{tabular}{|c|c|c|c|c|}
         	\hline
             $\omega$ & $\lg{\omega}$ & $A(\omega)$ & $L(\omega)$ & $\psi(\omega)$\\
@@ -264,6 +269,6 @@
         \caption{Асимптотическое ЛАЧХ изодромного звена}
     \end{figure}
     \clearpage
-    \section*{Вывод}
-    В данной работе были изучены обычные и логарифмические частотные характеристики типовых динамических звеньев, а так же методы построения асимптотических ЛАЧХ. И было доказано, что асимптотические ЛАЧХ сходятся к построенным экспериментально, следовательно, могут быть использованы при разработке систем, так как для их построения практически не требуется вычислительная работа.
+    \section*{Вывод} \jj
+    В данной работе были изучены обычные и логарифмические частотные характеристики типовых динамических звеньев, а так же методы построения асимптотических ЛАЧХ. И было доказано, что асимптотические ЛАЧХ сходятся к построенным в ходе математического моделирования, следовательно, могут быть использованы при разработке систем, так как для их построения практически не требуется вычислительная работа.
 \end{document}
