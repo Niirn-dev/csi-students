@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.19)  24 APR 2017 18:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.19)  23 APR 2017 20:59
 entering extended mode
 **./main.tex
 (main.tex
@@ -743,20 +743,20 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 (title.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
  ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count108
@@ -850,7 +850,7 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 22.
+LaTeX Info: Redefining \selectfont on input line 19.
 \openout2 = `title.aux'.
 
  (title.tex
@@ -874,139 +874,137 @@ LaTeX Font Warning: Font shape `T2A/cmr/bx/n' in size <20> not available
 File: Images/oscillatoryLink1.png Graphic file (type png)
 
 <use Images/oscillatoryLink1.png>
-Package pdftex.def Info: Images/oscillatoryLink1.png used on input line 64.
+Package pdftex.def Info: Images/oscillatoryLink1.png used on input line 61.
 (pdftex.def)             Requested size: 435.32422pt x 282.15604pt.
  [2
 
  <./Images/oscillatoryLink1.png (PNG copy)>] <Images/oscillatoryLinkBode.png, i
-d=25, 461.47406pt x 441.14813pt>
+d=25, 466.74374pt x 355.3275pt>
 File: Images/oscillatoryLinkBode.png Graphic file (type png)
 
 <use Images/oscillatoryLinkBode.png>
-Package pdftex.def Info: Images/oscillatoryLinkBode.png used on input line 103.
+Package pdftex.def Info: Images/oscillatoryLinkBode.png used on input line 100.
 
-(pdftex.def)             Requested size: 232.17242pt x 221.94672pt.
+(pdftex.def)             Requested size: 232.17242pt x 176.75243pt.
 
-<Images/oscillatoryLinkNyquist.png, id=26, 461.47406pt x 447.92343pt>
+<Images/oscillatoryLinkNyquist.png, id=26, 466.74374pt x 358.33875pt>
 File: Images/oscillatoryLinkNyquist.png Graphic file (type png)
 
 <use Images/oscillatoryLinkNyquist.png>
 Package pdftex.def Info: Images/oscillatoryLinkNyquist.png used on input line 1
-08.
-(pdftex.def)             Requested size: 232.17242pt x 225.35545pt.
+05.
+(pdftex.def)             Requested size: 232.17242pt x 178.25034pt.
 
 <Images/oscillatoryLinkAFR.png, id=27, 466.74374pt x 361.35pt>
 File: Images/oscillatoryLinkAFR.png Graphic file (type png)
 
 <use Images/oscillatoryLinkAFR.png>
-Package pdftex.def Info: Images/oscillatoryLinkAFR.png used on input line 115.
+Package pdftex.def Info: Images/oscillatoryLinkAFR.png used on input line 112.
 (pdftex.def)             Requested size: 232.17242pt x 179.74825pt.
 
-<Images/oscillatoryLinkPFR.png, id=29, 466.74374pt x 364.36125pt>
+<Images/oscillatoryLinkPFR.png, id=28, 466.74374pt x 364.36125pt>
 File: Images/oscillatoryLinkPFR.png Graphic file (type png)
 
 <use Images/oscillatoryLinkPFR.png>
-Package pdftex.def Info: Images/oscillatoryLinkPFR.png used on input line 120.
+Package pdftex.def Info: Images/oscillatoryLinkPFR.png used on input line 117.
 (pdftex.def)             Requested size: 232.17242pt x 181.24614pt.
- [3 <./Images/oscillatoryLinkBode.png (PNG copy)> <./Images/oscillatoryLinkNyqu
-ist.png (PNG copy)>]
-<Images/oscillatoryLinkAsymp.png, id=34, 412.54124pt x 183.68625pt>
+
+<Images/oscillatoryLinkAsymp.png, id=29, 412.54124pt x 183.68625pt>
 File: Images/oscillatoryLinkAsymp.png Graphic file (type png)
 
 <use Images/oscillatoryLinkAsymp.png>
-Package pdftex.def Info: Images/oscillatoryLinkAsymp.png used on input line 129
+Package pdftex.def Info: Images/oscillatoryLinkAsymp.png used on input line 126
 .
 (pdftex.def)             Requested size: 411.14528pt x 183.06635pt.
- [4 <./Images/oscillatoryLinkAFR.png> <./Images/oscillatoryLinkPFR.png> <./Imag
-es/oscillatoryLinkAsymp.png>]
-<Images/integratingLinkAsymp.png, id=41, 404.26031pt x 191.9672pt>
-File: Images/integratingLinkAsymp.png Graphic file (type png)
-
-<use Images/integratingLinkAsymp.png>
-Package pdftex.def Info: Images/integratingLinkAsymp.png used on input line 177
-.
-(pdftex.def)             Requested size: 386.95897pt x 183.7533pt.
-
-<Images/integratingLinkBode.png, id=42, 466.74374pt x 367.3725pt>
+ [3 <./Images/oscillatoryLinkBode.png (PNG copy)> <./Images/oscillatoryLinkNyqu
+ist.png (PNG copy)> <./Images/oscillatoryLinkAFR.png (PNG copy)> <./Images/osci
+llatoryLinkPFR.png (PNG copy)>] [4 <./Images/oscillatoryLinkAsymp.png>]
+<Images/integratingLinkBode.png, id=39, 466.74374pt x 367.3725pt>
 File: Images/integratingLinkBode.png Graphic file (type png)
 
 <use Images/integratingLinkBode.png>
-Package pdftex.def Info: Images/integratingLinkBode.png used on input line 183.
+Package pdftex.def Info: Images/integratingLinkBode.png used on input line 173.
 
-(pdftex.def)             Requested size: 237.01411pt x 186.55588pt.
+(pdftex.def)             Requested size: 232.17242pt x 182.74403pt.
 
-<Images/integratingLinkNyquist.png, id=43, 461.47406pt x 450.9347pt>
+<Images/integratingLinkNyquist.png, id=40, 466.74374pt x 370.38374pt>
 File: Images/integratingLinkNyquist.png Graphic file (type png)
 
 <use Images/integratingLinkNyquist.png>
 Package pdftex.def Info: Images/integratingLinkNyquist.png used on input line 1
-88.
-(pdftex.def)             Requested size: 237.01411pt x 231.59749pt.
+78.
+(pdftex.def)             Requested size: 232.17242pt x 184.24194pt.
 
-<Images/integratingLinkAFR.png, id=44, 466.74374pt x 379.4175pt>
+<Images/integratingLinkAFR.png, id=41, 466.74374pt x 379.4175pt>
 File: Images/integratingLinkAFR.png Graphic file (type png)
 
 <use Images/integratingLinkAFR.png>
-Package pdftex.def Info: Images/integratingLinkAFR.png used on input line 193.
-(pdftex.def)             Requested size: 237.01411pt x 192.67247pt.
+Package pdftex.def Info: Images/integratingLinkAFR.png used on input line 183.
+(pdftex.def)             Requested size: 232.17242pt x 188.73566pt.
 
-<Images/integratingLinkPFR.png, id=45, 461.47406pt x 444.91219pt>
+<Images/integratingLinkPFR.png, id=42, 466.74374pt x 382.42876pt>
 File: Images/integratingLinkPFR.png Graphic file (type png)
 
 <use Images/integratingLinkPFR.png>
-Package pdftex.def Info: Images/integratingLinkPFR.png used on input line 198.
-(pdftex.def)             Requested size: 237.01411pt x 228.50436pt.
+Package pdftex.def Info: Images/integratingLinkPFR.png used on input line 188.
+(pdftex.def)             Requested size: 232.17242pt x 190.23355pt.
+
+<Images/integratingLinkAsymp.png, id=43, 404.26031pt x 191.9672pt>
+File: Images/integratingLinkAsymp.png Graphic file (type png)
+
+<use Images/integratingLinkAsymp.png>
+Package pdftex.def Info: Images/integratingLinkAsymp.png used on input line 195
+.
+(pdftex.def)             Requested size: 386.95897pt x 183.7533pt.
  [5
 
- <./Images/integratingLinkAsymp.png>]
-[6 <./Images/integratingLinkBode.png> <./Images/integratingLinkNyquist.png (PNG
- copy)> <./Images/integratingLinkAFR.png> <./Images/integratingLinkPFR.png (PNG
- copy)>] <Images/isodromusLinkBode.png, id=56, 466.74374pt x 373.395pt>
+]
+
+LaTeX Warning: Text page 6 contains only floats.
+
+[6 <./Images/integratingLinkBode.png (PNG copy)> <./Images/integratingLinkNyqui
+st.png (PNG copy)> <./Images/integratingLinkAFR.png (PNG copy)> <./Images/integ
+ratingLinkPFR.png (PNG copy)> <./Images/integratingLinkAsymp.png>]
+<Images/isodromusLinkBode.png, id=52, 466.74374pt x 373.395pt>
 File: Images/isodromusLinkBode.png Graphic file (type png)
 
 <use Images/isodromusLinkBode.png>
-Package pdftex.def Info: Images/isodromusLinkBode.png used on input line 246.
+Package pdftex.def Info: Images/isodromusLinkBode.png used on input line 241.
 (pdftex.def)             Requested size: 232.17242pt x 185.73985pt.
 
-<Images/isodromusLinkNyquist.png, id=57, 461.47406pt x 453.94594pt>
+<Images/isodromusLinkNyquist.png, id=53, 466.74374pt x 376.40625pt>
 File: Images/isodromusLinkNyquist.png Graphic file (type png)
 
 <use Images/isodromusLinkNyquist.png>
-Package pdftex.def Info: Images/isodromusLinkNyquist.png used on input line 251
+Package pdftex.def Info: Images/isodromusLinkNyquist.png used on input line 246
 .
-(pdftex.def)             Requested size: 232.17242pt x 228.38544pt.
+(pdftex.def)             Requested size: 232.17242pt x 187.23775pt.
 
-<Images/isodromusLinkAFR.png, id=58, 466.74374pt x 388.45125pt>
+<Images/isodromusLinkAFR.png, id=54, 466.74374pt x 388.45125pt>
 File: Images/isodromusLinkAFR.png Graphic file (type png)
 
 <use Images/isodromusLinkAFR.png>
-Package pdftex.def Info: Images/isodromusLinkAFR.png used on input line 256.
+Package pdftex.def Info: Images/isodromusLinkAFR.png used on input line 251.
 (pdftex.def)             Requested size: 232.17242pt x 193.22935pt.
 
-<Images/isodromusLinkPFR.png, id=59, 466.74374pt x 385.44pt>
+<Images/isodromusLinkPFR.png, id=55, 466.74374pt x 385.44pt>
 File: Images/isodromusLinkPFR.png Graphic file (type png)
 
 <use Images/isodromusLinkPFR.png>
-Package pdftex.def Info: Images/isodromusLinkPFR.png used on input line 261.
+Package pdftex.def Info: Images/isodromusLinkPFR.png used on input line 256.
 (pdftex.def)             Requested size: 232.17242pt x 191.73146pt.
 
-<Images/isodromusLinkAsymp.png, id=60, 412.54124pt x 197.23688pt>
+<Images/isodromusLinkAsymp.png, id=56, 412.54124pt x 197.23688pt>
 File: Images/isodromusLinkAsymp.png Graphic file (type png)
 
 <use Images/isodromusLinkAsymp.png>
-Package pdftex.def Info: Images/isodromusLinkAsymp.png used on input line 268.
+Package pdftex.def Info: Images/isodromusLinkAsymp.png used on input line 263.
 (pdftex.def)             Requested size: 330.03345pt x 157.78969pt.
  [7
 
-] [8 <./Images/isodromusLinkBode.png> <./Images/isodromusLinkNyquist.png (PNG c
-opy)> <./Images/isodromusLinkAFR.png> <./Images/isodromusLinkPFR.png> <./Images
-/isodromusLinkAsymp.png>]
-Overfull \hbox (10.09586pt too wide) in paragraph at lines 273--274
-[]\T2A/cmr/m/n/10.95 В данной работе были изучены обычные и логарифмические час
-тотные характеристики типовых
- []
-
-[9
+] [8 <./Images/isodromusLinkBode.png (PNG copy)> <./Images/isodromusLinkNyquist
+.png (PNG copy)> <./Images/isodromusLinkAFR.png (PNG copy)> <./Images/isodromus
+LinkPFR.png (PNG copy)> <./Images/isodromusLinkAsymp.png>] [9
 
 ] (main.aux (title.aux))
 
@@ -1015,13 +1013,13 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 5684 strings out of 493333
- 79226 string characters out of 3139194
- 157260 words of memory out of 3000000
- 9088 multiletter control sequences out of 15000+200000
+ 5683 strings out of 493333
+ 79224 string characters out of 3139194
+ 157252 words of memory out of 3000000
+ 9087 multiletter control sequences out of 15000+200000
  18304 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,39p,761b,490s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,12n,39p,974b,488s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Niirn\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\la
 rm1000.pk> <C:\Users\Niirn\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\d
 pi600\labx1440.pk> <C:\Users\Niirn\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\
@@ -1037,9 +1035,9 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb>
-Output written on main.pdf (10 pages, 299844 bytes).
+Output written on main.pdf (10 pages, 286917 bytes).
 PDF statistics:
- 348 PDF objects out of 1000 (max. 8388607)
+ 343 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
