@@ -50,6 +50,108 @@
     	J_\Sigma &= J_\text{Д} + J_\text{Р} + \frac{J_\text{М}}{i_\text{Р}^2} = 1,6\cdot10^{-3} + 3,2\cdot10^{-4} + \frac{2,75}{16^2} &= 0,01266 \text{кг}\cdot\text{м}^2
 	\end{align}
 	\clearpage
+	\section{Вывод математической модели Вход-Состояние-Выход для полной схемы моделирования электромеханического объекта}
+	Для составления математической модели запишем формулы, характеризующие ЭМО, взятые из теории к данной лабораторной работе.
+	\begin{align}
+		&&\begin{cases}
+			T_\text{Я}\dot{I} + I = K_\text{Д}(U_\text{У} - K_E\omega)\\
+			M_\text{Д} - M_C = J_\Sigma\dot{\omega}\\
+			T_\text{У}\dot{U_\text{У}} + U_\text{У} = K_\text{У}U\\
+			\dot{\alpha} = \omega
+		\end{cases}
+		\Rightarrow
+		\begin{cases}
+			\dot{I} = -\displaystyle{\frac{K_E}{T_\text{Я}}}\omega - \frac{1}{T_\text{Я}}I + \frac{K_\text{Д}}{T_\text{Я}}U_\text{У}\\
+			\dot{\omega} = \displaystyle{\frac{K_M}{J_\Sigma}}I - \frac{1}{J_\Sigma}M_C\\
+			\dot{U_\text{У}} = -\displaystyle{\frac{1}{T_\text{У}}U_\text{У}} + \frac{K_\text{У}}{T_\text{У}}U\\
+			\dot{\alpha} = \omega
+		\end{cases}
+		,
+		\label{ESETh}
+	\end{align}
+	где $M_\text{Д} = K_MI$.
+	
+	Примем вектор состояния
+	$
+		X =
+		\begin{bmatrix}
+			\alpha & \omega & I & U_\text{У}
+		\end{bmatrix}^T
+	$
+	и вектор входных воздействий
+	$
+		U =
+		\begin{bmatrix}
+			U & M_C
+		\end{bmatrix}^T,
+	$
+	тогда исходя из (\ref{ESETh}) получим модель Вход-Состояние-Выход:
+	\begin{align}
+		\begin{cases}
+			\dot{X} = AX + BU\\
+			y = CX
+		\end{cases} \Rightarrow
+		\begin{cases}
+			\begin{bmatrix}
+				\dot{\alpha}\\
+				\dot{\omega}\\
+				\dot{I}\\
+				\dot{U_\text{У}}
+			\end{bmatrix} =
+			\begin{bmatrix}
+				0 & 1 & 0 & 0\\
+				0 & 0 & \displaystyle{\frac{K_M}{J_\Sigma}} & 0\\
+				0 & -\displaystyle{\frac{K_E}{T_\text{Я}}} & -\displaystyle{\frac{1}{T_\text{Я}}} & \displaystyle{\frac{K_\text{Д}}{T_\text{Я}}}\\
+				0 & 0 & 0 & -\displaystyle{\frac{1}{T_\text{У}}}
+			\end{bmatrix}
+			\begin{bmatrix}
+				\alpha\\
+				\omega\\
+				I\\
+				U_\text{У}
+			\end{bmatrix}
+			+
+			\begin{bmatrix}
+				0 & 0\\
+				0 & -\displaystyle{\frac{1}{J_\Sigma}}\\
+				0 & 0\\
+				\displaystyle{\frac{K_\text{У}}{T_\text{У}}} & 0
+			\end{bmatrix}
+			\begin{bmatrix}
+				U\\
+				M_C
+			\end{bmatrix}\\
+			\alpha = 
+			\begin{bmatrix}
+				1 & 0 & 0 & 0
+			\end{bmatrix}
+			\begin{bmatrix}
+				\alpha\\
+				\omega\\
+				I\\
+				U_\text{У}
+			\end{bmatrix}.
+		\end{cases}
+		\label{ESEFull}
+	\end{align}
+	
+	Подставив рассчитанные ранее значения, получим следующие матрицы
+	\begin{align}
+		&&A = 
+		\begin{bmatrix}
+			0 & 1 & 0 & 0\\
+			0 & 0 & 36.2 & 0\\
+			0 & -91,66 & -200 & 266\\
+			0 & 0 & 0 & -166,67
+		\end{bmatrix}, B =
+		\begin{bmatrix}
+			0 & 0\\
+			0 & -79,99\\
+			0 & 0\\
+			800 & 0
+		\end{bmatrix}
+	\end{align}
+	\clearpage
 	\section{Математическое моделирование электромеханического объекта}
 	Составим математическую модель ЭМО на основе структурной схемы, представленной на рисунке \ref{fullScheme}.
 	\begin{figure}[ht!]
@@ -201,6 +303,61 @@
 	\end{figure}
 	
 	При уменьшении значений постоянных времени на порядок возросло максимальное значение тока. Время переходного процесса и установившиеся значения тока и скорости остались неизменны.
+	\clearpage
+	\section{Вывод математической модели Вход-Состояние-Выход для приближённой схемы моделирования электромеханического объекта}
+	Для составления упрощённой модели ЭМО постоянные времени $T_\text{У}$ и $T_\text{Я}$ приравнивают к 0, так как их значение существенно меньше, чем значение механической постоянной времени $T_M$. Для получения упрощённой модели Вход-Состояние-Выход произведём соответствующие подстановки в уравнения для полной системы (\ref{ESETh}).
+	\begin{align}
+		&&\begin{cases}
+			\dot{\omega} = -\displaystyle{\frac{K_MK_\text{Д}K_C}{J_\Sigma}}\omega + \frac{K_MK_\text{Д}K_C}{J_\Sigma}U - \frac{1}{J_\Sigma}M_C\\
+			\dot{\alpha} = \omega
+		\end{cases},
+	\end{align}
+	и на основании полученной системы построим модель:
+	\begin{align}
+		&&\begin{cases}
+			\begin{bmatrix}
+				\dot{\alpha}\\
+				\dot{\omega}
+			\end{bmatrix} =
+			\begin{bmatrix}
+				0 & 1\\
+				0 & -\displaystyle{\frac{K_MK_\text{Д}K_C}{J_\Sigma}}
+			\end{bmatrix}
+			\begin{bmatrix}
+				\alpha\\
+				\omega
+			\end{bmatrix} + 
+			\begin{bmatrix}
+				0 & 0\\
+				\displaystyle{\frac{K_MK_\text{Д}K_E}{J_\Sigma}} & -\displaystyle{\frac{1}{J_\Sigma}}
+			\end{bmatrix}
+			\begin{bmatrix}
+				U\\
+				M_C
+			\end{bmatrix}\\
+			\alpha =
+			\begin{bmatrix}
+				1 & 0
+			\end{bmatrix}
+			\begin{bmatrix}
+				\alpha\\
+				\omega
+			\end{bmatrix}
+		\end{cases}.
+	\end{align}
+	
+	Подставив значения, получим матрицы:
+	\begin{align}
+		&&A =
+		\begin{bmatrix}
+			0 & 1\\
+			0 & -22,07
+		\end{bmatrix}, B = 
+		\begin{bmatrix}
+			0 & 0\\
+			22,07 & 78,99
+		\end{bmatrix}
+	\end{align}
 	\clearpage	
 	\section{Математическое моделирование приближённой модели электромеханического объекта}
 	Составим упрощённую модель ЭМО на основе структурной схемы, представленной на рисунке \ref{simpScheme}.
@@ -226,18 +383,28 @@
 		\label{simpModel}
 	\end{figure}
 	\newpage
-	Полученный в результате математического моделирования график переходного процесса приведён на рисунке \ref{simpTP}.
+	Сравнение графиков переходных процессов по скорости полной и упрощённой моделей ЭМО приведёны на рисунке \ref{simpTP}.
 	\begin{figure}[ht!]
 		\centering
 		\includegraphics[width = 0.9\textwidth]{simpTP}
-		\caption{График переходного процесса упрощённой модели ЭМО}
+		\caption{График сравнения переходных процессов полной и упрощённой моделей ЭМО}
 		\label{simpTP}
 	\end{figure}
 	
-	Исходя из результатов исследования упрощённой модели можно заметить, что значение времени переходного процесса остаётся неизменным, так же как и характер переходного процесса по скорости и углу поворота, но изменяется установившееся значение скорости. Так же на упрощённой модели нет возможности исследования переходных процессов для тока и напряжения.
+	Как можно заметить, время переходного процесса на обоих графиках совпадают, но есть различия в характере кривой.
+	
+	Так же проведём сравнение переходных процессов в полной и упрощённой моделях при меньших значениях постоянных времени $T_\text{У} = 6\cdot10^{-4}$ и $T_\text{Я} = 5\cdot10^{-4}$. Результаты сравнения приведены на рисунке.
+	\begin{figure}[ht!]
+		\centering
+		\includegraphics[width = 0.9\textwidth]{simpTvar}
+		\caption{График сравнения переходных процессов полной и упрощённой моделей ЭМО при меньших значениях постоянных времени}
+		\label{simpTvar}
+	\end{figure}
+	\newpage
+	Как видно на рисунке \ref{simpTvar} различия между полной и упрощённой моделями становятся незначительными при уменьшении постоянных времени.
 	\clearpage
 	\section*{Вывод}
 	В ходе работы было показано, как различные параметры, такие как момент сопротивления нагрузки, передаточный момент редуктора и постоянные времени влияют на показатели переходных процессов системы и её работоспособность в целом.
 	
-	Так же была исследована упрощённая модель электромеханического объекта и в ходе математического моделирования было показано, что её можно использовать для определения времени и характера переходного процесса по скорости.
+	Так же была исследована упрощённая модель электромеханического объекта и в ходе математического моделирования было показано, что её можно использовать при постоянных времени $T_\text{У}$ и $T_\text{Я}$ значительно меньших механической постоянной времени $T_M$.
 \end{document}

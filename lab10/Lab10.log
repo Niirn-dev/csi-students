@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.19)  25 APR 2017 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.19)  25 APR 2017 20:46
 entering extended mode
 **./Lab10.tex
 (Lab10.tex
@@ -896,195 +896,205 @@ LaTeX Font Warning: Font shape `T2A/cmr/bx/n' in size <20> not available
 
 ] [2
 
+] [3
+
 ]
-<Images/fullScheme.png, id=24, 764.10469pt x 294.34969pt>
+<Images/fullScheme.png, id=28, 764.10469pt x 294.34969pt>
 File: Images/fullScheme.png Graphic file (type png)
 
 <use Images/fullScheme.png>
-Package pdftex.def Info: Images/fullScheme.png used on input line 57.
+Package pdftex.def Info: Images/fullScheme.png used on input line 159.
 (pdftex.def)             Requested size: 483.69687pt x 186.33057pt.
 
-<Images/fullModel.png, id=26, 666.23906pt x 197.98969pt>
+<Images/fullModel.png, id=30, 666.23906pt x 197.98969pt>
 File: Images/fullModel.png Graphic file (type png)
 
 <use Images/fullModel.png>
-Package pdftex.def Info: Images/fullModel.png used on input line 73.
+Package pdftex.def Info: Images/fullModel.png used on input line 175.
 (pdftex.def)             Requested size: 483.69687pt x 143.74577pt.
- [3
+ [4
 
- <./Images/fullScheme.png> <./Images/fullModel.png>] <Images/M0.png, id=32, 460
+ <./Images/fullScheme.png> <./Images/fullModel.png>] <Images/M0.png, id=36, 460
 .72125pt x 426.09187pt>
 File: Images/M0.png Graphic file (type png)
  <use Images/M0.png>
-Package pdftex.def Info: Images/M0.png used on input line 81.
+Package pdftex.def Info: Images/M0.png used on input line 183.
 (pdftex.def)             Requested size: 435.32422pt x 402.60042pt.
 
-[4 <./Images/M0.png (PNG copy)>]
-<Images/M22.png, id=36, 460.72125pt x 405.76593pt>
+[5 <./Images/M0.png (PNG copy)>]
+<Images/M22.png, id=40, 460.72125pt x 405.76593pt>
 File: Images/M22.png Graphic file (type png)
  <use Images/M22.png>
-Package pdftex.def Info: Images/M22.png used on input line 90.
+Package pdftex.def Info: Images/M22.png used on input line 192.
 (pdftex.def)             Requested size: 237.01411pt x 208.73961pt.
 
-<Images/M44.png, id=37, 460.72125pt x 409.53pt>
+<Images/M44.png, id=41, 460.72125pt x 409.53pt>
 File: Images/M44.png Graphic file (type png)
  <use Images/M44.png>
-Package pdftex.def Info: Images/M44.png used on input line 94.
+Package pdftex.def Info: Images/M44.png used on input line 196.
 (pdftex.def)             Requested size: 237.01411pt x 210.67596pt.
 
-<Images/M66.png, id=38, 460.72125pt x 412.54124pt>
+<Images/M66.png, id=42, 460.72125pt x 412.54124pt>
 File: Images/M66.png Graphic file (type png)
  <use Images/M66.png>
-Package pdftex.def Info: Images/M66.png used on input line 100.
+Package pdftex.def Info: Images/M66.png used on input line 202.
 (pdftex.def)             Requested size: 237.01411pt x 212.22505pt.
 
-<Images/M88.png, id=39, 460.72125pt x 415.5525pt>
+<Images/M88.png, id=43, 460.72125pt x 415.5525pt>
 File: Images/M88.png Graphic file (type png)
  <use Images/M88.png>
-Package pdftex.def Info: Images/M88.png used on input line 104.
+Package pdftex.def Info: Images/M88.png used on input line 206.
 (pdftex.def)             Requested size: 237.01411pt x 213.77414pt.
- [5
+ [6
 
  <./Images/M22.png (PNG copy)> <./Images/M44.png (PNG copy)> <./Images/M66.png 
 (PNG copy)> <./Images/M88.png (PNG copy)>]
-<Images/J1.png, id=43, 460.72125pt x 418.56375pt>
+<Images/J1.png, id=48, 460.72125pt x 418.56375pt>
 File: Images/J1.png Graphic file (type png)
  <use Images/J1.png>
-Package pdftex.def Info: Images/J1.png used on input line 115.
+Package pdftex.def Info: Images/J1.png used on input line 217.
 (pdftex.def)             Requested size: 232.17242pt x 210.92274pt.
 
-<Images/J2.png, id=44, 461.47406pt x 453.94594pt>
+<Images/J2.png, id=49, 461.47406pt x 453.94594pt>
 File: Images/J2.png Graphic file (type png)
  <use Images/J2.png>
-Package pdftex.def Info: Images/J2.png used on input line 119.
+Package pdftex.def Info: Images/J2.png used on input line 221.
 (pdftex.def)             Requested size: 232.17242pt x 228.38544pt.
 
-<Images/J3.png, id=45, 460.72125pt x 422.32782pt>
+<Images/J3.png, id=50, 460.72125pt x 422.32782pt>
 File: Images/J3.png Graphic file (type png)
  <use Images/J3.png>
-Package pdftex.def Info: Images/J3.png used on input line 126.
+Package pdftex.def Info: Images/J3.png used on input line 228.
 (pdftex.def)             Requested size: 232.17242pt x 212.81953pt.
 
-<Images/J4.png, id=46, 460.72125pt x 422.32782pt>
+<Images/J4.png, id=51, 460.72125pt x 422.32782pt>
 File: Images/J4.png Graphic file (type png)
  <use Images/J4.png>
-Package pdftex.def Info: Images/J4.png used on input line 130.
+Package pdftex.def Info: Images/J4.png used on input line 232.
 (pdftex.def)             Requested size: 232.17242pt x 212.81953pt.
- [6
+ [7
 
  <./Images/J1.png (PNG copy)> <./Images/J2.png (PNG copy)> <./Images/J3.png (PN
 G copy)> <./Images/J4.png (PNG copy)>]
-Overfull \hbox (1.52377pt too wide) in paragraph at lines 137--137
+Overfull \hbox (1.52377pt too wide) in paragraph at lines 239--239
 []\T2A/cmr/bx/n/14.4 Исследование вли-я-ния пе-ре-да-точ-но-го мо-мен-та ре-дук
 -то-ра на вид
  []
 
-<Images/M0i3.png, id=51, 461.47406pt x 457.71pt>
+<Images/M0i3.png, id=55, 461.47406pt x 457.71pt>
 File: Images/M0i3.png Graphic file (type png)
  <use Images/M0i3.png>
-Package pdftex.def Info: Images/M0i3.png used on input line 142.
+Package pdftex.def Info: Images/M0i3.png used on input line 244.
 (pdftex.def)             Requested size: 237.01411pt x 235.07726pt.
 
-<Images/M0i9.png, id=52, 461.47406pt x 463.7325pt>
+<Images/M0i9.png, id=56, 461.47406pt x 463.7325pt>
 File: Images/M0i9.png Graphic file (type png)
  <use Images/M0i9.png>
-Package pdftex.def Info: Images/M0i9.png used on input line 146.
+Package pdftex.def Info: Images/M0i9.png used on input line 248.
 (pdftex.def)             Requested size: 237.01411pt x 238.17036pt.
 
-<Images/M0i15.png, id=53, 461.47406pt x 463.7325pt>
+<Images/M0i15.png, id=57, 461.47406pt x 463.7325pt>
 File: Images/M0i15.png Graphic file (type png)
  <use Images/M0i15.png>
-Package pdftex.def Info: Images/M0i15.png used on input line 152.
+Package pdftex.def Info: Images/M0i15.png used on input line 254.
 (pdftex.def)             Requested size: 237.01411pt x 238.17036pt.
 
-<Images/M0i21.png, id=54, 461.47406pt x 465.23813pt>
+<Images/M0i21.png, id=58, 461.47406pt x 465.23813pt>
 File: Images/M0i21.png Graphic file (type png)
  <use Images/M0i21.png>
-Package pdftex.def Info: Images/M0i21.png used on input line 156.
+Package pdftex.def Info: Images/M0i21.png used on input line 258.
 (pdftex.def)             Requested size: 237.01411pt x 238.94365pt.
 
-<Images/M44i3.png, id=55, 461.47406pt x 477.28313pt>
+<Images/M44i3.png, id=59, 461.47406pt x 477.28313pt>
 File: Images/M44i3.png Graphic file (type png)
  <use Images/M44i3.png>
-Package pdftex.def Info: Images/M44i3.png used on input line 168.
+Package pdftex.def Info: Images/M44i3.png used on input line 270.
 (pdftex.def)             Requested size: 217.66211pt x 225.11691pt.
 
-<Images/M44i9.png, id=56, 461.47406pt x 474.27188pt>
+<Images/M44i9.png, id=60, 461.47406pt x 474.27188pt>
 File: Images/M44i9.png Graphic file (type png)
  <use Images/M44i9.png>
-Package pdftex.def Info: Images/M44i9.png used on input line 172.
+Package pdftex.def Info: Images/M44i9.png used on input line 274.
 (pdftex.def)             Requested size: 217.66211pt x 223.69662pt.
 
-<Images/M44i15.png, id=57, 461.47406pt x 471.26062pt>
+<Images/M44i15.png, id=61, 461.47406pt x 471.26062pt>
 File: Images/M44i15.png Graphic file (type png)
  <use Images/M44i15.png>
-Package pdftex.def Info: Images/M44i15.png used on input line 178.
+Package pdftex.def Info: Images/M44i15.png used on input line 280.
 (pdftex.def)             Requested size: 217.66211pt x 222.27632pt.
 
-<Images/M44i21.png, id=58, 461.47406pt x 468.24937pt>
+<Images/M44i21.png, id=62, 461.47406pt x 468.24937pt>
 File: Images/M44i21.png Graphic file (type png)
  <use Images/M44i21.png>
-Package pdftex.def Info: Images/M44i21.png used on input line 182.
+Package pdftex.def Info: Images/M44i21.png used on input line 284.
 (pdftex.def)             Requested size: 217.66211pt x 220.85602pt.
 
-[7
+[8
 
  <./Images/M0i3.png (PNG copy)> <./Images/M0i9.png> <./Images/M0i15.png (PNG co
-py)> <./Images/M0i21.png (PNG copy)>] [8 <./Images/M44i3.png (PNG copy)> <./Ima
+py)> <./Images/M0i21.png (PNG copy)>] [9 <./Images/M44i3.png (PNG copy)> <./Ima
 ges/M44i9.png (PNG copy)> <./Images/M44i15.png (PNG copy)> <./Images/M44i21.png
- (PNG copy)>] <Images/Tvar.png, id=66, 461.47406pt x 480.29437pt>
+ (PNG copy)>] <Images/Tvar.png, id=70, 461.47406pt x 480.29437pt>
 File: Images/Tvar.png Graphic file (type png)
 
 <use Images/Tvar.png>
-Package pdftex.def Info: Images/Tvar.png used on input line 198.
+Package pdftex.def Info: Images/Tvar.png used on input line 300.
 (pdftex.def)             Requested size: 386.95897pt x 402.74095pt.
- [9
+ [10
 
- <./Images/Tvar.png (PNG copy)>]
-Overfull \hbox (1.15228pt too wide) in paragraph at lines 205--205
+ <./Images/Tvar.png (PNG copy)>] [11
+
+]
+Overfull \hbox (1.15228pt too wide) in paragraph at lines 362--362
 []\T2A/cmr/bx/n/14.4 Математическое мо-де-ли-ро-ва-ние при-бли-жјн-ной мо-де-ли
  элек-тро-
  []
 
-<Images/simpScheme.png, id=70, 908.64468pt x 304.88907pt>
+<Images/simpScheme.png, id=77, 908.64468pt x 304.88907pt>
 File: Images/simpScheme.png Graphic file (type png)
 
 <use Images/simpScheme.png>
-Package pdftex.def Info: Images/simpScheme.png used on input line 209.
+Package pdftex.def Info: Images/simpScheme.png used on input line 366.
 (pdftex.def)             Requested size: 435.32422pt x 146.0706pt.
 
-<Images/simpModel.png, id=71, 469.00218pt x 103.88812pt>
+<Images/simpModel.png, id=78, 469.00218pt x 103.88812pt>
 File: Images/simpModel.png Graphic file (type png)
 
 <use Images/simpModel.png>
-Package pdftex.def Info: Images/simpModel.png used on input line 224.
+Package pdftex.def Info: Images/simpModel.png used on input line 381.
 (pdftex.def)             Requested size: 483.69687pt x 107.14227pt.
- [10
+ [12
 
- <./Images/simpScheme.png> <./Images/simpModel.png>] <Images/simpTP.png, id=77,
- 461.47406pt x 394.47375pt>
+ <./Images/simpScheme.png> <./Images/simpModel.png>] <Images/simpTP.png, id=85,
+ 461.47406pt x 400.49625pt>
 File: Images/simpTP.png Graphic file (type png)
 
 <use Images/simpTP.png>
-Package pdftex.def Info: Images/simpTP.png used on input line 232.
-(pdftex.def)             Requested size: 435.32422pt x 372.12357pt.
- [11 <./Images/simpTP.png (PNG copy)>] [12
+Package pdftex.def Info: Images/simpTP.png used on input line 389.
+(pdftex.def)             Requested size: 435.32422pt x 377.80486pt.
+ <Images/simpTvar.png, id=86, 461.47406pt x 403.5075pt>
+File: Images/simpTvar.png Graphic file (type png)
 
-] (Lab10.aux
-(title.aux))
+<use Images/simpTvar.png>
+Package pdftex.def Info: Images/simpTvar.png used on input line 399.
+(pdftex.def)             Requested size: 435.32422pt x 380.6455pt.
+ [13 <./Images/simpTP.png (PNG copy)>] [14 <./Images/simpTvar.png (PNG copy)>] 
+[15
+
+] (Lab10.aux (title.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.74pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 5925 strings out of 493333
- 81049 string characters out of 3139194
- 156919 words of memory out of 3000000
- 9314 multiletter control sequences out of 15000+200000
+ 5933 strings out of 493333
+ 81182 string characters out of 3139194
+ 164946 words of memory out of 3000000
+ 9321 multiletter control sequences out of 15000+200000
  17507 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,18n,39p,1558b,433s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,24n,39p,1558b,433s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Niirn\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\la
 bx1440.pk> <C:\Users\Niirn\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\d
 pi600\larm0800.pk> <C:\Users\Niirn\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\unk
@@ -1093,15 +1103,16 @@ nown\unknown\dpi600\larm1095.pk> <C:\Users\Niirn\AppData\Local\MiKTeX\2.9\fonts
 .9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk> <C:\Users\Niirn\AppData\Local\
 MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0700.pk> <C:\Users\Niirn\AppDat
 a\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1200.pk><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb>
-Output written on Lab10.pdf (13 pages, 463182 bytes).
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb>
+Output written on Lab10.pdf (16 pages, 492998 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
+ 396 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
