@@ -24,6 +24,15 @@
     \section*{Цель работы}
     Изучение математических моделей и исследование характеристик электромеханического объекта управления, построенного на основе электродвигателя постоянного тока независимого возбуждения.
     \section*{Исходные данные}
+    Изображение исследуемого электромеханического объекта приведено на рисунке \ref{EMOim}.
+    \begin{figure}[ht!]
+    	\centering
+    	\includegraphics[width = 0.9\textwidth]{EMOImage}
+    	\caption{Функциональная схема ЭМО}
+    	\label{EMOim}
+    \end{figure}
+    
+    Исходные данные для выполнения работы приведены в таблице \ref{initTab}.
     \begin{table}[ht!]
     	\caption{Исходные данные}
     	\begin{tabular}{| c | c | c | c | c | c | c | c | c | c |}
@@ -33,6 +42,7 @@
     		48 & 1000 & 12 & 5,5 & 0,75 & 5 & $1,6\cdot10^{-3}$ & 6 & 16 & 2,75\\
     		\hline
     	\end{tabular}
+    	\label{initTab}
     \end{table}
     \clearpage
     \section{Расчёт параметров математической модели двигателя}
@@ -42,12 +52,12 @@
     \end{align}
     Рассчитаем необходимые для создания модели параметры:
     \begin{align}
-    	K_\text{У} &= \frac{U_\text{Н}}{U_m} = \frac{48}{10} &= 4,8\\
-    	K_\text{Д} &= \frac{1}{R} = \frac{1}{0,75} &= 1,33\\
-    	K_\text{М} &= \frac{M_\text{Н}}{I_\text{Н}} = \frac{5,5}{12} &= 0,4583\\
-    	K_E &= \frac{U_\text{Н}}{\omega_0} = \frac{48}{104,72} &= 0,4583\\
-    	J_\text{Р} &= 0,2J_\text{Д} = 0,2 \cdot 1,6\cdot10^{-3} &= 3,2\cdot10^{-4}\\
-    	J_\Sigma &= J_\text{Д} + J_\text{Р} + \frac{J_\text{М}}{i_\text{Р}^2} = 1,6\cdot10^{-3} + 3,2\cdot10^{-4} + \frac{2,75}{16^2} &= 0,01266 \text{кг}\cdot\text{м}^2
+    	&K_\text{У} = \frac{U_\text{Н}}{U_m} = \frac{48}{10} = 4,8\\
+    	&K_\text{Д} = \frac{1}{R} = \frac{1}{0,75} = 1,33\\
+    	&K_\text{М} = \frac{M_\text{Н}}{I_\text{Н}} = \frac{5,5}{12} = 0,4583\\
+    	&K_E = \frac{U_\text{Н}}{\omega_0} = \frac{48}{104,72} = 0,4583\\
+    	&J_\text{Р} = 0,2J_\text{Д} = 0,2 \cdot 1,6\cdot10^{-3} = 3,2\cdot10^{-4}\\
+    	&J_\Sigma = J_\text{Д} + J_\text{Р} + \frac{J_\text{М}}{i_\text{Р}^2} = 1,6\cdot10^{-3} + 3,2\cdot10^{-4} + \frac{2,75}{16^2} = 0,01266 \text{кг}\cdot\text{м}^2
 	\end{align}
 	\clearpage
 	\section{Вывод математической модели Вход-Состояние-Выход для полной схемы моделирования электромеханического объекта}
@@ -177,11 +187,29 @@
 		\label{fullModel}
 	\end{figure}
 	\newpage
-	Построим график переходного процесса:
+	Построим графики переходного процесса:
 	\begin{figure}[ht!]
 		\centering
-		\includegraphics[width = 0.9\textwidth]{M0}
-		\caption{График переходного процесса при нулевом моменте сопротивления}
+		\begin{subfigure}[b]{0.48\textwidth}
+			\includegraphics[width = \textwidth]{M0U}
+			\caption{Переходный процесс по напряжению}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.48\textwidth}
+			\includegraphics[width = \textwidth]{M0I}
+			\caption{Переходный процесс по току}
+		\end{subfigure}
+		
+		\begin{subfigure}[b]{0.48\textwidth}
+			\includegraphics[width = \textwidth]{M0omega}
+			\caption{Переходный процесс по угловой скорости}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.48\textwidth}
+			\includegraphics[width = \textwidth]{M0alpha}
+			\caption{Переходный процесс по углу поворота}
+		\end{subfigure}
+		\caption{Графики переходного процесса при нулевом моменте сопротивления}
 		\label{M0}
 	\end{figure}
 	\clearpage
@@ -189,47 +217,55 @@
 	\begin{figure}[ht!]
 		\centering
 		\begin{subfigure}[b]{0.49\textwidth}
-			\includegraphics[width = \textwidth]{M22}
+			\includegraphics[width = \textwidth]{MvarU}
+			\caption{Переходные процессы по напряжению}
 		\end{subfigure}
 		\hfill
 		\begin{subfigure}[b]{0.49\textwidth}
-			\includegraphics[width = \textwidth]{M44}
+			\includegraphics[width = \textwidth]{MvarI}
+			\caption{Переходные процессы по току}
 		\end{subfigure}
 	\end{figure}
 	\begin{figure}[ht!]\ContinuedFloat
 		\centering
 		\begin{subfigure}[b]{0.49\textwidth}
-			\includegraphics[width = \textwidth]{M66}
+			\includegraphics[width = \textwidth]{MvarOmega}
+			\caption{Переходные процессы по угловой скорости}
 		\end{subfigure}
 		\hfill
 		\begin{subfigure}[b]{0.49\textwidth}
-			\includegraphics[width = \textwidth]{M88}
+			\includegraphics[width = \textwidth]{MvarAlpha}
+			\caption{Переходные процессы по углу поворота}
 		\end{subfigure}
 		\caption{Графики переходных процессов при различных значениях момента сопротивления}
 		\label{MVar}
 	\end{figure}
-	Как видно на рисунке \ref{MVar} при увеличении момента сопротивления, время переходного процесса остаётся неизменным и равным 0,13 сек, установившееся значение скорости уменьшается, а тока --- увеличивается.
+	Как видно на рисунке \ref{MVar} при увеличении момента сопротивления, время переходного процесса по скорости остаётся неизменным и равным $\approx0,13$ сек, установившееся значение скорости уменьшается, а тока --- увеличивается.
 	\clearpage
 	\section{Исследование влияния момента инерции нагрузки на вид переходных процессов}
 	\begin{figure}[ht!]
 		\centering
 		\begin{subfigure}[b]{0.48\textwidth}
-			\includegraphics[width = \textwidth]{J1}
+			\includegraphics[width = \textwidth]{JvarU}
+			\caption{Переходные процессы по напряжению}
 		\end{subfigure}
 		\hfill
 		\begin{subfigure}[b]{0.48\textwidth}
-			\includegraphics[width = \textwidth]{J2}
+			\includegraphics[width = \textwidth]{JvarI}
+			\caption{Переходные процессы по току}
 		\end{subfigure}
 	\end{figure}
 	
 	\begin{figure}[ht!]\ContinuedFloat
 		\centering
 		\begin{subfigure}[b]{0.48\textwidth}
-			\includegraphics[width = \textwidth]{J3}
+			\includegraphics[width = \textwidth]{JvarOmega}
+			\caption{Переходные процессы по скорости}
 		\end{subfigure}
 		\hfill
 		\begin{subfigure}[b]{0.48\textwidth}
-			\includegraphics[width = \textwidth]{J4}
+			\includegraphics[width = \textwidth]{JvarAlpha}
+			\caption{Переходные процессы по углу поворота}
 		\end{subfigure}
 		\caption{Графики переходных процессов при различных значениях момента инерции нагрузки}
 		\label{JVar}
