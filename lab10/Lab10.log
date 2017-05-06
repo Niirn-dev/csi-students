@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.19)  26 APR 2017 20:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.5.5)  6 MAY 2017 09:41
 entering extended mode
 **./Lab10.tex
 (Lab10.tex
@@ -581,6 +581,9 @@ Package babel Info: Making " an active character on input line 111.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\babel-russian\russianb.ldf"
 Language: russianb 2017/01/12 1.3i Russian support for the Babel system
 ))
+("C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\pscyr.sty"
+Package: pscyr 2002/07/04 v0.4d Cyrillic Type1 fonts as default
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
@@ -768,21 +771,25 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 (title.aux))
 \openout1 = `Lab10.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Try loading font information for T2A+faq on input line 23.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\t2afaq.fd"
+File: t2afaq.fd 2004/09/23 Fontinst v1.914 font definitions for T2A/faq.
+)
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
 \scratchdimen=\dimen134
@@ -875,277 +882,366 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 22.
+LaTeX Info: Redefining \selectfont on input line 23.
 \openout2 = `title.aux'.
 
  (title.tex
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 10.
+ [1
 
 
-LaTeX Font Warning: Font shape `T2A/cmr/m/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 13.
-
-
-LaTeX Font Warning: Font shape `T2A/cmr/bx/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 13.
+{C:/Users/Niirn/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
+<Images/EMOImage.png, id=7, 542.025pt x 282.30469pt>
+File: Images/EMOImage.png Graphic file (type png)
+ <use Images/EMOImage.png>
+Package pdftex.def Info: Images/EMOImage.png used on input line 31.
+(pdftex.def)             Requested size: 435.32422pt x 226.74002pt.
 
 [1
 
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}])
-<Images/EMOImage.png, id=11, 542.025pt x 282.30469pt>
-File: Images/EMOImage.png Graphic file (type png)
-
-<use Images/EMOImage.png>
-Package pdftex.def Info: Images/EMOImage.png used on input line 30.
-(pdftex.def)             Requested size: 435.32422pt x 226.74002pt.
- [1
-
  <./Images/EMOImage.png>] [2
 
-] [3
-
 ]
-<Images/fullScheme.png, id=29, 764.10469pt x 294.34969pt>
+Overfull \hbox (17.18773pt too wide) in paragraph at lines 85--100
+[]\T2A/faq/m/n/10.95 Примем век-тор со-сто-я-ния $\OML/cmm/m/it/10.95 X \OT1/cm
+r/m/n/10.95 = [][]$ \T2A/faq/m/n/10.95 и век-тор вход-ных воз-дей-ствий $\OML/c
+mm/m/it/10.95 U \OT1/cmr/m/n/10.95 = [][] \OML/cmm/m/it/10.95 ;$
+ []
+
+[3
+
+] <Images/fullScheme.png, id=24, 764.10469pt x 294.34969pt>
 File: Images/fullScheme.png Graphic file (type png)
 
 <use Images/fullScheme.png>
-Package pdftex.def Info: Images/fullScheme.png used on input line 169.
+Package pdftex.def Info: Images/fullScheme.png used on input line 170.
 (pdftex.def)             Requested size: 483.69687pt x 186.33057pt.
 
-<Images/fullModel.png, id=31, 666.23906pt x 197.98969pt>
+<Images/fullModel.png, id=26, 666.23906pt x 197.98969pt>
 File: Images/fullModel.png Graphic file (type png)
 
 <use Images/fullModel.png>
-Package pdftex.def Info: Images/fullModel.png used on input line 185.
+Package pdftex.def Info: Images/fullModel.png used on input line 186.
 (pdftex.def)             Requested size: 483.69687pt x 143.74577pt.
  [4
 
- <./Images/fullScheme.png> <./Images/fullModel.png>] <Images/M0U.png, id=37, 46
+ <./Images/fullScheme.png> <./Images/fullModel.png>] <Images/M0U.png, id=32, 46
 1.47406pt x 406.51875pt>
 File: Images/M0U.png Graphic file (type png)
  <use Images/M0U.png>
-Package pdftex.def Info: Images/M0U.png used on input line 194.
+Package pdftex.def Info: Images/M0U.png used on input line 195.
 (pdftex.def)             Requested size: 232.17242pt x 204.52428pt.
 
-<Images/M0I.png, id=38, 461.47406pt x 409.53pt>
+<Images/M0I.png, id=33, 461.47406pt x 409.53pt>
 File: Images/M0I.png Graphic file (type png)
  <use Images/M0I.png>
-Package pdftex.def Info: Images/M0I.png used on input line 199.
+Package pdftex.def Info: Images/M0I.png used on input line 200.
 (pdftex.def)             Requested size: 232.17242pt x 206.03926pt.
 
-<Images/M0omega.png, id=39, 461.47406pt x 412.54124pt>
+<Images/M0omega.png, id=34, 461.47406pt x 412.54124pt>
 File: Images/M0omega.png Graphic file (type png)
 
 <use Images/M0omega.png>
-Package pdftex.def Info: Images/M0omega.png used on input line 204.
+Package pdftex.def Info: Images/M0omega.png used on input line 205.
 (pdftex.def)             Requested size: 232.17242pt x 207.55426pt.
- <Images/M0alpha.png, id=40, 461.47406pt x 415.5525pt>
+ <Images/M0alpha.png, id=35, 461.47406pt x 415.5525pt>
 File: Images/M0alpha.png Graphic file (type png)
 
 <use Images/M0alpha.png>
-Package pdftex.def Info: Images/M0alpha.png used on input line 209.
+Package pdftex.def Info: Images/M0alpha.png used on input line 210.
 (pdftex.def)             Requested size: 232.17242pt x 209.06926pt.
  [5 <./Images/M0U.png (PNG copy)> <./Images/M0I.png (PNG copy)> <./Images/M0ome
 ga.png (PNG copy)> <./Images/M0alpha.png (PNG copy)>]
-<Images/MvarU.png, id=45, 461.47406pt x 433.62pt>
-File: Images/MvarU.png Graphic file (type png)
- <use Images/MvarU.png>
-Package pdftex.def Info: Images/MvarU.png used on input line 220.
+<Images/Mvar/MvarU.png, id=39, 461.47406pt x 433.62pt>
+File: Images/Mvar/MvarU.png Graphic file (type png)
+
+<use Images/Mvar/MvarU.png>
+Package pdftex.def Info: Images/Mvar/MvarU.png used on input line 221.
 (pdftex.def)             Requested size: 237.01411pt x 222.70476pt.
 
-<Images/MvarI.png, id=46, 461.47406pt x 433.62pt>
-File: Images/MvarI.png Graphic file (type png)
- <use Images/MvarI.png>
-Package pdftex.def Info: Images/MvarI.png used on input line 225.
-(pdftex.def)             Requested size: 237.01411pt x 222.70476pt.
+<Images/Mvar/MvarI.png, id=40, 399.74344pt x 366.61969pt>
+File: Images/Mvar/MvarI.png Graphic file (type png)
 
-<Images/MvarOmega.png, id=47, 461.47406pt x 433.62pt>
-File: Images/MvarOmega.png Graphic file (type png)
+<use Images/Mvar/MvarI.png>
+Package pdftex.def Info: Images/Mvar/MvarI.png used on input line 226.
+(pdftex.def)             Requested size: 237.01411pt x 217.3778pt.
 
-<use Images/MvarOmega.png>
-Package pdftex.def Info: Images/MvarOmega.png used on input line 232.
-(pdftex.def)             Requested size: 237.01411pt x 222.70476pt.
+<Images/Mvar/MvarOmega.png, id=41, 399.74344pt x 366.61969pt>
+File: Images/Mvar/MvarOmega.png Graphic file (type png)
 
-<Images/MvarAlpha.png, id=48, 461.47406pt x 433.62pt>
-File: Images/MvarAlpha.png Graphic file (type png)
+<use Images/Mvar/MvarOmega.png>
+Package pdftex.def Info: Images/Mvar/MvarOmega.png used on input line 233.
+(pdftex.def)             Requested size: 237.01411pt x 217.3778pt.
 
-<use Images/MvarAlpha.png>
-Package pdftex.def Info: Images/MvarAlpha.png used on input line 237.
+<Images/Mvar/MvarAlpha.png, id=42, 461.47406pt x 433.62pt>
+File: Images/Mvar/MvarAlpha.png Graphic file (type png)
+
+<use Images/Mvar/MvarAlpha.png>
+Package pdftex.def Info: Images/Mvar/MvarAlpha.png used on input line 238.
 (pdftex.def)             Requested size: 237.01411pt x 222.70476pt.
  [6
 
- <./Images/MvarU.png (PNG copy)> <./Images/MvarI.png (PNG copy)> <./Images/Mvar
-Omega.png (PNG copy)> <./Images/MvarAlpha.png (PNG copy)>] <Images/JvarU.png, i
-d=53, 461.47406pt x 441.90094pt>
-File: Images/JvarU.png Graphic file (type png)
+ <./Images/Mvar/MvarU.png (PNG copy)> <./Images/Mvar/MvarI.png (PNG copy)> <./I
+mages/Mvar/MvarOmega.png (PNG copy)> <./Images/Mvar/MvarAlpha.png (PNG copy)>]
+<Images/Jvar/JvarU.png, id=47, 461.47406pt x 441.90094pt>
+File: Images/Jvar/JvarU.png Graphic file (type png)
 
-<use Images/JvarU.png>
-Package pdftex.def Info: Images/JvarU.png used on input line 249.
-(pdftex.def)             Requested size: 232.17242pt x 222.32547pt.
- <Images/JvarI.png, id=54, 461.47406pt x 436.63126pt>
-File: Images/JvarI.png Graphic file (type png)
-
-<use Images/JvarI.png>
-Package pdftex.def Info: Images/JvarI.png used on input line 254.
-(pdftex.def)             Requested size: 232.17242pt x 219.67422pt.
-
-<Images/JvarOmega.png, id=55, 461.47406pt x 441.90094pt>
-File: Images/JvarOmega.png Graphic file (type png)
-
-<use Images/JvarOmega.png>
-Package pdftex.def Info: Images/JvarOmega.png used on input line 262.
+<use Images/Jvar/JvarU.png>
+Package pdftex.def Info: Images/Jvar/JvarU.png used on input line 250.
 (pdftex.def)             Requested size: 232.17242pt x 222.32547pt.
 
-<Images/JvarAlpha.png, id=56, 461.47406pt x 444.91219pt>
-File: Images/JvarAlpha.png Graphic file (type png)
+<Images/Jvar/JvarI.png, id=48, 399.74344pt x 372.64218pt>
+File: Images/Jvar/JvarI.png Graphic file (type png)
 
-<use Images/JvarAlpha.png>
-Package pdftex.def Info: Images/JvarAlpha.png used on input line 267.
+<use Images/Jvar/JvarI.png>
+Package pdftex.def Info: Images/Jvar/JvarI.png used on input line 255.
+(pdftex.def)             Requested size: 232.17242pt x 216.43398pt.
+
+<Images/Jvar/JvarOmega.png, id=49, 399.74344pt x 369.63094pt>
+File: Images/Jvar/JvarOmega.png Graphic file (type png)
+
+<use Images/Jvar/JvarOmega.png>
+Package pdftex.def Info: Images/Jvar/JvarOmega.png used on input line 263.
+(pdftex.def)             Requested size: 232.17242pt x 214.68501pt.
+
+<Images/Jvar/JvarAlpha.png, id=50, 461.47406pt x 444.91219pt>
+File: Images/Jvar/JvarAlpha.png Graphic file (type png)
+
+<use Images/Jvar/JvarAlpha.png>
+Package pdftex.def Info: Images/Jvar/JvarAlpha.png used on input line 268.
 (pdftex.def)             Requested size: 232.17242pt x 223.84045pt.
  [7
 
- <./Images/JvarU.png (PNG copy)> <./Images/JvarI.png (PNG copy)> <./Images/Jvar
-Omega.png (PNG copy)> <./Images/JvarAlpha.png (PNG copy)>]
-Overfull \hbox (1.52377pt too wide) in paragraph at lines 275--275
-[]\T2A/cmr/bx/n/14.4 Исследование вли-я-ния пе-ре-да-точ-но-го мо-мен-та ре-дук
--то-ра на вид
- []
+ <./Images/Jvar/JvarU.png (PNG copy)> <./Images/Jvar/JvarI.png (PNG copy)> <./I
+mages/Jvar/JvarOmega.png (PNG copy)> <./Images/Jvar/JvarAlpha.png (PNG copy)>]
+Package epstopdf Info: Source file: <Images/ivar/eps/ivarU.eps>
+(epstopdf)                    date: 2017-05-06 08:25:34
+(epstopdf)                    size: 493003 bytes
+(epstopdf)             Output file: <Images/ivar/eps/ivarU-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2017-05-06 08:47:47
+(epstopdf)                    size: 6434 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/ivar/eps/ivarU-eps-c
+onverted-to.pdf Images/ivar/eps/ivarU.eps>
+(epstopdf)             \includegraphics on input line 281.
+Package epstopdf Info: Output file is already uptodate.
 
-<Images/M0i3.png, id=60, 461.47406pt x 457.71pt>
-File: Images/M0i3.png Graphic file (type png)
- <use Images/M0i3.png>
-Package pdftex.def Info: Images/M0i3.png used on input line 280.
-(pdftex.def)             Requested size: 237.01411pt x 235.07726pt.
+<Images/ivar/eps/ivarU-eps-converted-to.pdf, id=54, 410.53375pt x 366.36874pt>
+File: Images/ivar/eps/ivarU-eps-converted-to.pdf Graphic file (type pdf)
 
-<Images/M0i9.png, id=61, 461.47406pt x 463.7325pt>
-File: Images/M0i9.png Graphic file (type png)
- <use Images/M0i9.png>
-Package pdftex.def Info: Images/M0i9.png used on input line 284.
-(pdftex.def)             Requested size: 237.01411pt x 238.17036pt.
+<use Images/ivar/eps/ivarU-eps-converted-to.pdf>
+Package pdftex.def Info: Images/ivar/eps/ivarU-eps-converted-to.pdf used on inp
+ut line 281.
+(pdftex.def)             Requested size: 232.17242pt x 207.19438pt.
+Package epstopdf Info: Source file: <Images/ivar/eps/ivarI.eps>
+(epstopdf)                    date: 2017-05-06 08:35:01
+(epstopdf)                    size: 424597 bytes
+(epstopdf)             Output file: <Images/ivar/eps/ivarI-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2017-05-06 08:47:48
+(epstopdf)                    size: 30956 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/ivar/eps/ivarI-eps-c
+onverted-to.pdf Images/ivar/eps/ivarI.eps>
+(epstopdf)             \includegraphics on input line 285.
+Package epstopdf Info: Output file is already uptodate.
 
-<Images/M0i15.png, id=62, 461.47406pt x 463.7325pt>
-File: Images/M0i15.png Graphic file (type png)
- <use Images/M0i15.png>
-Package pdftex.def Info: Images/M0i15.png used on input line 290.
-(pdftex.def)             Requested size: 237.01411pt x 238.17036pt.
+<Images/ivar/eps/ivarI-eps-converted-to.pdf, id=55, 410.53375pt x 369.38pt>
+File: Images/ivar/eps/ivarI-eps-converted-to.pdf Graphic file (type pdf)
 
-<Images/M0i21.png, id=63, 461.47406pt x 465.23813pt>
-File: Images/M0i21.png Graphic file (type png)
- <use Images/M0i21.png>
-Package pdftex.def Info: Images/M0i21.png used on input line 294.
-(pdftex.def)             Requested size: 237.01411pt x 238.94365pt.
+<use Images/ivar/eps/ivarI-eps-converted-to.pdf>
+Package pdftex.def Info: Images/ivar/eps/ivarI-eps-converted-to.pdf used on inp
+ut line 285.
+(pdftex.def)             Requested size: 232.17242pt x 208.89735pt.
+Package epstopdf Info: Source file: <Images/ivar/eps/ivarOmega.eps>
+(epstopdf)                    date: 2017-05-06 08:43:15
+(epstopdf)                    size: 506286 bytes
+(epstopdf)             Output file: <Images/ivar/eps/ivarOmega-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-05-06 08:47:48
+(epstopdf)                    size: 32112 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/ivar/eps/ivarOmega-e
+ps-converted-to.pdf Images/ivar/eps/ivarOmega.eps>
+(epstopdf)             \includegraphics on input line 291.
+Package epstopdf Info: Output file is already uptodate.
 
-<Images/M44i3.png, id=64, 461.47406pt x 477.28313pt>
-File: Images/M44i3.png Graphic file (type png)
- <use Images/M44i3.png>
-Package pdftex.def Info: Images/M44i3.png used on input line 306.
-(pdftex.def)             Requested size: 217.66211pt x 225.11691pt.
+<Images/ivar/eps/ivarOmega-eps-converted-to.pdf, id=56, 410.53375pt x 369.38pt>
+File: Images/ivar/eps/ivarOmega-eps-converted-to.pdf Graphic file (type pdf)
+<use Images/ivar/eps/ivarOmega-eps-converted-to.pdf>
+Package pdftex.def Info: Images/ivar/eps/ivarOmega-eps-converted-to.pdf used on
+ input line 291.
+(pdftex.def)             Requested size: 232.17242pt x 208.89735pt.
+Package epstopdf Info: Source file: <Images/ivar/eps/ivarAlpha.eps>
+(epstopdf)                    date: 2017-05-06 08:27:14
+(epstopdf)                    size: 261750 bytes
+(epstopdf)             Output file: <Images/ivar/eps/ivarAlpha-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-05-06 08:48:26
+(epstopdf)                    size: 85642 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/ivar/eps/ivarAlpha-e
+ps-converted-to.pdf Images/ivar/eps/ivarAlpha.eps>
+(epstopdf)             \includegraphics on input line 295.
+Package epstopdf Info: Output file is already uptodate.
 
-<Images/M44i9.png, id=65, 461.47406pt x 474.27188pt>
-File: Images/M44i9.png Graphic file (type png)
- <use Images/M44i9.png>
-Package pdftex.def Info: Images/M44i9.png used on input line 310.
-(pdftex.def)             Requested size: 217.66211pt x 223.69662pt.
+<Images/ivar/eps/ivarAlpha-eps-converted-to.pdf, id=57, 410.53375pt x 366.36874
+pt>
+File: Images/ivar/eps/ivarAlpha-eps-converted-to.pdf Graphic file (type pdf)
+ <use Images/ivar/eps/ivarAlpha-eps-converted-to.pdf>
+Package pdftex.def Info: Images/ivar/eps/ivarAlpha-eps-converted-to.pdf used on
+ input line 295.
+(pdftex.def)             Requested size: 232.17242pt x 207.19438pt.
+Package epstopdf Info: Source file: <Images/ivar/eps/ivarM44U.eps>
+(epstopdf)                    date: 2017-05-06 09:34:01
+(epstopdf)                    size: 28406 bytes
+(epstopdf)             Output file: <Images/ivar/eps/ivarM44U-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2017-05-06 09:35:19
+(epstopdf)                    size: 26293 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/ivar/eps/ivarM44U-ep
+s-converted-to.pdf Images/ivar/eps/ivarM44U.eps>
+(epstopdf)             \includegraphics on input line 307.
+Package epstopdf Info: Output file is already uptodate.
 
-<Images/M44i15.png, id=66, 461.47406pt x 471.26062pt>
-File: Images/M44i15.png Graphic file (type png)
- <use Images/M44i15.png>
-Package pdftex.def Info: Images/M44i15.png used on input line 316.
-(pdftex.def)             Requested size: 217.66211pt x 222.27632pt.
+<Images/ivar/eps/ivarM44U-eps-converted-to.pdf, id=58, 410.53375pt x 381.425pt>
+File: Images/ivar/eps/ivarM44U-eps-converted-to.pdf Graphic file (type pdf)
+<use Images/ivar/eps/ivarM44U-eps-converted-to.pdf>
+Package pdftex.def Info: Images/ivar/eps/ivarM44U-eps-converted-to.pdf used on 
+input line 307.
+(pdftex.def)             Requested size: 232.17242pt x 215.70921pt.
+Package epstopdf Info: Source file: <Images/ivar/eps/ivarM44I.eps>
+(epstopdf)                    date: 2017-05-06 09:30:56
+(epstopdf)                    size: 40460 bytes
+(epstopdf)             Output file: <Images/ivar/eps/ivarM44I-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2017-05-06 09:35:19
+(epstopdf)                    size: 38393 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/ivar/eps/ivarM44I-ep
+s-converted-to.pdf Images/ivar/eps/ivarM44I.eps>
+(epstopdf)             \includegraphics on input line 311.
+Package epstopdf Info: Output file is already uptodate.
 
-<Images/M44i21.png, id=67, 461.47406pt x 468.24937pt>
-File: Images/M44i21.png Graphic file (type png)
- <use Images/M44i21.png>
-Package pdftex.def Info: Images/M44i21.png used on input line 320.
-(pdftex.def)             Requested size: 217.66211pt x 220.85602pt.
+<Images/ivar/eps/ivarM44I-eps-converted-to.pdf, id=59, 410.53375pt x 378.41376p
+t>
+File: Images/ivar/eps/ivarM44I-eps-converted-to.pdf Graphic file (type pdf)
+ <use Images/ivar/eps/ivarM44I-eps-converted-to.pdf>
+Package pdftex.def Info: Images/ivar/eps/ivarM44I-eps-converted-to.pdf used on 
+input line 311.
+(pdftex.def)             Requested size: 232.17242pt x 214.00626pt.
+Package epstopdf Info: Source file: <Images/ivar/eps/ivarM44Omega.eps>
+(epstopdf)                    date: 2017-05-06 09:24:41
+(epstopdf)                    size: 40971 bytes
+(epstopdf)             Output file: <Images/ivar/eps/ivarM44Omega-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2017-05-06 09:35:20
+(epstopdf)                    size: 39084 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/ivar/eps/ivarM44Omeg
+a-eps-converted-to.pdf Images/ivar/eps/ivarM44Omega.eps>
+(epstopdf)             \includegraphics on input line 317.
+Package epstopdf Info: Output file is already uptodate.
 
-[8
+<Images/ivar/eps/ivarM44Omega-eps-converted-to.pdf, id=60, 410.53375pt x 375.40
+25pt>
+File: Images/ivar/eps/ivarM44Omega-eps-converted-to.pdf Graphic file (type pdf)
 
- <./Images/M0i3.png (PNG copy)> <./Images/M0i9.png> <./Images/M0i15.png (PNG co
-py)> <./Images/M0i21.png (PNG copy)>] [9 <./Images/M44i3.png (PNG copy)> <./Ima
-ges/M44i9.png (PNG copy)> <./Images/M44i15.png (PNG copy)> <./Images/M44i21.png
- (PNG copy)>] <Images/Tvar.png, id=75, 461.47406pt x 480.29437pt>
+ <use Images/ivar/eps/ivarM44Omega-eps-converted-to.pdf>
+Package pdftex.def Info: Images/ivar/eps/ivarM44Omega-eps-converted-to.pdf used
+ on input line 317.
+(pdftex.def)             Requested size: 232.17242pt x 212.30328pt.
+Package epstopdf Info: Source file: <Images/ivar/eps/ivarM44Alpha.eps>
+(epstopdf)                    date: 2017-05-06 09:16:43
+(epstopdf)                    size: 1084106 bytes
+(epstopdf)             Output file: <Images/ivar/eps/ivarM44Alpha-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2017-05-06 09:35:21
+(epstopdf)                    size: 329673 bytes
+(epstopdf)             Command: <epstopdf --outfile=Images/ivar/eps/ivarM44Alph
+a-eps-converted-to.pdf Images/ivar/eps/ivarM44Alpha.eps>
+(epstopdf)             \includegraphics on input line 321.
+Package epstopdf Info: Output file is already uptodate.
+
+<Images/ivar/eps/ivarM44Alpha-eps-converted-to.pdf, id=61, 410.53375pt x 372.39
+125pt>
+File: Images/ivar/eps/ivarM44Alpha-eps-converted-to.pdf Graphic file (type pdf)
+
+ <use Images/ivar/eps/ivarM44Alpha-eps-converted-to.pdf>
+Package pdftex.def Info: Images/ivar/eps/ivarM44Alpha-eps-converted-to.pdf used
+ on input line 321.
+(pdftex.def)             Requested size: 232.17242pt x 210.60031pt.
+ [8
+
+ <./Images/ivar/eps/ivarU-eps-converted-to.pdf> <./Images/ivar/eps/ivarI-eps-co
+nverted-to.pdf> <./Images/ivar/eps/ivarOmega-eps-converted-to.pdf> <./Images/iv
+ar/eps/ivarAlpha-eps-converted-to.pdf>] [9 <./Images/ivar/eps/ivarM44U-eps-conv
+erted-to.pdf> <./Images/ivar/eps/ivarM44I-eps-converted-to.pdf> <./Images/ivar/
+eps/ivarM44Omega-eps-converted-to.pdf> <./Images/ivar/eps/ivarM44Alpha-eps-conv
+erted-to.pdf>] <Images/Tvar.png, id=101, 461.47406pt x 480.29437pt>
 File: Images/Tvar.png Graphic file (type png)
-
-<use Images/Tvar.png>
-Package pdftex.def Info: Images/Tvar.png used on input line 336.
+ <use Images/Tvar.png>
+Package pdftex.def Info: Images/Tvar.png used on input line 337.
 (pdftex.def)             Requested size: 386.95897pt x 402.74095pt.
- [10
+
+[10
 
  <./Images/Tvar.png (PNG copy)>] [11
 
 ]
-Overfull \hbox (1.15228pt too wide) in paragraph at lines 398--398
-[]\T2A/cmr/bx/n/14.4 Математическое мо-де-ли-ро-ва-ние при-бли-жјн-ной мо-де-ли
- элек-тро-
- []
-
-<Images/simpScheme.png, id=82, 908.64468pt x 304.88907pt>
+<Images/simpScheme.png, id=108, 908.64468pt x 304.88907pt>
 File: Images/simpScheme.png Graphic file (type png)
 
 <use Images/simpScheme.png>
-Package pdftex.def Info: Images/simpScheme.png used on input line 402.
+Package pdftex.def Info: Images/simpScheme.png used on input line 403.
 (pdftex.def)             Requested size: 435.32422pt x 146.0706pt.
 
-<Images/simpModel.png, id=83, 469.00218pt x 103.88812pt>
+<Images/simpModel.png, id=109, 469.00218pt x 103.88812pt>
 File: Images/simpModel.png Graphic file (type png)
 
 <use Images/simpModel.png>
-Package pdftex.def Info: Images/simpModel.png used on input line 417.
+Package pdftex.def Info: Images/simpModel.png used on input line 418.
 (pdftex.def)             Requested size: 483.69687pt x 107.14227pt.
  [12
 
- <./Images/simpScheme.png> <./Images/simpModel.png>] <Images/simpTP.png, id=90,
- 461.47406pt x 452.4403pt>
+ <./Images/simpScheme.png> <./Images/simpModel.png>] <Images/simpTP.png, id=116
+, 461.47406pt x 452.4403pt>
 File: Images/simpTP.png Graphic file (type png)
 
 <use Images/simpTP.png>
-Package pdftex.def Info: Images/simpTP.png used on input line 425.
+Package pdftex.def Info: Images/simpTP.png used on input line 426.
 (pdftex.def)             Requested size: 435.32422pt x 426.80586pt.
 
-<Images/simpTvar.png, id=91, 461.47406pt x 453.94594pt>
+<Images/simpTvar.png, id=117, 461.47406pt x 453.94594pt>
 File: Images/simpTvar.png Graphic file (type png)
 
 <use Images/simpTvar.png>
-Package pdftex.def Info: Images/simpTvar.png used on input line 435.
+Package pdftex.def Info: Images/simpTvar.png used on input line 436.
 (pdftex.def)             Requested size: 435.32422pt x 428.22617pt.
  [13 <./Images/simpTP.png (PNG copy)>] [14 <./Images/simpTvar.png (PNG copy)>] 
 [15
 
-] (Lab10.aux (title.aux))
+] (Lab10.aux (title.aux)
+LaTeX Font Info:    Try loading font information for T1+faq on input line 4.
 
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.74pt have occurred.
-
- ) 
+("C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\t1faq.fd"
+File: t1faq.fd 2004/03/22 Fontinst v1.914 font definitions for T1/faq.
+)) ) 
 Here is how much of TeX's memory you used:
- 5958 strings out of 493333
- 81812 string characters out of 3139194
- 164963 words of memory out of 3000000
- 9341 multiletter control sequences out of 15000+200000
- 18304 words of font info for 44 fonts, out of 3000000 for 9000
+ 6114 strings out of 493333
+ 84573 string characters out of 3139195
+ 165914 words of memory out of 10000000
+ 9477 multiletter control sequences out of 15000+200000
+ 31555 words of font info for 46 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,24n,39p,1558b,486s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Niirn\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\la
-rm1000.pk> <C:\Users\Niirn\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\d
-pi600\labx1440.pk> <C:\Users\Niirn\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\
-lh-t2a\dpi600\larm0800.pk> <C:\Users\Niirn\AppData\Local\MiKTeX\2.9\fonts\pk\lj
-four\unknown\unknown\dpi600\larm1095.pk> <C:\Users\Niirn\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx2074.pk> <C:\Users\Niirn\AppData\Local\
-MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1440.pk> <C:\Users\Niirn\AppDat
-a\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm0700.pk> <C:\Users\Niir
-n\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1200.pk><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb>
-Output written on Lab10.pdf (16 pages, 567828 bytes).
+ 39i,24n,39p,1558b,488s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/t2/t2a.enc}<C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/pscyr/antiq6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/pscyr/antiq7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Lab10.pdf (16 pages, 1032157 bytes).
 PDF statistics:
- 434 PDF objects out of 1000 (max. 8388607)
+ 157 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  141 words of extra memory for PDF output out of 10000 (max. 10000000)
 

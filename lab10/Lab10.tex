@@ -3,6 +3,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1, T2A]{fontenc}
 \usepackage[english, main = russian]{babel}
+\usepackage{pscyr}
 \usepackage{indentfirst}
 \parindent 1.27cm
 \usepackage{graphicx}
@@ -217,41 +218,41 @@
 	\begin{figure}[ht!]
 		\centering
 		\begin{subfigure}[b]{0.49\textwidth}
-			\includegraphics[width = \textwidth]{MvarU}
+			\includegraphics[width = \textwidth]{Mvar/MvarU}
 			\caption{Переходные процессы по напряжению}
 		\end{subfigure}
 		\hfill
 		\begin{subfigure}[b]{0.49\textwidth}
-			\includegraphics[width = \textwidth]{MvarI}
+			\includegraphics[width = \textwidth]{Mvar/MvarI}
 			\caption{Переходные процессы по току}
 		\end{subfigure}
 	\end{figure}
 	\begin{figure}[ht!]\ContinuedFloat
 		\centering
 		\begin{subfigure}[b]{0.49\textwidth}
-			\includegraphics[width = \textwidth]{MvarOmega}
+			\includegraphics[width = \textwidth]{Mvar/MvarOmega}
 			\caption{Переходные процессы по угловой скорости}
 		\end{subfigure}
 		\hfill
 		\begin{subfigure}[b]{0.49\textwidth}
-			\includegraphics[width = \textwidth]{MvarAlpha}
+			\includegraphics[width = \textwidth]{Mvar/MvarAlpha}
 			\caption{Переходные процессы по углу поворота}
 		\end{subfigure}
 		\caption{Графики переходных процессов при различных значениях момента сопротивления}
 		\label{MVar}
 	\end{figure}
-	Как видно на рисунке \ref{MVar} при увеличении момента сопротивления, время переходного процесса по скорости остаётся неизменным и равным $\approx0,13$ сек, установившееся значение скорости уменьшается, а тока --- увеличивается.
+	Как видно на рисунке \ref{MVar} при увеличении момента сопротивления, время переходного процесса по скорости остаётся неизменным и равным $\approx0,135$ сек, а время переходного процесса уменьшается от 0,23с при $M_{CM} = 22$ до 0,16c при $M_{CM} = 88.$ Установившееся значение скорости уменьшается, а тока --- увеличивается.
 	\clearpage
 	\section{Исследование влияния момента инерции нагрузки на вид переходных процессов}
 	\begin{figure}[ht!]
 		\centering
 		\begin{subfigure}[b]{0.48\textwidth}
-			\includegraphics[width = \textwidth]{JvarU}
+			\includegraphics[width = \textwidth]{Jvar/JvarU}
 			\caption{Переходные процессы по напряжению}
 		\end{subfigure}
 		\hfill
 		\begin{subfigure}[b]{0.48\textwidth}
-			\includegraphics[width = \textwidth]{JvarI}
+			\includegraphics[width = \textwidth]{Jvar/JvarI}
 			\caption{Переходные процессы по току}
 		\end{subfigure}
 	\end{figure}
@@ -259,12 +260,12 @@
 	\begin{figure}[ht!]\ContinuedFloat
 		\centering
 		\begin{subfigure}[b]{0.48\textwidth}
-			\includegraphics[width = \textwidth]{JvarOmega}
+			\includegraphics[width = \textwidth]{Jvar/JvarOmega}
 			\caption{Переходные процессы по скорости}
 		\end{subfigure}
 		\hfill
 		\begin{subfigure}[b]{0.48\textwidth}
-			\includegraphics[width = \textwidth]{JvarAlpha}
+			\includegraphics[width = \textwidth]{Jvar/JvarAlpha}
 			\caption{Переходные процессы по углу поворота}
 		\end{subfigure}
 		\caption{Графики переходных процессов при различных значениях момента инерции нагрузки}
@@ -276,22 +277,22 @@
 	Проведём исследования при величине момента сопротивления $M_{CM} = 0$. Их результаты приведены на рисунке \ref{M0ivar}.
 	\begin{figure}[ht!]
 		\centering
-		\begin{subfigure}[b]{0.49\textwidth}
-			\includegraphics[width = \textwidth]{M0i3}
+		\begin{subfigure}[b]{0.48\textwidth}
+			\includegraphics[width = \textwidth]{ivar/eps/ivarU}
 		\end{subfigure}
 		\hfill
-		\begin{subfigure}[b]{0.49\textwidth}
-			\includegraphics[width = \textwidth]{M0i9}
+		\begin{subfigure}[b]{0.48\textwidth}
+			\includegraphics[width = \textwidth]{ivar/eps/ivarI}
 		\end{subfigure}
 	\end{figure}
 	\begin{figure}[ht!]\ContinuedFloat
 		\centering
-		\begin{subfigure}[b]{0.49\textwidth}
-			\includegraphics[width = \textwidth]{M0i15}
+		\begin{subfigure}[b]{0.48\textwidth}
+			\includegraphics[width = \textwidth]{ivar/eps/ivarOmega}
 		\end{subfigure}
 		\hfill
-		\begin{subfigure}[b]{0.49\textwidth}
-			\includegraphics[width = \textwidth]{M0i21}
+		\begin{subfigure}[b]{0.48\textwidth}
+			\includegraphics[width = \textwidth]{ivar/eps/ivarAlpha}
 		\end{subfigure}
 		\caption{Графики переходных процессов при нулевом моменте сопротивления и при различных значениях передаточного момента редуктора}
 		\label{M0ivar}
@@ -302,28 +303,28 @@
 	Так же проведём исследования при величине момента сопротивления $M_{CM} = 44,$ что является равным половине максимального значения, рассчитанного для передаточного момента редуктора $i_p = 16$. Результаты моделирования приведены на рисунке \ref{M44ivar}.
 	\begin{figure}[ht!]
 		\centering
-		\begin{subfigure}[b]{0.45\textwidth}
-			\includegraphics[width = \textwidth]{M44i3}
+		\begin{subfigure}[b]{0.48\textwidth}
+			\includegraphics[width = \textwidth]{ivar/eps/ivarM44U}
 		\end{subfigure}
 		\hfill
-		\begin{subfigure}[b]{0.45\textwidth}
-			\includegraphics[width = \textwidth]{M44i9}
+		\begin{subfigure}[b]{0.48\textwidth}
+			\includegraphics[width = \textwidth]{ivar/eps/ivarM44I}
 		\end{subfigure}
 	\end{figure}
 	\begin{figure}[ht!]\ContinuedFloat
 		\centering
-		\begin{subfigure}[b]{0.45\textwidth}
-			\includegraphics[width = \textwidth]{M44i15}
+		\begin{subfigure}[b]{0.48\textwidth}
+			\includegraphics[width = \textwidth]{ivar/eps/ivarM44Omega}
 		\end{subfigure}
 		\hfill
-		\begin{subfigure}[b]{0.45\textwidth}
-			\includegraphics[width = \textwidth]{M44i21}
+		\begin{subfigure}[b]{0.48\textwidth}
+			\includegraphics[width = \textwidth]{ivar/eps/ivarM44Alpha}
 		\end{subfigure}
 		\caption{Графики переходных процессов при ненулевом моменте сопротивления и при различных значениях передаточного момента редуктора}
 		\label{M44ivar}
 	\end{figure}
-
-	На представленных результатах моделирования видно, что при наличии момента нагрузки и малом показателе передаточного момента редуктора система может не справиться с нагрузкой и никогда не прийти в устойчивое состояние. В нашем случае при значении $i_p = 3$ момента вращения двигателя не хватает, чтобы преодолеть момент сопротивления нагрузки. Так же можно наблюдать, что при увеличении $i_p$ не только уменьшаются значения времени переходного процесса и максимального тока, но и установившиеся значения угловой скорости и тока приближаются к значениям без нагрузки.
+	\newpage
+	На полученных результатах моделирования видно, что при наличии момента нагрузки и малом показателе передаточного момента редуктора система может не справиться с нагрузкой и никогда не прийти в устойчивое состояние. В нашем случае при значении $i_p = 3$ момента вращения двигателя не хватает, чтобы преодолеть момент сопротивления нагрузки. Так же можно наблюдать, что при увеличении $i_p$ не только уменьшаются значения времени переходного процесса и максимального тока, но и установившиеся значения угловой скорости и тока приближаются к значениям без нагрузки.
 	\clearpage
 	\section{Исследование влияния значений постоянных времени на вид переходных процессов}
 	Для проведения данного исследования уменьшим заданные значения постоянных времени на порядок и получим
