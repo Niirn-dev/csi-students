@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.5.5)  6 MAY 2017 09:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.5.5)  6 MAY 2017 09:53
 entering extended mode
 **./Lab10.tex
 (Lab10.tex
@@ -902,7 +902,7 @@ Package pdftex.def Info: Images/EMOImage.png used on input line 31.
  <./Images/EMOImage.png>] [2
 
 ]
-Overfull \hbox (17.18773pt too wide) in paragraph at lines 85--100
+Overfull \hbox (17.18773pt too wide) in paragraph at lines 95--110
 []\T2A/faq/m/n/10.95 Примем век-тор со-сто-я-ния $\OML/cmm/m/it/10.95 X \OT1/cm
 r/m/n/10.95 = [][]$ \T2A/faq/m/n/10.95 и век-тор вход-ных воз-дей-ствий $\OML/c
 mm/m/it/10.95 U \OT1/cmr/m/n/10.95 = [][] \OML/cmm/m/it/10.95 ;$
@@ -914,14 +914,14 @@ mm/m/it/10.95 U \OT1/cmr/m/n/10.95 = [][] \OML/cmm/m/it/10.95 ;$
 File: Images/fullScheme.png Graphic file (type png)
 
 <use Images/fullScheme.png>
-Package pdftex.def Info: Images/fullScheme.png used on input line 170.
+Package pdftex.def Info: Images/fullScheme.png used on input line 180.
 (pdftex.def)             Requested size: 483.69687pt x 186.33057pt.
 
 <Images/fullModel.png, id=26, 666.23906pt x 197.98969pt>
 File: Images/fullModel.png Graphic file (type png)
 
 <use Images/fullModel.png>
-Package pdftex.def Info: Images/fullModel.png used on input line 186.
+Package pdftex.def Info: Images/fullModel.png used on input line 196.
 (pdftex.def)             Requested size: 483.69687pt x 143.74577pt.
  [4
 
@@ -929,26 +929,26 @@ Package pdftex.def Info: Images/fullModel.png used on input line 186.
 1.47406pt x 406.51875pt>
 File: Images/M0U.png Graphic file (type png)
  <use Images/M0U.png>
-Package pdftex.def Info: Images/M0U.png used on input line 195.
+Package pdftex.def Info: Images/M0U.png used on input line 205.
 (pdftex.def)             Requested size: 232.17242pt x 204.52428pt.
 
 <Images/M0I.png, id=33, 461.47406pt x 409.53pt>
 File: Images/M0I.png Graphic file (type png)
  <use Images/M0I.png>
-Package pdftex.def Info: Images/M0I.png used on input line 200.
+Package pdftex.def Info: Images/M0I.png used on input line 210.
 (pdftex.def)             Requested size: 232.17242pt x 206.03926pt.
 
 <Images/M0omega.png, id=34, 461.47406pt x 412.54124pt>
 File: Images/M0omega.png Graphic file (type png)
 
 <use Images/M0omega.png>
-Package pdftex.def Info: Images/M0omega.png used on input line 205.
+Package pdftex.def Info: Images/M0omega.png used on input line 215.
 (pdftex.def)             Requested size: 232.17242pt x 207.55426pt.
  <Images/M0alpha.png, id=35, 461.47406pt x 415.5525pt>
 File: Images/M0alpha.png Graphic file (type png)
 
 <use Images/M0alpha.png>
-Package pdftex.def Info: Images/M0alpha.png used on input line 210.
+Package pdftex.def Info: Images/M0alpha.png used on input line 220.
 (pdftex.def)             Requested size: 232.17242pt x 209.06926pt.
  [5 <./Images/M0U.png (PNG copy)> <./Images/M0I.png (PNG copy)> <./Images/M0ome
 ga.png (PNG copy)> <./Images/M0alpha.png (PNG copy)>]
@@ -956,28 +956,28 @@ ga.png (PNG copy)> <./Images/M0alpha.png (PNG copy)>]
 File: Images/Mvar/MvarU.png Graphic file (type png)
 
 <use Images/Mvar/MvarU.png>
-Package pdftex.def Info: Images/Mvar/MvarU.png used on input line 221.
+Package pdftex.def Info: Images/Mvar/MvarU.png used on input line 231.
 (pdftex.def)             Requested size: 237.01411pt x 222.70476pt.
 
 <Images/Mvar/MvarI.png, id=40, 399.74344pt x 366.61969pt>
 File: Images/Mvar/MvarI.png Graphic file (type png)
 
 <use Images/Mvar/MvarI.png>
-Package pdftex.def Info: Images/Mvar/MvarI.png used on input line 226.
+Package pdftex.def Info: Images/Mvar/MvarI.png used on input line 236.
 (pdftex.def)             Requested size: 237.01411pt x 217.3778pt.
 
 <Images/Mvar/MvarOmega.png, id=41, 399.74344pt x 366.61969pt>
 File: Images/Mvar/MvarOmega.png Graphic file (type png)
 
 <use Images/Mvar/MvarOmega.png>
-Package pdftex.def Info: Images/Mvar/MvarOmega.png used on input line 233.
+Package pdftex.def Info: Images/Mvar/MvarOmega.png used on input line 243.
 (pdftex.def)             Requested size: 237.01411pt x 217.3778pt.
 
 <Images/Mvar/MvarAlpha.png, id=42, 461.47406pt x 433.62pt>
 File: Images/Mvar/MvarAlpha.png Graphic file (type png)
 
 <use Images/Mvar/MvarAlpha.png>
-Package pdftex.def Info: Images/Mvar/MvarAlpha.png used on input line 238.
+Package pdftex.def Info: Images/Mvar/MvarAlpha.png used on input line 248.
 (pdftex.def)             Requested size: 237.01411pt x 222.70476pt.
  [6
 
@@ -987,28 +987,28 @@ mages/Mvar/MvarOmega.png (PNG copy)> <./Images/Mvar/MvarAlpha.png (PNG copy)>]
 File: Images/Jvar/JvarU.png Graphic file (type png)
 
 <use Images/Jvar/JvarU.png>
-Package pdftex.def Info: Images/Jvar/JvarU.png used on input line 250.
+Package pdftex.def Info: Images/Jvar/JvarU.png used on input line 260.
 (pdftex.def)             Requested size: 232.17242pt x 222.32547pt.
 
 <Images/Jvar/JvarI.png, id=48, 399.74344pt x 372.64218pt>
 File: Images/Jvar/JvarI.png Graphic file (type png)
 
 <use Images/Jvar/JvarI.png>
-Package pdftex.def Info: Images/Jvar/JvarI.png used on input line 255.
+Package pdftex.def Info: Images/Jvar/JvarI.png used on input line 265.
 (pdftex.def)             Requested size: 232.17242pt x 216.43398pt.
 
 <Images/Jvar/JvarOmega.png, id=49, 399.74344pt x 369.63094pt>
 File: Images/Jvar/JvarOmega.png Graphic file (type png)
 
 <use Images/Jvar/JvarOmega.png>
-Package pdftex.def Info: Images/Jvar/JvarOmega.png used on input line 263.
+Package pdftex.def Info: Images/Jvar/JvarOmega.png used on input line 273.
 (pdftex.def)             Requested size: 232.17242pt x 214.68501pt.
 
 <Images/Jvar/JvarAlpha.png, id=50, 461.47406pt x 444.91219pt>
 File: Images/Jvar/JvarAlpha.png Graphic file (type png)
 
 <use Images/Jvar/JvarAlpha.png>
-Package pdftex.def Info: Images/Jvar/JvarAlpha.png used on input line 268.
+Package pdftex.def Info: Images/Jvar/JvarAlpha.png used on input line 278.
 (pdftex.def)             Requested size: 232.17242pt x 223.84045pt.
  [7
 
@@ -1023,7 +1023,7 @@ Package epstopdf Info: Source file: <Images/ivar/eps/ivarU.eps>
 (epstopdf)                    size: 6434 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/ivar/eps/ivarU-eps-c
 onverted-to.pdf Images/ivar/eps/ivarU.eps>
-(epstopdf)             \includegraphics on input line 281.
+(epstopdf)             \includegraphics on input line 291.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/ivar/eps/ivarU-eps-converted-to.pdf, id=54, 410.53375pt x 366.36874pt>
@@ -1031,7 +1031,7 @@ File: Images/ivar/eps/ivarU-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/ivar/eps/ivarU-eps-converted-to.pdf>
 Package pdftex.def Info: Images/ivar/eps/ivarU-eps-converted-to.pdf used on inp
-ut line 281.
+ut line 291.
 (pdftex.def)             Requested size: 232.17242pt x 207.19438pt.
 Package epstopdf Info: Source file: <Images/ivar/eps/ivarI.eps>
 (epstopdf)                    date: 2017-05-06 08:35:01
@@ -1042,7 +1042,7 @@ Package epstopdf Info: Source file: <Images/ivar/eps/ivarI.eps>
 (epstopdf)                    size: 30956 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/ivar/eps/ivarI-eps-c
 onverted-to.pdf Images/ivar/eps/ivarI.eps>
-(epstopdf)             \includegraphics on input line 285.
+(epstopdf)             \includegraphics on input line 295.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/ivar/eps/ivarI-eps-converted-to.pdf, id=55, 410.53375pt x 369.38pt>
@@ -1050,7 +1050,7 @@ File: Images/ivar/eps/ivarI-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Images/ivar/eps/ivarI-eps-converted-to.pdf>
 Package pdftex.def Info: Images/ivar/eps/ivarI-eps-converted-to.pdf used on inp
-ut line 285.
+ut line 295.
 (pdftex.def)             Requested size: 232.17242pt x 208.89735pt.
 Package epstopdf Info: Source file: <Images/ivar/eps/ivarOmega.eps>
 (epstopdf)                    date: 2017-05-06 08:43:15
@@ -1061,14 +1061,14 @@ Package epstopdf Info: Source file: <Images/ivar/eps/ivarOmega.eps>
 (epstopdf)                    size: 32112 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/ivar/eps/ivarOmega-e
 ps-converted-to.pdf Images/ivar/eps/ivarOmega.eps>
-(epstopdf)             \includegraphics on input line 291.
+(epstopdf)             \includegraphics on input line 301.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/ivar/eps/ivarOmega-eps-converted-to.pdf, id=56, 410.53375pt x 369.38pt>
 File: Images/ivar/eps/ivarOmega-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/ivar/eps/ivarOmega-eps-converted-to.pdf>
 Package pdftex.def Info: Images/ivar/eps/ivarOmega-eps-converted-to.pdf used on
- input line 291.
+ input line 301.
 (pdftex.def)             Requested size: 232.17242pt x 208.89735pt.
 Package epstopdf Info: Source file: <Images/ivar/eps/ivarAlpha.eps>
 (epstopdf)                    date: 2017-05-06 08:27:14
@@ -1079,7 +1079,7 @@ Package epstopdf Info: Source file: <Images/ivar/eps/ivarAlpha.eps>
 (epstopdf)                    size: 85642 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/ivar/eps/ivarAlpha-e
 ps-converted-to.pdf Images/ivar/eps/ivarAlpha.eps>
-(epstopdf)             \includegraphics on input line 295.
+(epstopdf)             \includegraphics on input line 305.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/ivar/eps/ivarAlpha-eps-converted-to.pdf, id=57, 410.53375pt x 366.36874
@@ -1087,7 +1087,7 @@ pt>
 File: Images/ivar/eps/ivarAlpha-eps-converted-to.pdf Graphic file (type pdf)
  <use Images/ivar/eps/ivarAlpha-eps-converted-to.pdf>
 Package pdftex.def Info: Images/ivar/eps/ivarAlpha-eps-converted-to.pdf used on
- input line 295.
+ input line 305.
 (pdftex.def)             Requested size: 232.17242pt x 207.19438pt.
 Package epstopdf Info: Source file: <Images/ivar/eps/ivarM44U.eps>
 (epstopdf)                    date: 2017-05-06 09:34:01
@@ -1098,14 +1098,14 @@ pdf>
 (epstopdf)                    size: 26293 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/ivar/eps/ivarM44U-ep
 s-converted-to.pdf Images/ivar/eps/ivarM44U.eps>
-(epstopdf)             \includegraphics on input line 307.
+(epstopdf)             \includegraphics on input line 317.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/ivar/eps/ivarM44U-eps-converted-to.pdf, id=58, 410.53375pt x 381.425pt>
 File: Images/ivar/eps/ivarM44U-eps-converted-to.pdf Graphic file (type pdf)
 <use Images/ivar/eps/ivarM44U-eps-converted-to.pdf>
 Package pdftex.def Info: Images/ivar/eps/ivarM44U-eps-converted-to.pdf used on 
-input line 307.
+input line 317.
 (pdftex.def)             Requested size: 232.17242pt x 215.70921pt.
 Package epstopdf Info: Source file: <Images/ivar/eps/ivarM44I.eps>
 (epstopdf)                    date: 2017-05-06 09:30:56
@@ -1116,7 +1116,7 @@ pdf>
 (epstopdf)                    size: 38393 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/ivar/eps/ivarM44I-ep
 s-converted-to.pdf Images/ivar/eps/ivarM44I.eps>
-(epstopdf)             \includegraphics on input line 311.
+(epstopdf)             \includegraphics on input line 321.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/ivar/eps/ivarM44I-eps-converted-to.pdf, id=59, 410.53375pt x 378.41376p
@@ -1124,7 +1124,7 @@ t>
 File: Images/ivar/eps/ivarM44I-eps-converted-to.pdf Graphic file (type pdf)
  <use Images/ivar/eps/ivarM44I-eps-converted-to.pdf>
 Package pdftex.def Info: Images/ivar/eps/ivarM44I-eps-converted-to.pdf used on 
-input line 311.
+input line 321.
 (pdftex.def)             Requested size: 232.17242pt x 214.00626pt.
 Package epstopdf Info: Source file: <Images/ivar/eps/ivarM44Omega.eps>
 (epstopdf)                    date: 2017-05-06 09:24:41
@@ -1135,7 +1135,7 @@ Package epstopdf Info: Source file: <Images/ivar/eps/ivarM44Omega.eps>
 (epstopdf)                    size: 39084 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/ivar/eps/ivarM44Omeg
 a-eps-converted-to.pdf Images/ivar/eps/ivarM44Omega.eps>
-(epstopdf)             \includegraphics on input line 317.
+(epstopdf)             \includegraphics on input line 327.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/ivar/eps/ivarM44Omega-eps-converted-to.pdf, id=60, 410.53375pt x 375.40
@@ -1144,7 +1144,7 @@ File: Images/ivar/eps/ivarM44Omega-eps-converted-to.pdf Graphic file (type pdf)
 
  <use Images/ivar/eps/ivarM44Omega-eps-converted-to.pdf>
 Package pdftex.def Info: Images/ivar/eps/ivarM44Omega-eps-converted-to.pdf used
- on input line 317.
+ on input line 327.
 (pdftex.def)             Requested size: 232.17242pt x 212.30328pt.
 Package epstopdf Info: Source file: <Images/ivar/eps/ivarM44Alpha.eps>
 (epstopdf)                    date: 2017-05-06 09:16:43
@@ -1155,7 +1155,7 @@ Package epstopdf Info: Source file: <Images/ivar/eps/ivarM44Alpha.eps>
 (epstopdf)                    size: 329673 bytes
 (epstopdf)             Command: <epstopdf --outfile=Images/ivar/eps/ivarM44Alph
 a-eps-converted-to.pdf Images/ivar/eps/ivarM44Alpha.eps>
-(epstopdf)             \includegraphics on input line 321.
+(epstopdf)             \includegraphics on input line 331.
 Package epstopdf Info: Output file is already uptodate.
 
 <Images/ivar/eps/ivarM44Alpha-eps-converted-to.pdf, id=61, 410.53375pt x 372.39
@@ -1164,7 +1164,7 @@ File: Images/ivar/eps/ivarM44Alpha-eps-converted-to.pdf Graphic file (type pdf)
 
  <use Images/ivar/eps/ivarM44Alpha-eps-converted-to.pdf>
 Package pdftex.def Info: Images/ivar/eps/ivarM44Alpha-eps-converted-to.pdf used
- on input line 321.
+ on input line 331.
 (pdftex.def)             Requested size: 232.17242pt x 210.60031pt.
  [8
 
@@ -1176,7 +1176,7 @@ eps/ivarM44Omega-eps-converted-to.pdf> <./Images/ivar/eps/ivarM44Alpha-eps-conv
 erted-to.pdf>] <Images/Tvar.png, id=101, 461.47406pt x 480.29437pt>
 File: Images/Tvar.png Graphic file (type png)
  <use Images/Tvar.png>
-Package pdftex.def Info: Images/Tvar.png used on input line 337.
+Package pdftex.def Info: Images/Tvar.png used on input line 347.
 (pdftex.def)             Requested size: 386.95897pt x 402.74095pt.
 
 [10
@@ -1188,14 +1188,14 @@ Package pdftex.def Info: Images/Tvar.png used on input line 337.
 File: Images/simpScheme.png Graphic file (type png)
 
 <use Images/simpScheme.png>
-Package pdftex.def Info: Images/simpScheme.png used on input line 403.
+Package pdftex.def Info: Images/simpScheme.png used on input line 413.
 (pdftex.def)             Requested size: 435.32422pt x 146.0706pt.
 
 <Images/simpModel.png, id=109, 469.00218pt x 103.88812pt>
 File: Images/simpModel.png Graphic file (type png)
 
 <use Images/simpModel.png>
-Package pdftex.def Info: Images/simpModel.png used on input line 418.
+Package pdftex.def Info: Images/simpModel.png used on input line 428.
 (pdftex.def)             Requested size: 483.69687pt x 107.14227pt.
  [12
 
@@ -1204,14 +1204,14 @@ Package pdftex.def Info: Images/simpModel.png used on input line 418.
 File: Images/simpTP.png Graphic file (type png)
 
 <use Images/simpTP.png>
-Package pdftex.def Info: Images/simpTP.png used on input line 426.
+Package pdftex.def Info: Images/simpTP.png used on input line 436.
 (pdftex.def)             Requested size: 435.32422pt x 426.80586pt.
 
 <Images/simpTvar.png, id=117, 461.47406pt x 453.94594pt>
 File: Images/simpTvar.png Graphic file (type png)
 
 <use Images/simpTvar.png>
-Package pdftex.def Info: Images/simpTvar.png used on input line 436.
+Package pdftex.def Info: Images/simpTvar.png used on input line 446.
 (pdftex.def)             Requested size: 435.32422pt x 428.22617pt.
  [13 <./Images/simpTP.png (PNG copy)>] [14 <./Images/simpTvar.png (PNG copy)>] 
 [15
@@ -1239,7 +1239,7 @@ mmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Lab10.pdf (16 pages, 1032157 bytes).
+Output written on Lab10.pdf (16 pages, 1032193 bytes).
 PDF statistics:
  157 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
