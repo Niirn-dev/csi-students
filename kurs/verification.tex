@@ -1,0 +1,59 @@
+\section{Проверка полученных результатов}
+Проверим правильность составления последовательного регулятора, проведя математическое моделирование системы при входящем воздействии с максимальными значениями скорости и ускорения, соответствующими заданию.
+
+Для формирования подобного воздействия произведём расчёт. Приняв, что входное воздействие будет иметь синусоидальный вид, получим выражение для $g$ в общем виде
+\begin{align} \label{inputSig}
+	g = g_0\sin(\omega t).
+\end{align}
+Тогда, взяв производные соответствующих степеней, получим выражения для скорости и ускорения:
+\begin{align}
+	\dot{g} = g_0\omega\cos(\omega t),\\
+	\ddot{g} = -g_0\omega^2\sin(\omega t).
+\end{align}
+Приравняв их значения к максимальным, получим систему уравнений
+\begin{align}
+	\begin{cases}
+		g_0\omega = \dot{g}_{max}\\
+		g_0\omega^2 = \ddot{g}_{max}
+	\end{cases},
+\end{align}
+решив которую, получим
+\begin{align}
+	\begin{cases}
+		g_0 = \frac{\dot{g}_{max}}{\omega}\\
+		\frac{\dot{g}_{max}\omega^2}{\omega} = \ddot{g}_{max}
+	\end{cases} \Rightarrow
+	\begin{cases} \label{inputRes}
+		\omega = \frac{\ddot{g}_{max}}{\dot{g}_{max}} = \frac{0,8}{1,6} = 0,5 \text{ c}^{-1}\\
+		g_0 = \frac{1,6}{0,5} = 3,2
+	\end{cases}.
+\end{align}
+
+Подставим, полученные в (\ref{inputRes}), результаты в (\ref{inputSig}) и получим
+\begin{align}
+	g = 3,2\sin(0,5t).
+\end{align}
+
+При математическом моделировании системы была испытана схема, приведённая на рисунке \ref{verifyModel}.
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width = 0.9\textwidth]{verification/model}
+	\caption{Схема моделирования замкнутой системы при включённом регуляторе}
+	\label{verifyModel}
+\end{figure}
+\newpage
+Построим графики переходного процесса и ошибки.
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width = 0.9\textwidth]{verification/inout}
+	\caption{График сравнения сигналов на входе и выходе замкнутой системы}
+	\label{verifyInout}
+\end{figure}
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width = 0.9\textwidth]{verification/error}
+	\caption{График ошибки замкнутой системы}
+	\label{verifyError}
+\end{figure}
+\newpage
+Как видно из графика ошибки, представленного на рисунке \ref{verifyError}, установившееся значение ошибки $e_\text{уст}$ по модулю не превышает заданное значение $e_{max}.$ Следовательно, синтез регулятора можно считать успешным.

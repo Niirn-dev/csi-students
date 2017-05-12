@@ -1,0 +1,1185 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.5.5)  12 MAY 2017 22:53
+entering extended mode
+**./kurs.tex
+(kurs.tex
+LaTeX2e <2017/01/01> patch level 1
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/01/24 v2.0c Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2aenc.def"
+File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
+)
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 105.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd"
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\cp1251.def"
+File: cp1251.def 2014/10/28 v1.0d Input encoding file
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2016/04/23 3.9r The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-russian\russianb.ldf"
+Language: russianb 2017/01/12 1.3i Russian support for the Babel system
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2016/04/23 3.9r Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+Package babel Info: Making " an active character on input line 111.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\pscyr.sty"
+Package: pscyr 2002/07/04 v0.4d Cyrillic Type1 fonts as default
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen106
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen107
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks18
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks19
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (diplom.sty
+(G2-105-95.sty ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
+\c@tracingmulticols=\count101
+\mult@box=\box28
+\multicol@leftmargin=\dimen115
+\c@unbalance=\count102
+\c@collectmore=\count103
+\doublecol@number=\count104
+\multicoltolerance=\count105
+\multicolpretolerance=\count106
+\full@width=\dimen116
+\page@free=\dimen117
+\premulticols=\dimen118
+\postmulticols=\dimen119
+\multicolsep=\skip46
+\multicolbaselineskip=\skip47
+\partial@page=\box29
+\last@line=\box30
+\maxbalancingoverflow=\dimen120
+\mult@rightbox=\box31
+\mult@grightbox=\box32
+\mult@gfirstbox=\box33
+\mult@firstbox=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\c@columnbadness=\count107
+\c@finalcolumnbadness=\count108
+\last@try=\dimen121
+\multicolovershoot=\dimen122
+\multicolundershoot=\dimen123
+\mult@nat@firstbox=\box52
+\colbreak@box=\box53
+\mc@col@check@num=\count109
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2017/01/24 v2.0c Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\floatflt\floatflt.sty"
+Package: floatflt 1997/07/16 v. 1.31
+\c@OptionTest=\count110
+\figbox=\box54
+\tabbox=\box55
+\pagebox=\box56
+\ffigcount=\count111
+\ftabcount=\count112
+\fftest=\count113
+\hangcount=\count114
+\nosuccesstryfig=\count115
+\nosuccesstrytab=\count116
+\figgutter=\dimen124
+\tabgutter=\dimen125
+\htdone=\dimen126
+\pageht=\dimen127
+\startpageht=\dimen128
+\tabbredd=\dimen129
+\floatfltwidth=\dimen130
+\fltitemwidth=\dimen131
+\outputpretest=\toks22
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count117
+\float@exts=\toks23
+\float@box=\box57
+\@float@everytoks=\toks24
+\@floatcapt=\box58
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count118
+\rotFPtop=\skip48
+\rotFPbot=\skip49
+\rot@float@box=\box59
+\rot@mess@toks=\toks25
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count119
+\calc@Bcount=\count120
+\calc@Adimen=\dimen132
+\calc@Bdimen=\dimen133
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count121
+\calc@Cskip=\skip52
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count122
+\Gm@cntv=\count123
+\c@Gm@tempcnt=\count124
+\Gm@bindingoffset=\dimen134
+\Gm@wd@mp=\dimen135
+\Gm@odd@mp=\dimen136
+\Gm@even@mp=\dimen137
+\Gm@layoutwidth=\dimen138
+\Gm@layoutheight=\dimen139
+\Gm@layouthoffset=\dimen140
+\Gm@layoutvoffset=\dimen141
+\Gm@dimlist=\toks26
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen142
+\captionmargin@=\dimen143
+\captionwidth=\dimen144
+\caption@tempdima=\dimen145
+\caption@indent=\dimen146
+\caption@parindent=\dimen147
+\caption@hangindent=\dimen148
+)
+\c@ContinuedFloat=\count125
+Package caption Info: float package is loaded.
+Package caption Info: floatflt package is loaded.
+Package caption Info: rotating package is loaded.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip53
+\LTright=\skip54
+\LTpre=\skip55
+\LTpost=\skip56
+\LTchunksize=\count126
+\LTcapwidth=\dimen149
+\LT@head=\box60
+\LT@firsthead=\box61
+\LT@foot=\box62
+\LT@lastfoot=\box63
+\LT@cols=\count127
+\LT@rows=\count128
+\c@LT@tables=\count129
+\c@LT@chunks=\count130
+\LT@p@ftn=\toks27
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\footnpag\footnpag.sty"
+Package: footnpag 1995/11/10 v2.6 numbering footnotes per page
+\old_foot_file=\read1
+\foot_file=\write3
+\foot_name_no=\count131
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\footmisc\footmisc.sty"
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks28
+\footnotemargin=\dimen150
+\c@pp@next@reset=\count132
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+Package: G2-105-95 2002/12/12 v0.01 General reqs.
+\c@engost=\count133
+\c@ensubgost=\count134
+) (G2-104-68.sty ("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen151
+\epsfysize=\dimen152
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\psfrag\psfrag.sty"
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count135
+\pfg@scount=\count136
+\pfg@temp=\write4
+)
+Package: G2-104-68 2002/12/12 v0.01 GOST Frames
+\c@gostszv=\count137
+\c@gostszvv=\count138
+\gostorigline=\skip57
+\gostadnomin=\skip58
+\newgostboxik=\box64
+) (cite.sty
+LaTeX Info: Redefining \cite on input line 285.
+LaTeX Info: Redefining \nocite on input line 356.
+Package: cite 2009/08/29  v 5.2
+)
+
+LaTeX Warning: You have requested package `diplom',
+               but the package provides `eskdpz'.
+
+Package: eskdpz 2002/12/12 v0.01 Unified system for design documentation PZ (??
+?)
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\makecell\makecell.sty"
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen153
+\extrarowheight=\dimen154
+\NC@list=\toks29
+\extratabsurround=\skip59
+\backup@length=\skip60
+)
+\rotheadsize=\dimen155
+\c@nlinenum=\count139
+\TeXr@lab=\toks30
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip61
+\multirow@cntb=\count140
+\multirow@dima=\skip62
+\bigstrutjot=\dimen156
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty"
+\UL@box=\box65
+\UL@hyphenbox=\box66
+\UL@skip=\skip63
+\UL@hook=\toks31
+\UL@height=\dimen157
+\UL@pe=\count141
+\UL@pixel=\dimen158
+\ULC@box=\box67
+Package: ulem 2012/05/18
+\ULdepth=\dimen159
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\cmap\cmap.sty"
+Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
+
+
+Package cmap Warning: fontenc already loaded - some fonts may be unprocessed.
+
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip64
+\enit@outerparindent=\dimen160
+\enit@toks=\toks32
+\enit@inbox=\box68
+\enitdp@description=\count142
+)
+(environment.tex
+\c@assumption=\count143
+\c@purpose=\count144
+\c@theorem=\count145
+\c@corollary=\count146
+\c@lemma=\count147
+\c@statement=\count148
+\c@proposition=\count149
+\c@definition=\count150
+\c@problem=\count151
+\c@alg=\count152
+\c@rem=\count153
+\c@exmpl=\count154
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box69
+\beforetitleunit=\skip65
+\aftertitleunit=\skip66
+\ttl@plus=\dimen161
+\ttl@minus=\dimen162
+\ttl@toksa=\toks33
+\titlewidth=\dimen163
+\titlewidthlast=\dimen164
+\titlewidthfirst=\dimen165
+)
+
+LaTeX Warning: Unused global option(s):
+    [14pt].
+
+(kurs.aux (introduction.aux) (initTask.aux) (overview.aux) (syntheses.aux)
+(verification.aux) (realisation.aux) (conclusion.aux) (bibliography.aux))
+\openout1 = `kurs.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 69.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Try loading font information for T2A+ftm on input line 69.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\t2aftm.fd"
+File: t2aftm.fd 2001/12/09 Fontinst v1.914 font definitions for T2A/ftm.
+)<<t2a.cmap>>
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count155
+\scratchdimen=\dimen166
+\scratchbox=\box70
+\nofMPsegments=\count156
+\nofMParguments=\count157
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count158
+\MPscratchDim=\dimen167
+\MPnumerator=\count159
+\makeMPintoPDFobject=\count160
+\everyMPtoPDFconversion=\toks35
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24408pt
+* \textheight=654.41338pt
+* \oddsidemargin=19.91684pt
+* \evensidemargin=0.0pt
+* \topmargin=14.22636pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=0.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: longtable package is loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box71
+
+ABD: EveryShipout initializing macros
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 69.
+ (kurs.toc
+LaTeX Font Info:    Try loading font information for OT1+ftm on input line 1.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\ot1ftm.fd"
+File: ot1ftm.fd 2001/12/09 Fontinst v1.914 font definitions for OT1/ftm.
+)<<ot1.cmap>>
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 2.
+<<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write5
+\openout5 = `kurs.toc'.
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+<images/frames/itmo_frame_1_2.pdf, id=6, 598.235pt x 845.55902pt>
+File: images/frames/itmo_frame_1_2.pdf Graphic file (type pdf)
+
+<use images/frames/itmo_frame_1_2.pdf>
+Package pdftex.def Info: images/frames/itmo_frame_1_2.pdf used on input line 79
+.
+(pdftex.def)             Requested size: 598.23354pt x 845.55696pt.
+
+Overfull \hbox (0.72566pt too wide) has occurred while \output is active
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+[4
+Non-PDF special ignored!
+
+
+{C:/Users/Niirn/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/fr
+ames/itmo_frame_1_2.pdf>]
+\openout2 = `introduction.aux'.
+
+ (introduction.tex)
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+<images/frames/Doc2.pdf, id=20, 597.55246pt x 845.07718pt>
+File: images/frames/Doc2.pdf Graphic file (type pdf)
+
+<use images/frames/Doc2.pdf>
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 81.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+[5
+
+ <./images/frames/Doc2.pdf>]
+\openout2 = `initTask.aux'.
+
+ (initTask.tex
+Package epstopdf Info: Source file: <images/initTask/scheme.eps>
+(epstopdf)                    date: 2017-05-10 20:40:39
+(epstopdf)                    size: 36601 bytes
+(epstopdf)             Output file: <images/initTask/scheme-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-05-10 20:52:33
+(epstopdf)                    size: 6334 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/initTask/scheme-eps-
+converted-to.pdf images/initTask/scheme.eps>
+(epstopdf)             \includegraphics on input line 5.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/initTask/scheme-eps-converted-to.pdf, id=73, 411.5375pt x 97.36375pt>
+File: images/initTask/scheme-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/initTask/scheme-eps-converted-to.pdf>
+Package pdftex.def Info: images/initTask/scheme-eps-converted-to.pdf used on in
+put line 5.
+(pdftex.def)             Requested size: 409.71689pt x 96.93413pt.
+
+Overfull \hbox (14.92677pt too wide) in paragraph at lines 13--18
+[][]
+ []
+
+)
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+File: images/frames/Doc2.pdf Graphic file (type pdf)
+<use images/frames/Doc2.pdf>
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 82.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+[6
+
+
+ <./images/initTask/scheme-eps-converted-to.pdf>]
+\openout2 = `overview.aux'.
+
+ (overview.tex
+<images/overview/model.png, id=91, 267.24844pt x 55.70813pt>
+File: images/overview/model.png Graphic file (type png)
+
+<use images/overview/model.png>
+Package pdftex.def Info: images/overview/model.png used on input line 37.
+(pdftex.def)             Requested size: 267.24779pt x 55.70798pt.
+Package epstopdf Info: Source file: <images/overview/output.eps>
+(epstopdf)                    date: 2017-05-12 22:32:35
+(epstopdf)                    size: 142079 bytes
+(epstopdf)             Output file: <images/overview/output-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-05-12 22:33:54
+(epstopdf)                    size: 35699 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/overview/output-eps-
+converted-to.pdf images/overview/output.eps>
+(epstopdf)             \includegraphics on input line 45.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/overview/output-eps-converted-to.pdf, id=93, 798.985pt x 479.7925pt>
+File: images/overview/output-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/overview/output-eps-converted-to.pdf>
+Package pdftex.def Info: images/overview/output-eps-converted-to.pdf used on in
+put line 45.
+(pdftex.def)             Requested size: 409.71689pt x 246.038pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+File: images/frames/Doc2.pdf Graphic file (type pdf)
+<use images/frames/Doc2.pdf>
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 49.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+[7
+
+
+ <./images/overview/model.png>])
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+File: images/frames/Doc2.pdf Graphic file (type pdf)
+<use images/frames/Doc2.pdf>
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 83.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+[8 <./images/overview/output-eps-converted-to.pdf>]
+\openout2 = `syntheses.aux'.
+
+ (syntheses.tex
+Underfull \hbox (badness 5817) in paragraph at lines 3--3
+ |[]\T2A/ftm/m/n/15 Построение же-ла-е-мой ло-га-риф-ми-че-ской амплитудно-
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+File: images/frames/Doc2.pdf Graphic file (type pdf)
+<use images/frames/Doc2.pdf>
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 19.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+[9
+
+
+]
+Package epstopdf Info: Source file: <images/syntheses/desiredLah.eps>
+(epstopdf)                    date: 2017-05-10 23:34:51
+(epstopdf)                    size: 64717 bytes
+(epstopdf)             Output file: <images/syntheses/desiredLah-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-05-10 23:35:30
+(epstopdf)                    size: 17926 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/syntheses/desiredLah
+-eps-converted-to.pdf images/syntheses/desiredLah.eps>
+(epstopdf)             \includegraphics on input line 41.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/syntheses/desiredLah-eps-converted-to.pdf, id=108, 597.23125pt x 339.26
+75pt>
+File: images/syntheses/desiredLah-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/syntheses/desiredLah-eps-converted-to.pdf>
+Package pdftex.def Info: images/syntheses/desiredLah-eps-converted-to.pdf used 
+on input line 41.
+(pdftex.def)             Requested size: 437.03737pt x 248.26889pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+File: images/frames/Doc2.pdf Graphic file (type pdf)
+<use images/frames/Doc2.pdf>
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 45.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+File: images/frames/Doc2.pdf Graphic file (type pdf)
+<use images/frames/Doc2.pdf>
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 67.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+[11 <./images/syntheses/desiredLah-eps-converted-to.pdf>])
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+File: images/frames/Doc2.pdf Graphic file (type pdf)
+<use images/frames/Doc2.pdf>
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 84.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+[12]
+\openout2 = `verification.aux'.
+
+ (verification.tex
+<images/verification/model.png, id=132, 440.39531pt x 155.07938pt>
+File: images/verification/model.png Graphic file (type png)
+
+<use images/verification/model.png>
+Package pdftex.def Info: images/verification/model.png used on input line 40.
+(pdftex.def)             Requested size: 409.71689pt x 144.28146pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+File: images/frames/Doc2.pdf Graphic file (type pdf)
+<use images/frames/Doc2.pdf>
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 44.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+[13
+
+
+]
+Package epstopdf Info: Source file: <images/verification/inout.eps>
+(epstopdf)                    date: 2017-05-11 23:10:15
+(epstopdf)                    size: 249160 bytes
+(epstopdf)             Output file: <images/verification/inout-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-05-11 23:10:32
+(epstopdf)                    size: 66411 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/verification/inout-e
+ps-converted-to.pdf images/verification/inout.eps>
+(epstopdf)             \includegraphics on input line 48.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/verification/inout-eps-converted-to.pdf, id=137, 798.985pt x 473.77pt>
+File: images/verification/inout-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/verification/inout-eps-converted-to.pdf>
+Package pdftex.def Info: images/verification/inout-eps-converted-to.pdf used on
+ input line 48.
+(pdftex.def)             Requested size: 409.71689pt x 242.94966pt.
+Package epstopdf Info: Source file: <images/verification/error.eps>
+(epstopdf)                    date: 2017-05-12 22:30:14
+(epstopdf)                    size: 129413 bytes
+(epstopdf)             Output file: <images/verification/error-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-05-12 22:33:55
+(epstopdf)                    size: 29904 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/verification/error-e
+ps-converted-to.pdf images/verification/error.eps>
+(epstopdf)             \includegraphics on input line 54.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/verification/error-eps-converted-to.pdf, id=138, 798.985pt x 476.78125p
+t>
+File: images/verification/error-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/verification/error-eps-converted-to.pdf>
+Package pdftex.def Info: images/verification/error-eps-converted-to.pdf used on
+ input line 54.
+(pdftex.def)             Requested size: 409.71689pt x 244.49382pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+File: images/frames/Doc2.pdf Graphic file (type pdf)
+<use images/frames/Doc2.pdf>
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 58.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+[14 <./images/verification/model.png> <./images/verification/inout-eps-converte
+d-to.pdf>])
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+File: images/frames/Doc2.pdf Graphic file (type pdf)
+<use images/frames/Doc2.pdf>
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 85.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+[15 <./images/verification/error-eps-converted-to.pdf>]
+\openout2 = `realisation.aux'.
+
+ (realisation.tex
+Package epstopdf Info: Source file: <images/realisation/scheme.eps>
+(epstopdf)                    date: 2017-05-12 21:47:40
+(epstopdf)                    size: 36235 bytes
+(epstopdf)             Output file: <images/realisation/scheme-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-05-12 22:03:15
+(epstopdf)                    size: 5867 bytes
+(epstopdf)             Command: <epstopdf --outfile=images/realisation/scheme-e
+ps-converted-to.pdf images/realisation/scheme.eps>
+(epstopdf)             \includegraphics on input line 15.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/realisation/scheme-eps-converted-to.pdf, id=152, 574.145pt x 212.795pt>
+File: images/realisation/scheme-eps-converted-to.pdf Graphic file (type pdf)
+<use images/realisation/scheme-eps-converted-to.pdf>
+Package pdftex.def Info: images/realisation/scheme-eps-converted-to.pdf used on
+ input line 15.
+(pdftex.def)             Requested size: 409.71689pt x 151.85503pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+File: images/frames/Doc2.pdf Graphic file (type pdf)
+<use images/frames/Doc2.pdf>
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 49.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+[16
+
+
+ <./images/realisation/scheme-eps-converted-to.pdf>])
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+File: images/frames/Doc2.pdf Graphic file (type pdf)
+<use images/frames/Doc2.pdf>
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 86.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+[17]
+\openout2 = `conclusion.aux'.
+
+ (conclusion.tex)
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+File: images/frames/Doc2.pdf Graphic file (type pdf)
+<use images/frames/Doc2.pdf>
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 87.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+[18
+
+
+]
+\openout2 = `bibliography.aux'.
+
+ (bibliography.tex)
+Underfull \hbox (badness 10000) has occurred while \output is active
+[] 
+ []
+
+File: images/frames/Doc2.pdf Graphic file (type pdf)
+<use images/frames/Doc2.pdf>
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 88.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+[19
+
+
+] 
+AED: lastpage setting LastPage
+(kurs.aux (introduction.aux) (initTask.aux) (overview.aux) (syntheses.aux)
+(verification.aux) (realisation.aux) (conclusion.aux) (bibliography.aux)) ) 
+Here is how much of TeX's memory you used:
+ 8323 strings out of 493333
+ 116553 string characters out of 3139195
+ 209275 words of memory out of 10000000
+ 11534 multiletter control sequences out of 15000+200000
+ 18923 words of font info for 43 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 50i,22n,42p,1122b,333s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/
+Program Files/MiKTeX 2.9/fonts/enc/t2/t2a.enc}<C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/pscyr/times.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/pscyr/times.pfb>
+Output written on kurs.pdf (16 pages, 374845 bytes).
+PDF statistics:
+ 207 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+
