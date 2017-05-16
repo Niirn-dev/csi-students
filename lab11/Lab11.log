@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.5.5)  6 MAY 2017 21:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.5.5)  16 MAY 2017 21:50
 entering extended mode
 **./Lab11.tex
 (Lab11.tex
@@ -824,33 +824,36 @@ Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@cntb=\count112
 \multirow@dima=\skip65
 \bigstrutjot=\dimen144
-) (Lab11.aux
-(title.aux))
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\threeparttable\threeparttable.sty"
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box30
+)
+(Lab11.aux (title.aux))
 \openout1 = `Lab11.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Try loading font information for T2A+faq on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Try loading font information for T2A+faq on input line 26.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\t2afaq.fd"
 File: t2afaq.fd 2004/09/23 Fontinst v1.914 font definitions for T2A/faq.
-)
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+) ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count113
 \scratchdimen=\dimen145
-\scratchbox=\box30
+\scratchbox=\box31
 \nofMPsegments=\count114
 \nofMParguments=\count115
 \everyMPshowfont=\toks27
@@ -902,6 +905,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
@@ -939,7 +943,7 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 25.
+LaTeX Info: Redefining \selectfont on input line 26.
 \openout2 = `title.aux'.
 
  (title.tex
@@ -953,9 +957,17 @@ File: Graphics/Images/constructTypes.png Graphic file (type png)
 
 <use Graphics/Images/constructTypes.png>
 Package pdftex.def Info: Graphics/Images/constructTypes.png used on input line 
-34.
+35.
 (pdftex.def)             Requested size: 435.32422pt x 147.16563pt.
- [1
+
+
+Package caption Warning: \label without proper reference on input line 53.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `initTab' on page 1 undefined on input line 40.
+
+[1
 
  <./Graphics/Images/constructTypes.png>] [2
 
@@ -969,7 +981,7 @@ verted-to.pdf>
 (epstopdf)                    size: 11047 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Model/struc
 tScheme-eps-converted-to.pdf Graphics/Images/Model/structScheme.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 89.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/Model/structScheme-eps-converted-to.pdf, id=22, 533.995pt x 24
@@ -978,7 +990,7 @@ File: Graphics/Images/Model/structScheme-eps-converted-to.pdf Graphic file (typ
 e pdf)
  <use Graphics/Images/Model/structScheme-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Model/structScheme-eps-converted-to.pd
-f used on input line 85.
+f used on input line 89.
 (pdftex.def)             Requested size: 435.32422pt x 199.6656pt.
 
 <Graphics/Images/Model/mathModel.png, id=23, 515.67656pt x 234.8775pt>
@@ -986,7 +998,7 @@ File: Graphics/Images/Model/mathModel.png Graphic file (type png)
 
 <use Graphics/Images/Model/mathModel.png>
 Package pdftex.def Info: Graphics/Images/Model/mathModel.png used on input line
- 93.
+ 97.
 (pdftex.def)             Requested size: 435.32422pt x 198.28491pt.
  [3
 
@@ -1001,14 +1013,14 @@ o.pdf>
 (epstopdf)                    size: 8081 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Base/baseU-
 eps-converted-to.pdf Graphics/Images/Base/baseU.eps>
-(epstopdf)             \includegraphics on input line 102.
+(epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/Base/baseU-eps-converted-to.pdf, id=44, 410.53375pt x 401.5pt>
 File: Graphics/Images/Base/baseU-eps-converted-to.pdf Graphic file (type pdf)
 <use Graphics/Images/Base/baseU-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Base/baseU-eps-converted-to.pdf used o
-n input line 102.
+n input line 106.
 (pdftex.def)             Requested size: 237.01411pt x 231.79803pt.
 Package epstopdf Info: Source file: <Graphics/Images/Base/baseF.eps>
 (epstopdf)                    date: 2017-05-06 11:58:45
@@ -1019,14 +1031,14 @@ o.pdf>
 (epstopdf)                    size: 31309 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Base/baseF-
 eps-converted-to.pdf Graphics/Images/Base/baseF.eps>
-(epstopdf)             \includegraphics on input line 106.
+(epstopdf)             \includegraphics on input line 110.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/Base/baseF-eps-converted-to.pdf, id=45, 410.53375pt x 401.5pt>
 File: Graphics/Images/Base/baseF-eps-converted-to.pdf Graphic file (type pdf)
 <use Graphics/Images/Base/baseF-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Base/baseF-eps-converted-to.pdf used o
-n input line 106.
+n input line 110.
 (pdftex.def)             Requested size: 237.01411pt x 231.79803pt.
 Package epstopdf Info: Source file: <Graphics/Images/Base/baseV.eps>
 (epstopdf)                    date: 2017-05-06 11:57:18
@@ -1037,14 +1049,14 @@ o.pdf>
 (epstopdf)                    size: 23203 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Base/baseV-
 eps-converted-to.pdf Graphics/Images/Base/baseV.eps>
-(epstopdf)             \includegraphics on input line 110.
+(epstopdf)             \includegraphics on input line 114.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/Base/baseV-eps-converted-to.pdf, id=46, 410.53375pt x 401.5pt>
 File: Graphics/Images/Base/baseV-eps-converted-to.pdf Graphic file (type pdf)
 <use Graphics/Images/Base/baseV-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Base/baseV-eps-converted-to.pdf used o
-n input line 110.
+n input line 114.
 (pdftex.def)             Requested size: 237.01411pt x 231.79803pt.
 Package epstopdf Info: Source file: <Graphics/Images/Base/baseX.eps>
 (epstopdf)                    date: 2017-05-06 11:56:25
@@ -1055,14 +1067,14 @@ o.pdf>
 (epstopdf)                    size: 23568 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Base/baseX-
 eps-converted-to.pdf Graphics/Images/Base/baseX.eps>
-(epstopdf)             \includegraphics on input line 114.
+(epstopdf)             \includegraphics on input line 118.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/Base/baseX-eps-converted-to.pdf, id=47, 410.53375pt x 401.5pt>
 File: Graphics/Images/Base/baseX-eps-converted-to.pdf Graphic file (type pdf)
 <use Graphics/Images/Base/baseX-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Base/baseX-eps-converted-to.pdf used o
-n input line 114.
+n input line 118.
 (pdftex.def)             Requested size: 237.01411pt x 231.79803pt.
  [4 <./Graphics/Images/Base/baseU-eps-converted-to.pdf> <./Graphics/Images/Base
 /baseF-eps-converted-to.pdf> <./Graphics/Images/Base/baseV-eps-converted-to.pdf
@@ -1076,7 +1088,7 @@ o.pdf>
 (epstopdf)                    size: 94616 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/mvar/mvarU-
 eps-converted-to.pdf Graphics/Images/mvar/mvarU.eps>
-(epstopdf)             \includegraphics on input line 123.
+(epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/mvar/mvarU-eps-converted-to.pdf, id=63, 1445.4pt x 607.26875pt
@@ -1084,7 +1096,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: Graphics/Images/mvar/mvarU-eps-converted-to.pdf Graphic file (type pdf)
  <use Graphics/Images/mvar/mvarU-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/mvar/mvarU-eps-converted-to.pdf used o
-n input line 123.
+n input line 127.
 (pdftex.def)             Requested size: 483.69687pt x 203.21622pt.
 Package epstopdf Info: Source file: <Graphics/Images/mvar/mvarF.eps>
 (epstopdf)                    date: 2017-05-06 13:11:26
@@ -1095,14 +1107,14 @@ o.pdf>
 (epstopdf)                    size: 127033 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/mvar/mvarF-
 eps-converted-to.pdf Graphics/Images/mvar/mvarF.eps>
-(epstopdf)             \includegraphics on input line 125.
+(epstopdf)             \includegraphics on input line 129.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/mvar/mvarF-eps-converted-to.pdf, id=64, 1445.4pt x 608.2725pt>
 File: Graphics/Images/mvar/mvarF-eps-converted-to.pdf Graphic file (type pdf)
 <use Graphics/Images/mvar/mvarF-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/mvar/mvarF-eps-converted-to.pdf used o
-n input line 125.
+n input line 129.
 (pdftex.def)             Requested size: 483.69687pt x 203.55211pt.
 Package epstopdf Info: Source file: <Graphics/Images/mvar/mvarV.eps>
 (epstopdf)                    date: 2017-05-06 13:10:15
@@ -1113,14 +1125,14 @@ o.pdf>
 (epstopdf)                    size: 124865 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/mvar/mvarV-
 eps-converted-to.pdf Graphics/Images/mvar/mvarV.eps>
-(epstopdf)             \includegraphics on input line 127.
+(epstopdf)             \includegraphics on input line 131.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/mvar/mvarV-eps-converted-to.pdf, id=65, 1445.4pt x 608.2725pt>
 File: Graphics/Images/mvar/mvarV-eps-converted-to.pdf Graphic file (type pdf)
 <use Graphics/Images/mvar/mvarV-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/mvar/mvarV-eps-converted-to.pdf used o
-n input line 127.
+n input line 131.
 (pdftex.def)             Requested size: 483.69687pt x 203.55211pt.
 Package epstopdf Info: Source file: <Graphics/Images/mvar/mvarX.eps>
 (epstopdf)                    date: 2017-05-06 13:06:38
@@ -1131,7 +1143,7 @@ o.pdf>
 (epstopdf)                    size: 138195 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/mvar/mvarX-
 eps-converted-to.pdf Graphics/Images/mvar/mvarX.eps>
-(epstopdf)             \includegraphics on input line 130.
+(epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/mvar/mvarX-eps-converted-to.pdf, id=66, 1445.4pt x 607.26875pt
@@ -1139,7 +1151,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: Graphics/Images/mvar/mvarX-eps-converted-to.pdf Graphic file (type pdf)
  <use Graphics/Images/mvar/mvarX-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/mvar/mvarX-eps-converted-to.pdf used o
-n input line 130.
+n input line 134.
 (pdftex.def)             Requested size: 483.69687pt x 203.21622pt.
  [5
 
@@ -1155,7 +1167,7 @@ o.pdf>
 (epstopdf)                    size: 83179 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/tvar/tvarU-
 eps-converted-to.pdf Graphics/Images/tvar/tvarU.eps>
-(epstopdf)             \includegraphics on input line 161.
+(epstopdf)             \includegraphics on input line 162.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/tvar/tvarU-eps-converted-to.pdf, id=98, 1445.4pt x 598.235pt>
@@ -1163,7 +1175,7 @@ File: Graphics/Images/tvar/tvarU-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Graphics/Images/tvar/tvarU-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/tvar/tvarU-eps-converted-to.pdf used o
-n input line 161.
+n input line 162.
 (pdftex.def)             Requested size: 483.69687pt x 200.19316pt.
 Package epstopdf Info: Source file: <Graphics/Images/tvar/tvarF.eps>
 (epstopdf)                    date: 2017-05-06 14:10:32
@@ -1174,7 +1186,7 @@ o.pdf>
 (epstopdf)                    size: 227901 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/tvar/tvarF-
 eps-converted-to.pdf Graphics/Images/tvar/tvarF.eps>
-(epstopdf)             \includegraphics on input line 163.
+(epstopdf)             \includegraphics on input line 164.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/tvar/tvarF-eps-converted-to.pdf, id=99, 1445.4pt x 598.235pt>
@@ -1182,7 +1194,7 @@ File: Graphics/Images/tvar/tvarF-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Graphics/Images/tvar/tvarF-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/tvar/tvarF-eps-converted-to.pdf used o
-n input line 163.
+n input line 164.
 (pdftex.def)             Requested size: 483.69687pt x 200.19316pt.
 Package epstopdf Info: Source file: <Graphics/Images/tvar/tvarV.eps>
 (epstopdf)                    date: 2017-05-06 14:12:02
@@ -1193,14 +1205,14 @@ o.pdf>
 (epstopdf)                    size: 229981 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/tvar/tvarV-
 eps-converted-to.pdf Graphics/Images/tvar/tvarV.eps>
-(epstopdf)             \includegraphics on input line 165.
+(epstopdf)             \includegraphics on input line 166.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/tvar/tvarV-eps-converted-to.pdf, id=100, 1445.4pt x 598.235pt>
 File: Graphics/Images/tvar/tvarV-eps-converted-to.pdf Graphic file (type pdf)
 <use Graphics/Images/tvar/tvarV-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/tvar/tvarV-eps-converted-to.pdf used o
-n input line 165.
+n input line 166.
 (pdftex.def)             Requested size: 483.69687pt x 200.19316pt.
 Package epstopdf Info: Source file: <Graphics/Images/tvar/tvarX.eps>
 (epstopdf)                    date: 2017-05-06 14:21:06
@@ -1211,14 +1223,14 @@ o.pdf>
 (epstopdf)                    size: 226638 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/tvar/tvarX-
 eps-converted-to.pdf Graphics/Images/tvar/tvarX.eps>
-(epstopdf)             \includegraphics on input line 168.
+(epstopdf)             \includegraphics on input line 169.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/tvar/tvarX-eps-converted-to.pdf, id=101, 1445.4pt x 598.235pt>
 File: Graphics/Images/tvar/tvarX-eps-converted-to.pdf Graphic file (type pdf)
 <use Graphics/Images/tvar/tvarX-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/tvar/tvarX-eps-converted-to.pdf used o
-n input line 168.
+n input line 169.
 (pdftex.def)             Requested size: 483.69687pt x 200.19316pt.
  [7
 
@@ -1234,14 +1246,14 @@ o.pdf>
 (epstopdf)                    size: 182671 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Cvar/CvarV-
 eps-converted-to.pdf Graphics/Images/Cvar/CvarV.eps>
-(epstopdf)             \includegraphics on input line 192.
+(epstopdf)             \includegraphics on input line 195.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/Cvar/CvarV-eps-converted-to.pdf, id=120, 1445.4pt x 598.235pt>
 File: Graphics/Images/Cvar/CvarV-eps-converted-to.pdf Graphic file (type pdf)
 <use Graphics/Images/Cvar/CvarV-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Cvar/CvarV-eps-converted-to.pdf used o
-n input line 192.
+n input line 195.
 (pdftex.def)             Requested size: 483.69687pt x 200.19316pt.
 Package epstopdf Info: Source file: <Graphics/Images/Cvar/CvarX.eps>
 (epstopdf)                    date: 2017-05-06 15:46:13
@@ -1252,14 +1264,14 @@ o.pdf>
 (epstopdf)                    size: 172002 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Cvar/CvarX-
 eps-converted-to.pdf Graphics/Images/Cvar/CvarX.eps>
-(epstopdf)             \includegraphics on input line 194.
+(epstopdf)             \includegraphics on input line 197.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/Cvar/CvarX-eps-converted-to.pdf, id=121, 1445.4pt x 598.235pt>
 File: Graphics/Images/Cvar/CvarX-eps-converted-to.pdf Graphic file (type pdf)
 <use Graphics/Images/Cvar/CvarX-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Cvar/CvarX-eps-converted-to.pdf used o
-n input line 194.
+n input line 197.
 (pdftex.def)             Requested size: 483.69687pt x 200.19316pt.
  [9
 
@@ -1274,7 +1286,7 @@ o.pdf>
 (epstopdf)                    size: 13290 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/base/ALAPR-
 eps-converted-to.pdf Graphics/Images/base/ALAPR.eps>
-(epstopdf)             \includegraphics on input line 218.
+(epstopdf)             \includegraphics on input line 221.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/base/ALAPR-eps-converted-to.pdf, id=131, 597.23125pt x 274.023
@@ -1282,7 +1294,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: Graphics/Images/base/ALAPR-eps-converted-to.pdf Graphic file (type pdf)
  <use Graphics/Images/base/ALAPR-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/base/ALAPR-eps-converted-to.pdf used o
-n input line 218.
+n input line 221.
 (pdftex.def)             Requested size: 483.69687pt x 221.93292pt.
  [10
 
@@ -1293,26 +1305,33 @@ LaTeX Font Info:    Try loading font information for T1+faq on input line 5.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\t1faq.fd"
 File: t1faq.fd 2004/03/22 Fontinst v1.914 font definitions for T1/faq.
-)) ) 
+))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 6845 strings out of 493333
- 97125 string characters out of 3139195
- 173545 words of memory out of 10000000
- 10173 multiletter control sequences out of 15000+200000
- 31219 words of font info for 46 fonts, out of 3000000 for 9000
+ 6899 strings out of 493333
+ 97995 string characters out of 3139195
+ 174698 words of memory out of 10000000
+ 10224 multiletter control sequences out of 15000+200000
+ 32751 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,16n,77p,1211b,555s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/t2/t2a.enc}<C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/pscyr/antiq5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/pscyr/antiq6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pscyr
-/antiq7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmsy8.pfb>
-Output written on Lab11.pdf (12 pages, 1845073 bytes).
+ 39i,18n,77p,1211b,555s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/t2/t2a.enc}<C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/pscyr/antiq5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/pscyr/antiq6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pscyr/a
+ntiq7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy8.pfb>
+Output written on Lab11.pdf (12 pages, 1845317 bytes).
 PDF statistics:
  185 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

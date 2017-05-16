@@ -17,6 +17,7 @@
 \usepackage{makecell}
 \usepackage{multirow}
 \usepackage{wrapfig}
+\usepackage{threeparttable}
 
 \graphicspath{{Graphics/Images/}}
 
@@ -39,11 +40,14 @@
 	
 	Значения коэффициентов $a_0, a_1, a_2, b_0, b_1$ выбираются самостоятельно произвольно их условия $a_2 \neq 0, b_1 \neq 0.$ Выбранные для проведения работы значения коэффициентов приведены в таблице \ref{init}.
 	\begin{table}[ht!]
-		\caption{Исходные данные}
-		\begin{tabular}{|c|c|c|c|c|} \hline
-		$a_0$	& $a_1$	& $a_2$	& $b_0$	& $b_1$ \\\hline
-		6		& 4		& 1		& 10	& 1		\\\hline		
-		\end{tabular}
+		\centering
+		\begin{threeparttable}
+			\caption{Исходные данные}
+			\begin{tabular}{|c|c|c|c|c|} \hline
+			$a_0$	& $a_1$	& $a_2$	& $b_0$	& $b_1$ \\\hline
+			6		& 4		& 1		& 10	& 1		\\\hline		
+			\end{tabular}
+		\end{threeparttable}
 		\label{init}
 	\end{table}
 	

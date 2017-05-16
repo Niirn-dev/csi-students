@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.5.5)  12 MAY 2017 23:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.5.5)  16 MAY 2017 21:53
 entering extended mode
 **./courseWork.tex
 (courseWork.tex
@@ -537,12 +537,16 @@ Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
 
 Package cmap Warning: fontenc already loaded - some fonts may be unprocessed.
 
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\threeparttable\threeparttable.sty"
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box68
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip64
 \enit@outerparindent=\dimen160
 \enit@toks=\toks32
-\enit@inbox=\box68
+\enit@inbox=\box69
 \enitdp@description=\count142
 )
 (environment.tex
@@ -560,7 +564,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \c@exmpl=\count154
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box69
+\ttl@box=\box70
 \beforetitleunit=\skip65
 \aftertitleunit=\skip66
 \ttl@plus=\dimen161
@@ -578,28 +582,28 @@ LaTeX Warning: Unused global option(s):
 ) (verification.aux) (realisation.aux) (conclusion.aux) (bibliography.aux))
 \openout1 = `courseWork.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 69.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 70.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Try loading font information for T2A+ftm on input line 69.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Try loading font information for T2A+ftm on input line 70.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\t2aftm.fd"
 File: t2aftm.fd 2001/12/09 Fontinst v1.914 font definitions for T2A/ftm.
@@ -608,7 +612,7 @@ File: t2aftm.fd 2001/12/09 Fontinst v1.914 font definitions for T2A/ftm.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count155
 \scratchdimen=\dimen166
-\scratchbox=\box70
+\scratchbox=\box71
 \nofMPsegments=\count156
 \nofMParguments=\count157
 \everyMPshowfont=\toks34
@@ -698,13 +702,14 @@ Package caption Info: longtable package is loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
+Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box71
+\AtBeginShipoutBox=\box72
 
 ABD: EveryShipout initializing macros
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 69.
+(lastpage)             ! on input line 70.
  (courseWork.toc
 LaTeX Font Info:    Try loading font information for OT1+ftm on input line 1.
 
@@ -735,7 +740,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 File: images/frames/itmo_frame_1_2.pdf Graphic file (type pdf)
 
 <use images/frames/itmo_frame_1_2.pdf>
-Package pdftex.def Info: images/frames/itmo_frame_1_2.pdf used on input line 79
+Package pdftex.def Info: images/frames/itmo_frame_1_2.pdf used on input line 80
 .
 (pdftex.def)             Requested size: 598.23354pt x 845.55696pt.
 
@@ -765,7 +770,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 File: images/frames/Doc2.pdf Graphic file (type pdf)
 
 <use images/frames/Doc2.pdf>
-Package pdftex.def Info: images/frames/Doc2.pdf used on input line 81.
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 82.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -797,11 +802,6 @@ File: images/initTask/scheme-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: images/initTask/scheme-eps-converted-to.pdf used on in
 put line 5.
 (pdftex.def)             Requested size: 409.71689pt x 96.93413pt.
-
-Overfull \hbox (14.92677pt too wide) in paragraph at lines 13--18
-[][]
- []
-
 )
 Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
@@ -809,7 +809,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 File: images/frames/Doc2.pdf Graphic file (type pdf)
 <use images/frames/Doc2.pdf>
-Package pdftex.def Info: images/frames/Doc2.pdf used on input line 82.
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 83.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -823,7 +823,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout2 = `overview.aux'.
 
  (overview.tex
-<images/overview/model.png, id=91, 267.24844pt x 55.70813pt>
+<images/overview/model.png, id=90, 267.24844pt x 55.70813pt>
 File: images/overview/model.png Graphic file (type png)
 
 <use images/overview/model.png>
@@ -841,7 +841,7 @@ converted-to.pdf images/overview/output.eps>
 (epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/overview/output-eps-converted-to.pdf, id=93, 798.985pt x 479.7925pt>
+<images/overview/output-eps-converted-to.pdf, id=92, 798.985pt x 479.7925pt>
 File: images/overview/output-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/overview/output-eps-converted-to.pdf>
@@ -872,7 +872,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 File: images/frames/Doc2.pdf Graphic file (type pdf)
 <use images/frames/Doc2.pdf>
-Package pdftex.def Info: images/frames/Doc2.pdf used on input line 83.
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 84.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -917,7 +917,7 @@ to.pdf>
 (epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/syntheses/desiredLah-eps-converted-to.pdf, id=108, 597.23125pt x 339.26
+<images/syntheses/desiredLah-eps-converted-to.pdf, id=107, 597.23125pt x 339.26
 75pt>
 File: images/syntheses/desiredLah-eps-converted-to.pdf Graphic file (type pdf)
  <use images/syntheses/desiredLah-eps-converted-to.pdf>
@@ -959,7 +959,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 File: images/frames/Doc2.pdf Graphic file (type pdf)
 <use images/frames/Doc2.pdf>
-Package pdftex.def Info: images/frames/Doc2.pdf used on input line 84.
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 85.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -970,7 +970,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout2 = `verification.aux'.
 
  (verification.tex
-<images/verification/model.png, id=132, 440.39531pt x 155.07938pt>
+<images/verification/model.png, id=131, 440.39531pt x 155.07938pt>
 File: images/verification/model.png Graphic file (type png)
 
 <use images/verification/model.png>
@@ -1054,7 +1054,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 File: images/frames/Doc2.pdf Graphic file (type pdf)
 <use images/frames/Doc2.pdf>
-Package pdftex.def Info: images/frames/Doc2.pdf used on input line 85.
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 86.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1107,7 +1107,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 File: images/frames/Doc2.pdf Graphic file (type pdf)
 <use images/frames/Doc2.pdf>
-Package pdftex.def Info: images/frames/Doc2.pdf used on input line 86.
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 87.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1124,7 +1124,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 File: images/frames/Doc2.pdf Graphic file (type pdf)
 <use images/frames/Doc2.pdf>
-Package pdftex.def Info: images/frames/Doc2.pdf used on input line 87.
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 88.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1144,7 +1144,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 File: images/frames/Doc2.pdf Graphic file (type pdf)
 <use images/frames/Doc2.pdf>
-Package pdftex.def Info: images/frames/Doc2.pdf used on input line 88.
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 89.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1157,27 +1157,30 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ] 
 AED: lastpage setting LastPage
 (courseWork.aux (introduction.aux) (initTask.aux) (overview.aux) (syntheses.aux
-) (verification.aux) (realisation.aux) (conclusion.aux) (bibliography.aux)) ) 
+) (verification.aux) (realisation.aux) (conclusion.aux) (bibliography.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 8323 strings out of 493333
- 116625 string characters out of 3139195
- 209275 words of memory out of 10000000
- 11534 multiletter control sequences out of 15000+200000
+ 8375 strings out of 493333
+ 117470 string characters out of 3139195
+ 210400 words of memory out of 10000000
+ 11583 multiletter control sequences out of 15000+200000
  18923 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,22n,42p,1128b,333s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C
-:/Program Files/MiKTeX 2.9/fonts/enc/t2/t2a.enc}<C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/pscyr/times.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/pscyr/times.pfb>
-Output written on courseWork.pdf (16 pages, 374846 bytes).
+ 50i,22n,42p,1128b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/t2/t2a.enc}<C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/pscyr/times.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/pscyr/times.pfb>
+Output written on courseWork.pdf (16 pages, 373260 bytes).
 PDF statistics:
  207 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

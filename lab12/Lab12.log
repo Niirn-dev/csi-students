@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.5.5)  7 MAY 2017 22:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.5.5)  16 MAY 2017 21:51
 entering extended mode
 **./Lab12.tex
 (Lab12.tex
@@ -842,33 +842,36 @@ Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \WF@box=\box30
 \WF@everypar=\toks27
 Package: wrapfig 2003/01/31  v 3.6
-) (Lab12.aux
-(title.aux))
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\threeparttable\threeparttable.sty"
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box31
+)
+(Lab12.aux (title.aux))
 \openout1 = `Lab12.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Try loading font information for T2A+faq on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Try loading font information for T2A+faq on input line 30.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\t2afaq.fd"
 File: t2afaq.fd 2004/09/23 Fontinst v1.914 font definitions for T2A/faq.
-)
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+) ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count114
 \scratchdimen=\dimen147
-\scratchbox=\box31
+\scratchbox=\box32
 \nofMPsegments=\count115
 \nofMParguments=\count116
 \everyMPshowfont=\toks28
@@ -920,6 +923,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: threeparttable package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
@@ -958,7 +962,7 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 29.
+LaTeX Info: Redefining \selectfont on input line 30.
 \openout2 = `title.aux'.
 
  (title.tex
@@ -976,7 +980,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {C:/Users/Niirn/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
-Overfull \hbox (1.47476pt too wide) in paragraph at lines 32--33
+Overfull \hbox (1.47476pt too wide) in paragraph at lines 33--34
 \T2A/faq/m/n/10.95 устой-чи-во-сти ли-ней-ных непре-рыв-ных си-стем с по-мо-щью
  при-клад-но-го па-ке-та Matlab Control System
  []
@@ -984,7 +988,7 @@ Overfull \hbox (1.47476pt too wide) in paragraph at lines 32--33
 [1
 
 ]
-LaTeX Font Info:    Try loading font information for T2A+fer on input line 64.
+LaTeX Font Info:    Try loading font information for T2A+fer on input line 68.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\t2afer.fd"
 File: t2afer.fd 2004/09/21 Fontinst v1.914 font definitions for T2A/fer.
 )
@@ -997,14 +1001,14 @@ df>
 (epstopdf)                    size: 8346 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Open/pz-eps
 -converted-to.pdf Graphics/Images/Open/pz.eps>
-(epstopdf)             \includegraphics on input line 67.
+(epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/Open/pz-eps-converted-to.pdf, id=16, 490.83376pt x 387.4475pt>
 File: Graphics/Images/Open/pz-eps-converted-to.pdf Graphic file (type pdf)
 <use Graphics/Images/Open/pz-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Open/pz-eps-converted-to.pdf used on i
-nput line 67.
+nput line 71.
 (pdftex.def)             Requested size: 241.84843pt x 190.90326pt.
 Package epstopdf Info: Source file: <Graphics/Images/Open/bode.eps>
 (epstopdf)                    date: 2017-05-07 14:02:30
@@ -1015,7 +1019,7 @@ Package epstopdf Info: Source file: <Graphics/Images/Open/bode.eps>
 (epstopdf)                    size: 10288 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Open/bode-e
 ps-converted-to.pdf Graphics/Images/Open/bode.eps>
-(epstopdf)             \includegraphics on input line 84.
+(epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/Open/bode-eps-converted-to.pdf, id=17, 575.14874pt x 431.6125p
@@ -1023,7 +1027,7 @@ t>
 File: Graphics/Images/Open/bode-eps-converted-to.pdf Graphic file (type pdf)
  <use Graphics/Images/Open/bode-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Open/bode-eps-converted-to.pdf used on
- input line 84.
+ input line 88.
 (pdftex.def)             Requested size: 314.69167pt x 236.15796pt.
  [2
 
@@ -1038,7 +1042,7 @@ Package epstopdf Info: Source file: <Graphics/Images/Open/nyquist.eps>
 (epstopdf)                    size: 5409 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Open/nyquis
 t-eps-converted-to.pdf Graphics/Images/Open/nyquist.eps>
-(epstopdf)             \includegraphics on input line 97.
+(epstopdf)             \includegraphics on input line 101.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/Open/nyquist-eps-converted-to.pdf, id=28, 426.59375pt x 321.2p
@@ -1047,7 +1051,7 @@ File: Graphics/Images/Open/nyquist-eps-converted-to.pdf Graphic file (type pdf)
 
  <use Graphics/Images/Open/nyquist-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Open/nyquist-eps-converted-to.pdf used
- on input line 97.
+ on input line 101.
 (pdftex.def)             Requested size: 483.69687pt x 364.21626pt.
  [3 <./Graphics/Images/Open/nyquist-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Graphics/Images/Closed/rlocus.eps>
@@ -1059,7 +1063,7 @@ d-to.pdf>
 (epstopdf)                    size: 18901 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Closed/rloc
 us-eps-converted-to.pdf Graphics/Images/Closed/rlocus.eps>
-(epstopdf)             \includegraphics on input line 113.
+(epstopdf)             \includegraphics on input line 117.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/Closed/rlocus-eps-converted-to.pdf, id=35, 515.9275pt x 357.33
@@ -1068,7 +1072,7 @@ File: Graphics/Images/Closed/rlocus-eps-converted-to.pdf Graphic file (type pdf
 )
  <use Graphics/Images/Closed/rlocus-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Closed/rlocus-eps-converted-to.pdf use
-d on input line 113.
+d on input line 117.
 (pdftex.def)             Requested size: 386.95897pt x 268.01694pt.
 Package epstopdf Info: Source file: <Graphics/Images/Closed/pz.eps>
 (epstopdf)                    date: 2017-05-07 16:38:03
@@ -1079,7 +1083,7 @@ Package epstopdf Info: Source file: <Graphics/Images/Closed/pz.eps>
 (epstopdf)                    size: 8310 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Closed/pz-e
 ps-converted-to.pdf Graphics/Images/Closed/pz.eps>
-(epstopdf)             \includegraphics on input line 135.
+(epstopdf)             \includegraphics on input line 139.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/Closed/pz-eps-converted-to.pdf, id=36, 495.8525pt x 358.33875p
@@ -1087,7 +1091,7 @@ t>
 File: Graphics/Images/Closed/pz-eps-converted-to.pdf Graphic file (type pdf)
  <use Graphics/Images/Closed/pz-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Closed/pz-eps-converted-to.pdf used on
- input line 135.
+ input line 139.
 (pdftex.def)             Requested size: 241.84843pt x 174.77829pt.
  [4
 
@@ -1101,14 +1105,14 @@ Package epstopdf Info: Source file: <Graphics/Images/Closed/tp.eps>
 (epstopdf)                    size: 30101 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Closed/tp-e
 ps-converted-to.pdf Graphics/Images/Closed/tp.eps>
-(epstopdf)             \includegraphics on input line 157.
+(epstopdf)             \includegraphics on input line 161.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/Closed/tp-eps-converted-to.pdf, id=47, 496.85625pt x 361.35pt>
 File: Graphics/Images/Closed/tp-eps-converted-to.pdf Graphic file (type pdf)
 <use Graphics/Images/Closed/tp-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Closed/tp-eps-converted-to.pdf used on
- input line 157.
+ input line 161.
 (pdftex.def)             Requested size: 237.01411pt x 172.37636pt.
 Package epstopdf Info: Source file: <Graphics/Images/Closed/imp.eps>
 (epstopdf)                    date: 2017-05-07 17:16:32
@@ -1119,7 +1123,7 @@ o.pdf>
 (epstopdf)                    size: 27586 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Closed/imp-
 eps-converted-to.pdf Graphics/Images/Closed/imp.eps>
-(epstopdf)             \includegraphics on input line 162.
+(epstopdf)             \includegraphics on input line 166.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/Closed/imp-eps-converted-to.pdf, id=48, 453.695pt x 351.3125pt
@@ -1127,7 +1131,7 @@ Package epstopdf Info: Output file is already uptodate.
 File: Graphics/Images/Closed/imp-eps-converted-to.pdf Graphic file (type pdf)
  <use Graphics/Images/Closed/imp-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Closed/imp-eps-converted-to.pdf used o
-n input line 162.
+n input line 166.
 (pdftex.def)             Requested size: 237.01411pt x 183.53052pt.
  [5 <./Graphics/Images/Closed/pz-eps-converted-to.pdf> <./Graphics/Images/Close
 d/tp-eps-converted-to.pdf> <./Graphics/Images/Closed/imp-eps-converted-to.pdf>]
@@ -1138,27 +1142,31 @@ d/tp-eps-converted-to.pdf> <./Graphics/Images/Closed/imp-eps-converted-to.pdf>]
 LaTeX Font Info:    Try loading font information for T1+faq on input line 5.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\t1faq.fd"
 File: t1faq.fd 2004/03/22 Fontinst v1.914 font definitions for T1/faq.
-)) ) 
+))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 7152 strings out of 493333
- 99000 string characters out of 3139195
- 179257 words of memory out of 10000000
- 10475 multiletter control sequences out of 15000+200000
+ 7205 strings out of 493333
+ 99852 string characters out of 3139195
+ 180382 words of memory out of 10000000
+ 10525 multiletter control sequences out of 15000+200000
  34989 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,21n,77p,1097b,604s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/t2/t2a.enc}<C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/pscyr/antiq6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/pscyr/antiq7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/pscyr/ercour.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/symbols/msbm10.pfb>
-Output written on Lab12.pdf (8 pages, 234839 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/t2/t2a.enc}<C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/pscyr/antiq6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/pscyr/antiq7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/pscyr/ercour.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/symbols/msbm10.pfb>
+Output written on Lab12.pdf (8 pages, 234848 bytes).
 PDF statistics:
  114 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
