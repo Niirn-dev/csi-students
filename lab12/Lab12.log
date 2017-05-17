@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.5.5)  16 MAY 2017 21:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.5.5)  17 MAY 2017 20:11
 entering extended mode
 **./Lab12.tex
 (Lab12.tex
@@ -985,10 +985,17 @@ Overfull \hbox (1.47476pt too wide) in paragraph at lines 33--34
  при-клад-но-го па-ке-та Matlab Control System
  []
 
+
+Package caption Warning: \label without proper reference on input line 51.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `init' on page 1 undefined on input line 41.
+
 [1
 
 ]
-LaTeX Font Info:    Try loading font information for T2A+fer on input line 68.
+LaTeX Font Info:    Try loading font information for T2A+fer on input line 70.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\t2afer.fd"
 File: t2afer.fd 2004/09/21 Fontinst v1.914 font definitions for T2A/fer.
 )
@@ -1001,34 +1008,40 @@ df>
 (epstopdf)                    size: 8346 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Open/pz-eps
 -converted-to.pdf Graphics/Images/Open/pz.eps>
-(epstopdf)             \includegraphics on input line 71.
+(epstopdf)             \includegraphics on input line 73.
 Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/Open/pz-eps-converted-to.pdf, id=16, 490.83376pt x 387.4475pt>
 File: Graphics/Images/Open/pz-eps-converted-to.pdf Graphic file (type pdf)
 <use Graphics/Images/Open/pz-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Open/pz-eps-converted-to.pdf used on i
-nput line 71.
+nput line 73.
 (pdftex.def)             Requested size: 241.84843pt x 190.90326pt.
 Package epstopdf Info: Source file: <Graphics/Images/Open/bode.eps>
-(epstopdf)                    date: 2017-05-07 14:02:30
-(epstopdf)                    size: 64990 bytes
+(epstopdf)                    date: 2017-05-17 20:10:15
+(epstopdf)                    size: 49775 bytes
 (epstopdf)             Output file: <Graphics/Images/Open/bode-eps-converted-to
 .pdf>
 (epstopdf)                    date: 2017-05-07 14:02:53
 (epstopdf)                    size: 10288 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Open/bode-e
 ps-converted-to.pdf Graphics/Images/Open/bode.eps>
-(epstopdf)             \includegraphics on input line 88.
-Package epstopdf Info: Output file is already uptodate.
+(epstopdf)             \includegraphics on input line 90.
+runsystem(epstopdf --outfile=Graphics/Images/Open/bode-eps-converted-to.pdf Gra
+phics/Images/Open/bode.eps)...executed.
 
-<Graphics/Images/Open/bode-eps-converted-to.pdf, id=17, 575.14874pt x 431.6125p
+Package epstopdf Info: Result file: <Graphics/Images/Open/bode-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2017-05-17 20:11:50
+(epstopdf)                    size: 35798 bytes.
+
+<Graphics/Images/Open/bode-eps-converted-to.pdf, id=17, 572.1375pt x 428.60126p
 t>
 File: Graphics/Images/Open/bode-eps-converted-to.pdf Graphic file (type pdf)
  <use Graphics/Images/Open/bode-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Open/bode-eps-converted-to.pdf used on
- input line 88.
-(pdftex.def)             Requested size: 314.69167pt x 236.15796pt.
+ input line 90.
+(pdftex.def)             Requested size: 315.24405pt x 236.15796pt.
  [2
 
  <./Graphics/Images/Open/pz-eps-converted-to.pdf> <./Graphics/Images/Open/bode-
@@ -1042,16 +1055,16 @@ Package epstopdf Info: Source file: <Graphics/Images/Open/nyquist.eps>
 (epstopdf)                    size: 5409 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Open/nyquis
 t-eps-converted-to.pdf Graphics/Images/Open/nyquist.eps>
-(epstopdf)             \includegraphics on input line 101.
+(epstopdf)             \includegraphics on input line 103.
 Package epstopdf Info: Output file is already uptodate.
 
-<Graphics/Images/Open/nyquist-eps-converted-to.pdf, id=28, 426.59375pt x 321.2p
+<Graphics/Images/Open/nyquist-eps-converted-to.pdf, id=32, 426.59375pt x 321.2p
 t>
 File: Graphics/Images/Open/nyquist-eps-converted-to.pdf Graphic file (type pdf)
 
  <use Graphics/Images/Open/nyquist-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Open/nyquist-eps-converted-to.pdf used
- on input line 101.
+ on input line 103.
 (pdftex.def)             Requested size: 483.69687pt x 364.21626pt.
  [3 <./Graphics/Images/Open/nyquist-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Graphics/Images/Closed/rlocus.eps>
@@ -1063,16 +1076,16 @@ d-to.pdf>
 (epstopdf)                    size: 18901 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Closed/rloc
 us-eps-converted-to.pdf Graphics/Images/Closed/rlocus.eps>
-(epstopdf)             \includegraphics on input line 117.
+(epstopdf)             \includegraphics on input line 121.
 Package epstopdf Info: Output file is already uptodate.
 
-<Graphics/Images/Closed/rlocus-eps-converted-to.pdf, id=35, 515.9275pt x 357.33
+<Graphics/Images/Closed/rlocus-eps-converted-to.pdf, id=39, 515.9275pt x 357.33
 5pt>
 File: Graphics/Images/Closed/rlocus-eps-converted-to.pdf Graphic file (type pdf
 )
  <use Graphics/Images/Closed/rlocus-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Closed/rlocus-eps-converted-to.pdf use
-d on input line 117.
+d on input line 121.
 (pdftex.def)             Requested size: 386.95897pt x 268.01694pt.
 Package epstopdf Info: Source file: <Graphics/Images/Closed/pz.eps>
 (epstopdf)                    date: 2017-05-07 16:38:03
@@ -1083,15 +1096,15 @@ Package epstopdf Info: Source file: <Graphics/Images/Closed/pz.eps>
 (epstopdf)                    size: 8310 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Closed/pz-e
 ps-converted-to.pdf Graphics/Images/Closed/pz.eps>
-(epstopdf)             \includegraphics on input line 139.
+(epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
 
-<Graphics/Images/Closed/pz-eps-converted-to.pdf, id=36, 495.8525pt x 358.33875p
+<Graphics/Images/Closed/pz-eps-converted-to.pdf, id=40, 495.8525pt x 358.33875p
 t>
 File: Graphics/Images/Closed/pz-eps-converted-to.pdf Graphic file (type pdf)
  <use Graphics/Images/Closed/pz-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Closed/pz-eps-converted-to.pdf used on
- input line 139.
+ input line 143.
 (pdftex.def)             Requested size: 241.84843pt x 174.77829pt.
  [4
 
@@ -1105,14 +1118,14 @@ Package epstopdf Info: Source file: <Graphics/Images/Closed/tp.eps>
 (epstopdf)                    size: 30101 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Closed/tp-e
 ps-converted-to.pdf Graphics/Images/Closed/tp.eps>
-(epstopdf)             \includegraphics on input line 161.
+(epstopdf)             \includegraphics on input line 165.
 Package epstopdf Info: Output file is already uptodate.
 
-<Graphics/Images/Closed/tp-eps-converted-to.pdf, id=47, 496.85625pt x 361.35pt>
+<Graphics/Images/Closed/tp-eps-converted-to.pdf, id=51, 496.85625pt x 361.35pt>
 File: Graphics/Images/Closed/tp-eps-converted-to.pdf Graphic file (type pdf)
 <use Graphics/Images/Closed/tp-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Closed/tp-eps-converted-to.pdf used on
- input line 161.
+ input line 165.
 (pdftex.def)             Requested size: 237.01411pt x 172.37636pt.
 Package epstopdf Info: Source file: <Graphics/Images/Closed/imp.eps>
 (epstopdf)                    date: 2017-05-07 17:16:32
@@ -1123,15 +1136,15 @@ o.pdf>
 (epstopdf)                    size: 27586 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Closed/imp-
 eps-converted-to.pdf Graphics/Images/Closed/imp.eps>
-(epstopdf)             \includegraphics on input line 166.
+(epstopdf)             \includegraphics on input line 170.
 Package epstopdf Info: Output file is already uptodate.
 
-<Graphics/Images/Closed/imp-eps-converted-to.pdf, id=48, 453.695pt x 351.3125pt
+<Graphics/Images/Closed/imp-eps-converted-to.pdf, id=52, 453.695pt x 351.3125pt
 >
 File: Graphics/Images/Closed/imp-eps-converted-to.pdf Graphic file (type pdf)
  <use Graphics/Images/Closed/imp-eps-converted-to.pdf>
 Package pdftex.def Info: Graphics/Images/Closed/imp-eps-converted-to.pdf used o
-n input line 166.
+n input line 170.
 (pdftex.def)             Requested size: 237.01411pt x 183.53052pt.
  [5 <./Graphics/Images/Closed/pz-eps-converted-to.pdf> <./Graphics/Images/Close
 d/tp-eps-converted-to.pdf> <./Graphics/Images/Closed/imp-eps-converted-to.pdf>]
@@ -1144,17 +1157,17 @@ LaTeX Font Info:    Try loading font information for T1+faq on input line 5.
 File: t1faq.fd 2004/03/22 Fontinst v1.914 font definitions for T1/faq.
 ))
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7205 strings out of 493333
- 99852 string characters out of 3139195
- 180382 words of memory out of 10000000
- 10525 multiletter control sequences out of 15000+200000
- 34989 words of font info for 62 fonts, out of 3000000 for 9000
+ 7206 strings out of 493333
+ 99870 string characters out of 3139195
+ 180407 words of memory out of 10000000
+ 10526 multiletter control sequences out of 15000+200000
+ 36521 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,21n,77p,1097b,604s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,21n,77p,1097b,606s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/t2/t2a.enc}<C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/pscyr/antiq6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/pscyr/antiq7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
@@ -1166,9 +1179,9 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/pscyr/ercour.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/symbols/msbm10.pfb>
-Output written on Lab12.pdf (8 pages, 234848 bytes).
+Output written on Lab12.pdf (8 pages, 260714 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 118 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
