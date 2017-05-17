@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.5.5)  17 MAY 2017 20:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.5.5)  17 MAY 2017 21:06
 entering extended mode
 **./Lab12.tex
 (Lab12.tex
@@ -985,13 +985,6 @@ Overfull \hbox (1.47476pt too wide) in paragraph at lines 33--34
  при-клад-но-го па-ке-та Matlab Control System
  []
 
-
-Package caption Warning: \label without proper reference on input line 51.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `init' on page 1 undefined on input line 41.
-
 [1
 
 ]
@@ -1022,18 +1015,12 @@ Package epstopdf Info: Source file: <Graphics/Images/Open/bode.eps>
 (epstopdf)                    size: 49775 bytes
 (epstopdf)             Output file: <Graphics/Images/Open/bode-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2017-05-07 14:02:53
-(epstopdf)                    size: 10288 bytes
+(epstopdf)                    date: 2017-05-17 20:11:50
+(epstopdf)                    size: 35798 bytes
 (epstopdf)             Command: <epstopdf --outfile=Graphics/Images/Open/bode-e
 ps-converted-to.pdf Graphics/Images/Open/bode.eps>
 (epstopdf)             \includegraphics on input line 90.
-runsystem(epstopdf --outfile=Graphics/Images/Open/bode-eps-converted-to.pdf Gra
-phics/Images/Open/bode.eps)...executed.
-
-Package epstopdf Info: Result file: <Graphics/Images/Open/bode-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2017-05-17 20:11:50
-(epstopdf)                    size: 35798 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <Graphics/Images/Open/bode-eps-converted-to.pdf, id=17, 572.1375pt x 428.60126p
 t>
@@ -1155,31 +1142,27 @@ d/tp-eps-converted-to.pdf> <./Graphics/Images/Closed/imp-eps-converted-to.pdf>]
 LaTeX Font Info:    Try loading font information for T1+faq on input line 5.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\pscyr\t1faq.fd"
 File: t1faq.fd 2004/03/22 Fontinst v1.914 font definitions for T1/faq.
-))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+)) ) 
 Here is how much of TeX's memory you used:
- 7206 strings out of 493333
- 99870 string characters out of 3139195
- 180407 words of memory out of 10000000
- 10526 multiletter control sequences out of 15000+200000
- 36521 words of font info for 63 fonts, out of 3000000 for 9000
+ 7205 strings out of 493333
+ 99852 string characters out of 3139195
+ 180382 words of memory out of 10000000
+ 10525 multiletter control sequences out of 15000+200000
+ 34989 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,21n,77p,1097b,606s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/t2/t2a.enc}<C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/pscyr/antiq6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/pscyr/antiq7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/pscyr/ercour.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/symbols/msbm10.pfb>
-Output written on Lab12.pdf (8 pages, 260714 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/t2/t2a.enc}<C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/pscyr/antiq6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/pscyr/antiq7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/pscyr/ercour.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/symbols/msbm10.pfb>
+Output written on Lab12.pdf (8 pages, 260518 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
