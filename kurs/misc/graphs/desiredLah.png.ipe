@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70206" creator="Ipe 7.2.7">
-<info created="D:20170510233509" modified="D:20170510233509"/>
+<info created="D:20170510233509" modified="D:20170520153441"/>
 <bitmap id="1" width="1061" height="601" length="7061" ColorSpace="DeviceGray" Filter="FlateDecode" BitsPerComponent="8" encoding="base64">
 eNrt3X1onfXdx/EDRYpIKYMiMkRKQURERAoy5GaMMbi5ERkiA7kZIvujrA1NdM2yRnTW3rM4
 HyLSlFY0rT1d7WYHxocwpNx1S2Pug4TEkBmT+ZCS2DQ2pVlSg2sPye++ruScpDk9aePy0PPw
@@ -452,5 +452,66 @@ h
 387.346 545.924 l
 </path>
 <text matrix="1 0 0 1 -9.87381 -2.22957" transformations="translations" pos="387.101 537.691" stroke="black" type="label" width="16.848" height="7.415" depth="2.58" valign="baseline" size="LARGE" style="math">\omega_0</text>
+<path matrix="1.00492 0 0 1.09664 -0.416125 -74.4916" stroke="black" pen="heavier">
+163.383 760.67 m
+84.5721 770.827 l
+</path>
+<path matrix="0.999027 0 0 0.985322 -0.151206 10.7295" stroke="black" pen="heavier">
+84.1429 703.41 m
+387.242 702.995 l
+163.491 760.176 l
+</path>
+<path stroke="black">
+84.3501 760.383 m
+100.095 768.67 l
+</path>
+<path stroke="black">
+84.5573 744.223 m
+119.363 765.77 l
+</path>
+<path stroke="black">
+84.5573 722.055 m
+140.702 763.076 l
+</path>
+<path stroke="black">
+96.5735 703.617 m
+163.284 759.969 l
+</path>
+<path stroke="black">
+120.813 703.617 m
+182.759 754.789 l
+</path>
+<path matrix="1.1736 0 0 0.94974 -26.4757 35.3531" stroke="black">
+152.511 703.41 m
+202.648 749.61 l
+</path>
+<path matrix="1.34078 0 0 0.906327 -61.8574 65.8907" stroke="black">
+181.516 703.41 m
+222.122 745.052 l
+</path>
+<path matrix="1.45622 0 0 0.88635 -97.7254 80.3186" stroke="black">
+213.007 702.788 m
+245.533 739.044 l
+</path>
+<path matrix="2.05373 0 0 0.842667 -258.745 110.905" stroke="black">
+244.083 703.202 m
+263.972 734.072 l
+</path>
+<path matrix="1.97935 0 0 0.809686 -257.199 133.944" stroke="black">
+266.044 703.41 m
+283.239 729.307 l
+</path>
+<path stroke="black">
+302.55 703.433 m
+324.964 718.811 l
+</path>
+<path stroke="black">
+329.897 703.651 m
+343.607 714.169 l
+</path>
+<path stroke="black">
+361.814 703.578 m
+367.472 708.293 l
+</path>
 </page>
 </ipe>

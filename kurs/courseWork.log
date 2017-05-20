@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.5.5)  16 MAY 2017 21:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.5.5)  20 MAY 2017 19:44
 entering extended mode
 **./courseWork.tex
 (courseWork.tex
@@ -906,12 +906,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 ]
 Package epstopdf Info: Source file: <images/syntheses/desiredLah.eps>
-(epstopdf)                    date: 2017-05-10 23:34:51
-(epstopdf)                    size: 64717 bytes
+(epstopdf)                    date: 2017-05-20 15:34:57
+(epstopdf)                    size: 65267 bytes
 (epstopdf)             Output file: <images/syntheses/desiredLah-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2017-05-10 23:35:30
-(epstopdf)                    size: 17926 bytes
+(epstopdf)                    date: 2017-05-20 16:09:18
+(epstopdf)                    size: 18186 bytes
 (epstopdf)             Command: <epstopdf --outfile=images/syntheses/desiredLah
 -eps-converted-to.pdf images/syntheses/desiredLah.eps>
 (epstopdf)             \includegraphics on input line 41.
@@ -1065,24 +1065,12 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 \openout2 = `realisation.aux'.
 
  (realisation.tex
-Package epstopdf Info: Source file: <images/realisation/scheme.eps>
-(epstopdf)                    date: 2017-05-12 21:47:40
-(epstopdf)                    size: 36235 bytes
-(epstopdf)             Output file: <images/realisation/scheme-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2017-05-12 22:03:15
-(epstopdf)                    size: 5867 bytes
-(epstopdf)             Command: <epstopdf --outfile=images/realisation/scheme-e
-ps-converted-to.pdf images/realisation/scheme.eps>
-(epstopdf)             \includegraphics on input line 15.
-Package epstopdf Info: Output file is already uptodate.
+<images/realisation/scheme.png, id=152, 1401.73688pt x 509.65407pt>
+File: images/realisation/scheme.png Graphic file (type png)
 
-<images/realisation/scheme-eps-converted-to.pdf, id=152, 574.145pt x 212.795pt>
-File: images/realisation/scheme-eps-converted-to.pdf Graphic file (type pdf)
-<use images/realisation/scheme-eps-converted-to.pdf>
-Package pdftex.def Info: images/realisation/scheme-eps-converted-to.pdf used on
- input line 15.
-(pdftex.def)             Requested size: 409.71689pt x 151.85503pt.
+<use images/realisation/scheme.png>
+Package pdftex.def Info: images/realisation/scheme.png used on input line 15.
+(pdftex.def)             Requested size: 409.71689pt x 148.96239pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
@@ -1090,7 +1078,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 File: images/frames/Doc2.pdf Graphic file (type pdf)
 <use images/frames/Doc2.pdf>
-Package pdftex.def Info: images/frames/Doc2.pdf used on input line 49.
+Package pdftex.def Info: images/frames/Doc2.pdf used on input line 42.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
@@ -1100,7 +1088,7 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 [16
 
 
- <./images/realisation/scheme-eps-converted-to.pdf>])
+ <./images/realisation/scheme.png>])
 Underfull \hbox (badness 10000) has occurred while \output is active
 [] 
  []
@@ -1157,32 +1145,29 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 ] 
 AED: lastpage setting LastPage
 (courseWork.aux (introduction.aux) (initTask.aux) (overview.aux) (syntheses.aux
-) (verification.aux) (realisation.aux) (conclusion.aux) (bibliography.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+) (verification.aux) (realisation.aux) (conclusion.aux) (bibliography.aux)) ) 
 Here is how much of TeX's memory you used:
  8375 strings out of 493333
- 117470 string characters out of 3139195
- 210400 words of memory out of 10000000
+ 117402 string characters out of 3139195
+ 209401 words of memory out of 10000000
  11583 multiletter control sequences out of 15000+200000
  18923 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  50i,22n,42p,1128b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/t2/t2a.enc}<C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/pscyr/times.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/pscyr/times.pfb>
-Output written on courseWork.pdf (16 pages, 373260 bytes).
+{C
+:/Program Files/MiKTeX 2.9/fonts/enc/t2/t2a.enc}<C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/pscyr/times.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/pscyr/times.pfb>
+Output written on courseWork.pdf (16 pages, 396960 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
+ 199 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
